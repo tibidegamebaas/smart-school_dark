@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14pt" height="14pt" viewBox="0 0 14 14" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="-14.3571" y1="30.8571" x2="-14.3571" y2="29.8571" gradientTransform="matrix(14,0,0,-14,208,432)">
+<stop offset="0" style="stop-color:rgb(0.392157%,83.921569%,0.392157%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(0%,75.294118%,0%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:evenodd;fill:url(#linear0);" d="M 14 7 C 14 10.867188 10.867188 14 7 14 C 3.132812 14 0 10.867188 0 7 C 0 3.132812 3.132812 0 7 0 C 10.867188 0 14 3.132812 14 7 Z M 14 7 "/>
+<path style="fill:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,72.54902%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 13.5 7 C 13.5 10.589844 10.589844 13.5 7 13.5 C 3.410156 13.5 0.5 10.589844 0.5 7 C 0.5 3.410156 3.410156 0.5 7 0.5 C 10.589844 0.5 13.5 3.410156 13.5 7 Z M 13.5 7 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 9 7 C 9 8.105469 8.105469 9 7 9 C 5.894531 9 5 8.105469 5 7 C 5 5.894531 5.894531 5 7 5 C 8.105469 5 9 5.894531 9 7 Z M 9 7 "/>
+</g>
+</svg>

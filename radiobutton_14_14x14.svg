@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14pt" height="14pt" viewBox="0 0 14 14" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="855.6429" y1="199.8571" x2="855.6429" y2="198.8571" gradientTransform="matrix(14,0,0,-14,-11972,2798)">
+<stop offset="0" style="stop-color:rgb(8.235294%,8.235294%,8.235294%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(0%,0%,0%);stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="855.7308" y1="199.7692" x2="855.7308" y2="198.7692" gradientTransform="matrix(13,0,0,-13,-10247.5,2766.5)">
+<stop offset="0" style="stop-color:rgb(66.27451%,66.27451%,66.27451%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(57.647059%,57.647059%,57.647059%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:evenodd;fill:url(#linear0);" d="M 14 7 C 14 10.867188 10.867188 14 7 14 C 3.132812 14 0 10.867188 0 7 C 0 3.132812 3.132812 0 7 0 C 10.867188 0 14 3.132812 14 7 Z M 14 7 "/>
+<path style="fill:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:url(#linear1);stroke-miterlimit:4;" d="M 883.5 176 C 883.5 179.589844 880.589844 182.5 877 182.5 C 873.410156 182.5 870.5 179.589844 870.5 176 C 870.5 172.410156 873.410156 169.5 877 169.5 C 880.589844 169.5 883.5 172.410156 883.5 176 Z M 883.5 176 " transform="matrix(1,0,0,1,-870,-169)"/>
+</g>
+</svg>
