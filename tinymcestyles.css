@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic&subset=latin,latin-ext);
+
+html {
+  font-size: 12px;
+}
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', helvetica, sans-serif;
+  font-size: inherit;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.smartBijschrift {
+  font-style: italic;
+}
+.smartKop {
+  font-weight: bold;
+  font-size: 18px;
+}
+.smartSubkop {
+  font-weight: bold;
+  font-size: 16px;
+}
+.smartTitel {
+  font-weight: bold;
+  font-size: 25px;
+}
+.smartHoofdtekst {
+  font-size: 11px;
+  font-weight: normal;
+  color: #FFF;
+  margin: 0px;
+}
+.smartVoetnoottekst {
+  vertical-align: sub;
+  font-size: 8px;
+}
+
+ol li.smartKop {
+  margin-left: 18px;
+}
+ol li.smartSubkop {
+  margin-left: 16px;
+}
+ol li.smartTitel {
+  margin-left: 25px;
+}
+
+/*
+ * Als via de plugins een embeded-post toegevoegd wordt,
+ * dan mag deze niet editeerbaar zijn en wordt de plaats van het object getoond
+ * als en img css die hieronder beschreven is
+ */
+
+img[data-mce-p-show_placeholder='true'] {
+  border: 1px dashed;
+  border-radius: 4px;
+  border-color: #979797;
+  color: #868686;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: initial;
+  background-origin: content-box;
+  padding: 10px;
+  outline: none !important;
+}
+
+img[data-mce-selected][data-mce-p-show_placeholder='true'] {
+  border-color: #3a70e6;
+}
+
+img[data-mce-p-show_placeholder='true'][data-mce-p-type='pinterest_widget'] {
+  background-image: url('/modules/TinyMCE/desktop/ssPinterest/img/logo_pinterest_grey_250x63.png');
+}
+img[data-mce-p-show_placeholder='true'][data-mce-p-type='facebook_widget'] {
+  background-image: url('/modules/TinyMCE/desktop/ssFacebook/img/logo_facebook_grey_250x52.png');
+}
+img[data-mce-p-show_placeholder='true'][data-mce-p-type='twitter_widget'] {
+  background-image: url('/modules/TinyMCE/desktop/ssTwitter/img/logo_twitter_grey_92x77.png');
+}
+img[data-mce-p-show_placeholder='true'][data-mce-p-type='instagram_widget'] {
+  background-image: url('/modules/TinyMCE/desktop/ssInstagram/img/logo_instagram_grey_300x80.png');
+}
+img[data-mce-p-show_placeholder='true'][data-mce-p-type='youtube_widget'] {
+  background-image: url('/modules/TinyMCE/desktop/ssYouTube/img/youtube_logo/yt_logo_mono_light.png');
+  background-size: 200px;
+}
+img[data-mce-p-show_placeholder='true'][data-mce-p-type='vimeo_widget'] {
+  background-image: url('/modules/TinyMCE/desktop/ssVimeo/img/logo_vimeo_grey_180x50.png');
+}
+img[data-mce-p-show_placeholder='true'][data-mce-p-type='moovly_widget'] {
+  background-image: url('/modules/TinyMCE/desktop/ssMoovly/img/logo_moovly_grey_180x60.png');
+}
+img[data-mce-p-show_placeholder='true'][data-mce-p-type='spotify_widget'] {
+  background-image: url('/modules/TinyMCE/desktop/ssSpotify/img/logo_spotify_grey_250x80.png');
+}
+img[data-mce-p-show_placeholder='true'][data-mce-p-type='deezer_widget'] {
+  background-image: url('/modules/TinyMCE/desktop/ssDeezer/img/logo_deezer_grey_120x104.png');
+}
+img[data-mce-p-show_placeholder='true'][data-mce-p-type='soundcloud_widget'] {
+  background-image: url('/modules/TinyMCE/desktop/ssSoundcloud/img/logo_soundcloud_grey_180x104.png');
+}
+img[data-mce-p-show_placeholder='true'][data-mce-p-type='prezi_widget'] {
+  background-image: url('/modules/TinyMCE/desktop/ssPrezi/img/logo_prezi_grey_202x84.png');
+}
