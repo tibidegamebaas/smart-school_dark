@@ -1,0 +1,128 @@
+/*TinyMCE plugins*/
+
+.tox-navobj iframe html body .smscMain {
+    background-color: #3c3c3c !important;
+}
+
+#ssImageContent {
+    background-color: #3c3c3c !important;
+}
+
+/*image*/
+
+#mydocList, #mydocPreview {
+    background-color: #111 !important;
+    border: 1px solid #888 !important
+}
+
+#mydocPreview {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/temp.png) !important;
+}
+
+#ssImageContent .radioLabel {
+    color: #d9d9d9 !important
+}
+
+#ssImageContent .uploadField {
+    background-color: #3c3c3c !important;
+}
+
+#ssImageContent {
+    border-bottom: 1px solid #888 !important;
+}
+
+/*media*/
+
+.ssMediaContainer, .ssYouTubeContainer, .ssVimeoContainer, .ssMoovlyContainer {
+    background-color: #111 !important;
+    border: 1px solid #888 !important
+}
+
+.ssMediaHeader .ssMediaLogo {
+    filter:invert(1) hue-rotate(180deg)
+}
+
+.ssMediaContainer .ssMediaContainerIntro .ssMediaContainerIntroCentered .media_steps .steps_title, .ssYouTubeContainer .ssYouTubeContainerIntro .ssYouTubeContainerIntroCentered .media_steps .steps_title, .ssVimeoContainer .ssVimeoContainerIntro .ssVimeoContainerIntroCentered .media_steps .steps_title, .ssMoovlyContainer .ssMoovlyContainerIntro .ssMoovlyContainerIntroCentered .moovly_steps .steps_title {
+    color: #d9d9d9 !important
+}
+
+.ssYouTubeContainer .ssYouTubeContainerIntro .ssYouTubeContainerIntroCentered {
+    background-image: url(https://static2.smart-school.net/modules/TinyMCE/desktop/ssYouTube/img/youtube_logo/yt_logo_mono_dark.png) !important;
+}
+
+.ssYouTubeHeader .ssYouTubeLogo {
+    background-image: url(https://static2.smart-school.net/modules/TinyMCE/desktop/ssYouTube/img/youtube_logo/yt_logo_rgb_dark.png) !important;
+}
+
+.ssYouTubeContainer .ssYouTubeBlock, .ssVimeoContainer .ssVimeoBlock {
+    background-color: #212121 !important;
+}
+
+.ssYouTubeContainer .ssYouTubeBlockDesc, .ssYouTubeContainer .ssYouTubeBlockDetails .ssYouTubeBlockPublished, .ssYouTubeContainer .ssYouTubePreviewBlockDesc, .ssVimeoContainer .ssVimeoBlockDetails .ssVimeoBlockPublished, .ssVimeoContainer .ssVimeoBlockDesc, .ssVimeoContainer .ssVimeoPreviewBlockDesc {
+    color: #999 !important
+}
+
+.ssYouTubeHeader .ssYouTubeLogo.loading {
+    background-image: url(https://static2.smart-school.net/smsc/img/spinner_ios_greytransp/spinner_ios_greytransp_16x16.gif) !important;
+    filter: invert(1)
+}
+
+.ssVimeoHeader .ssVimeoLogo.loading, .webeqBlockMove, .previewContainer img {
+    filter: invert(1)
+}
+
+.ssMoovlyHeader .ssMoovlyLogo {
+    filter: invert(1) hue-rotate(180deg)
+}
+
+.tree-node.plus, .tree-node.plusbottom, .tree-node.minus, .tree-node.minusbottom {
+    filter: invert(1)
+}
+
+.selected, .tree-folder.selected {
+    background-color: #193257 !important;
+}
+
+.treeselect {
+    background-color: #3c3c3c !important;
+    border-top: 1px solid #6e584b !important
+}
+
+.modulesContainer {
+    background-color: #3c3c3c !important;
+    border-bottom: 1px solid #888 !important;
+}
+
+.smscTabs li.selected {
+    background-color: #3c3c3c !important;
+    border-bottom-color: #3c3c3c !important;
+}
+
+.smscTabs li.selected:before {
+    box-shadow: 2px 2px 0 #3c3c3c !important;
+}
+
+.smscTabs li.selected:after {
+    box-shadow: -2px 2px 0 #3c3c3c !important;
+}
+
+.inputLabel, .webeqBlockLabel, .title {
+    color: #bbbbbb !important;
+}
+
+.treeContainer, .contentContainer, .createContainer {
+    background-color: #3c3c3c !important;
+    border: 1px solid #666 !important;
+}
+
+.jstree.jstree-focused {
+    background: #3c3c3c !important;
+}
+
+.webeqBlock.even {
+    background-color: #1e1e1e !important;
+}
+
+.jstree a {
+    color: #fff !important;
+}

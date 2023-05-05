@@ -1,0 +1,151 @@
+/*Mydoc CSS*/
+
+smsc-dialog .smsc-dialog {
+    background-color: #232323 !important;
+    border: 1px solid #414141 !important
+}
+
+.smsc-dialog--empty-header .smsc-dialog__content {
+    border: none !important;
+}
+
+smsc-inlineeditor .smsc-inlineeditor__editor .smsc-inlineeditor__input, smsc-inlineeditor .smsc-inlineeditor__editor input.smsc-inlineeditor__input {
+    background-color: transparent !important;
+}
+
+smsc-inlineeditor .smsc-inlineeditor__editor:not(:focus):not(:hover) .smsc-inlineeditor__input:not(:focus):not(.smsc-inlineeditor--border-always-shown) {
+    border-color: transparent !important;
+}
+
+smsc-tree .smsc-tree__item__title, .modern-ui .smsc-table__sortable {
+    color: #d9d9d9 !important;
+}
+
+.modern-ui .smsc-table__sortable--asc, .modern-ui .smsc-table__sortable--desc {
+    color: #ff520e !important;
+}
+
+smsc-listview .smsc-table__header tr.selected td:not(.cb-container), smsc-listview table tr.selected td:not(.cb-container) {
+    background-color: #08233d !important;
+}
+
+smsc-listview .smsc-table__header tr:hover .listview-row__row-actions .action-button, smsc-listview table tr:hover .listview-row__row-actions .action-button {
+    background-color: #1e1e1ee6 !important;
+}
+
+smsc-listview .smsc-table__header tr.selected td:not(.cb-container) .action-button, smsc-listview table tr.selected td:not(.cb-container) .action-button {
+    background-color: #08233d !important;
+}
+
+smsc-preview .smsc-preview__button--close {
+    color: transparent !important;
+}
+
+smsc-rightclick .smsc-rightclick__menu {
+    background-color: #191919 !important;
+    box-shadow: 0 0.333rem 1.333rem #000000 !important;
+}
+
+smsc-rightclick .smsc-rightclick__seperator {
+    background-color: #414141 !important;
+}
+
+smsc-rightclick .smsc-rightclick__item:hover {
+    background-color: #272727 !important;
+}
+
+smsc-rightclick .smsc-rightclick__link {
+    color: #d9d9d9 !important;
+}
+
+smsc-breadcrumb .smsc-breadcrumb__link {
+    color: #868686 !important;
+}
+
+smsc-breadcrumb .smsc-breadcrumb__link:hover {
+    color: #278dd7 !important;
+}
+
+smsc-contextmenu .contextmenu__item--nolink {
+    color: #d9d9d9 !important;
+}
+
+smsc-contextmenu .contextmenu__item--hotkey {
+    color: #606060 !important;
+}
+
+smsc-contextmenu .contextmenu__item--nolink:hover {
+    background-color: #272727 !important;
+}
+
+
+smsc-title .title__icon--clickable:focus, smsc-title .title__icon--clickable:hover {
+    border-color: #414141 !important;
+}
+
+.smsc-iconpicker__button:hover {
+    border-color: #414141 !important;
+}
+
+.smsc-iconpicker__button.smsc-iconpicker--selected:hover {
+    border-color: #3a70e6 !important;
+}
+
+smsc-contextmenu .contextmenu__tile .contextmenu__item:hover {
+    border-color: #414141 !important;
+    background-color: #222 !important;
+}
+
+smsc-contextmenu .smsc-contextmenu__arrow--position-right::after {
+    border-color: transparent #1b1b1b !important;
+}
+
+smsc-inlineeditor .smsc-inlineeditor__editor:not(.smsc-inlineeditor--editable):not(.smsc-inlineeditor--disabled):hover:not(.smsc-inlineeditor--loading)::after {
+    background-color: #1e1e1e !important;
+    border: 1px solid #797979 !important;
+}
+
+smsc-inlineeditor .smsc-inlineeditor__editor .smsc-inlineeditor__input, smsc-inlineeditor .smsc-inlineeditor__editor input.smsc-inlineeditor__input {
+    border-color: #797979 !important;
+}
+
+smsc-inlineeditor .smsc-inlineeditor__editor .smsc-inlineeditor__input--disabled, smsc-inlineeditor .smsc-inlineeditor__editor input.smsc-inlineeditor__input--disabled {
+    border-color: transparent !important;
+}
+
+.mydoc__tooltiphotkey {
+    color: #555 !important;
+}
+
+.mydoc .listview-row__item--link>a {
+    color: #d9d9d9 !important;
+}
+
+.modern-ui smsc-tabs smsc-tabspanel {
+    background: none !important;
+}
+
+.modern-ui .infodialog .smsc-tabslist__item--active {
+    background: #232323 !important;
+    border-bottom-color: #232323 !important;
+}
+
+.modern-ui .infodialog .smsc-tabslist__item--active:before {
+    box-shadow: 2px 2px 0 #232323 !important;
+}
+
+.modern-ui .infodialog .smsc-tabslist__item--active:after {
+    box-shadow: -2px 2px 0 #232323 !important;
+}
+
+smsc-versions .empty-state__image {
+    filter: invert(1) hue-rotate(180deg) contrast(0.3) !important;
+}
+
+smsc-versions .listview-row__item--link>a, smsc-versions .listview-row__item--link>a:hover {
+    color: #d9d9d9 !important;
+}
+
+smsc-preview img {
+    background-image: linear-gradient(45deg,#212121 25%,transparent 25%,transparent 75%,#212121 75%,#212121 100%),linear-gradient(45deg,#212121 25%,#111 25%,#111 75%,#212121 75%,#212121 100%) !important;
+}

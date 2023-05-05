@@ -1,0 +1,339 @@
+/*Grades CSS*/
+
+.smscMainBlockContainer, .smscToolbar {
+    background-color: #111 !important;
+    border: 1px solid #343434 !important;
+    box-shadow: -1px -1px 1px #757575 !important;
+}
+
+.periodButtonsDiv .periodButtons .smscButton.active:hover {
+    background-color: #414141 !important
+}
+
+.viewContent .listItem_eval, .viewContent .listItem_report, .viewContent .listItem_proj {
+    border-bottom: 1px solid #414141 !important;
+}
+
+.viewContent .listItem_eval .eval_title .eval_content, .gradesList_nodata .nodata_msg {
+    color: #d9d9d9 !important
+}
+
+.viewContent .listItem_eval .eval_gotoIcon, .viewContent .listItem_eval .eval_gotoIcon.reverse {
+    filter: invert(1) !important
+}
+
+.viewContent .listItem_eval_content .listItem_eval_goto {
+    color: #37f !important;
+}
+
+#smscFrameTitlePanel {
+    background-color: #1b1b1b !important;
+    border: 1px solid #666 !important;
+    box-shadow: 3px 3px 4px #000000 !important;
+}
+
+.frametitle_panel .frameTitleItem.subtitle:hover {
+    background-color:transparent !important;
+    color:#d9d9d9 !important;
+    cursor:default !important
+}
+
+.frametitle_panel .frameTitleItem:hover {
+    background-color:#414141 !important;
+    color:white !important
+}
+
+.wide-toolbar {
+    background-color: #212121 !important;
+}
+
+.wide-toolbar__item, .wide-toolbar__item::after, .wide-toolbar__item::before {
+    background-color: #212121 !important;
+}
+
+.wide-toolbar__item--selected {
+    background-color: #414141 !important;
+}
+
+.evaluation-list-item__container__tokens__token {
+    background-color: #212121 !important;
+    border-color: #4e4e4e !important;
+}
+
+.bubble {
+    background-color: #212121 !important;
+    border-color: #414141 !important;
+}
+
+input[type="radio"] {
+    filter: invert(0) !important;
+}
+
+.btn.btn--select-dropdown::after {
+    background-color: #111 !important;
+    border-left-color: #414141 !important;
+    border-bottom-color: #414141 !important;
+}
+
+.side-panel__panel {
+    background-color: #212121 !important;
+}
+
+.feedback__bubble {
+    background-color: #4c4c4c !important;
+}
+
+.feedback__bubble::after {
+    border-right-color: #4c4c4c !important;
+}
+
+.feedback__buble__text {
+    color: #c5c5c5 !important;
+}
+
+.feedback__bubble__name {
+    color: #d9d9d9 !important;
+}
+
+.feedback--silver {
+    background-color: #414141 !important;
+}
+
+.feedback--silver>.user-image-label {
+    color: #ccc !important;
+}
+
+.feedback--silver>.feedback__text {
+    color: #aaa !important;
+}
+
+/*smsctabs*/
+
+.smscTabs:before {
+    border-bottom: 1px solid #606060 !important;
+}
+
+.smscTabs li.selected {
+    background: #111 !important;
+    border-bottom-color: #111 !important;
+}
+
+.smscTabs li {
+    border: 1px solid #606060 !important;
+    background: #3c3c3c !important;
+    background: -o-linear-gradient(top, #3c3c3c 50%, #232323 100%) !important;
+    background: -ms-linear-gradient(top, #3c3c3c 50%, #232323 100%) !important;
+    background: -moz-linear-gradient(top, #3c3c3c 50%, #232323 100%) !important;
+    background: -webkit-linear-gradient(top, #3c3c3c 50%, #232323 100%) !important;
+    background: linear-gradient(top, #3c3c3c 50%, #232323 100%) !important;
+    box-shadow: 0 3px 3px rgb(0 0 0), inset 0 1px 0 #000 !important;
+    text-shadow: 0 1px #000 !important;
+}
+
+.smscTabs li.selected:before {
+    box-shadow: 2px 2px 0 #111 !important;
+}
+
+.smscTabs li:before, .smscTabs li:after {
+    border: 1px solid #606060 !important
+}
+
+.smscTabs li:before {
+    box-shadow: 2px 2px 0 #242424 !important;
+    border-width: 0 1px 1px 0 !important
+}
+
+.smscTabs li.selected a {
+    color: #ff520e !important;
+}
+
+.smscTabs a {
+    color: #ccc !important;
+}
+
+.smscTabs li.selected:after {
+    box-shadow: -2px 2px 0 #111 !important;
+    border-width: 0 0 1px 1px !important
+}
+
+.smscTabs li:after {
+    box-shadow: -2px 2px 0 #242424 !important;
+    border-width: 0 0 1px 1px !important
+}
+
+
+.smscTabsPanel .evalsPerCourse .courseList .course {
+    border-top: 1px solid #414141 !important;
+}
+
+.smscTabsPanel .evalsPerCourse .courseList .course .courseCount .courseCounter {
+    border: 1px solid #414141 !important;
+    background-color: #212121 !important;
+    color: #d9d9d9 !important;
+}
+
+.smscTabsPanel .evalsPerCourse .courseEvals {
+    border-left: 1px solid #414141 !important;
+}
+
+.smscTabsPanel .evalsPerCourse .courseEvals .evals_eval {
+    border-top: 1px solid #414141 !important;
+}
+
+.smscTabsPanel .evalsPerCourse .courseEvals .evals_eval .eval_data .eval_info .eval_title {
+    color: #d9d9d9 !important;
+}
+
+.smscTabsPanel .evalsPerCourse .courseEvals .evals_eval .eval_data .eval_info .eval_comment {
+    color: #aaa !important
+}
+
+
+/*pie*/
+
+.full_pie:before, .full_part_pie_one, .full_part_pie_two, .full_part_pie_four, .half_part_pie_three, .half_part_pie_two, .half_pie:before, .half_pie {
+    background: #333 !important;
+}
+
+.full_pie_icon, .half_pie_icon {
+    background: #111 !important;
+}
+
+.full_pie:after, .half_pie:after {
+    -webkit-box-shadow: 0 0 0 2px #111, inset 0 0 5px rgb(0 0 0 / 10%) !important;
+    box-shadow: 0 0 0 2px #111, inset 0 0 5px rgb(0 0 0 / 10%) !important
+}
+
+
+.smscTabsPanel .eval_grid .grid_courses .course {
+    border-right: 1px solid #414141 !important;
+    border-bottom: 1px solid #414141 !important;
+    background-color: #111 !important;
+}
+
+.smscTabsPanel .eval_grid .grid_course_evals .course_eval_row .course_eval_cell {
+    border-right: 1px solid #414141 !important;
+}
+
+.smscTabsPanel .eval_grid .grid_course_evals .course_eval_row {
+    border-bottom: 1px solid #414141 !important;
+}
+
+
+.smscTabsPanel .eval_grid .grid_courses .course:last-child, .smscTabsPanel .eval_grid .grid_course_evals .course_eval_row:last-child {
+    border-bottom: 0px !important;
+}
+
+.smscTabsPanel .eval_grid .grid_course_evals .course_eval_row .course_eval_cell:last-child {
+    border-right: 0px !important;
+}
+
+.smscTabsPanel .evalsGraph .courseList .courseForGraph {
+    border-top: 1px solid #414141 !important;
+}
+
+.smscTabsPanel .evalsGraph .courseList .courseForGraph .courseCount .courseCounter {
+    border: 1px solid #414141 !important;
+    background-color: #212121 !important;
+    color: #d9d9d9 !important
+}
+
+.smscTabsPanel .evalsGraph .courseEvalsGraph {
+    border-left: 1px solid #414141 !important;
+}
+
+.smscTabsPanel .evalsGraph .courseEvalsGraph .highcharts-tooltip .evals_eval .eval_info .eval_title {
+    color: #d9d9d9 !important
+}
+
+.smscTabsPanel .evalsGraph .courseEvalsGraph .highcharts-tooltip .evals_eval .eval_date.grades {
+    color: #bbb !important
+}
+
+.smscTabsPanel .evalsGraph .courseEvalsGraph .highcharts-tooltip .evals_eval .eval_point {
+    color: #d9d9d9 !important
+}
+
+.smscTabsPanel .evalsGraph .courseEvalsGraph .highcharts-tooltip .evals_eval .eval_point.isLow {
+    color: red !important
+}
+
+.smscTabsPanel .evalsGraph .courseEvalsGraph .highcharts-tooltip .evals_eval .eval_info .eval_comment {
+    color: #aaa !important
+}
+
+.smscarrow[style*="border-color: transparent transparent rgb(51, 51, 51);"] {
+    border-color: transparent transparent #ccc !important;
+}
+
+.viewContent .listItem_eval .eval_title .eval_info {
+    color: #aaa !important
+}
+
+.gradesList_nodata .nodata_icon {
+    background-image: url('https://static2.smart-school.net/smsc/img/nautilus/nautilus_128x128.png') !important;
+}
+
+.smscToolbarButton.icon_evals, .gradesList_nodata .nodata_icon.grades, .frametitle_panel .frameTitleItem .frameTitleItemText.period {
+    background-image: url('https://static2.smart-school.net/smsc/svg/document_plain_pulse_blue/document_plain_pulse_blue_24x24.svg') !important;
+}
+
+.smscToolbarButton.icon_projects, .gradesList_nodata .nodata_icon.projects, .frametitle_panel .frameTitleItem .frameTitleItemText.period.projects_view {
+    background-image: url('https://static2.smart-school.net/smsc/svg/document_plain_pulse_green/document_plain_pulse_green_24x24.svg') !important;
+}
+
+.gradesList_nodata .nodata_icon.grades, .gradesList_nodata .nodata_icon.projects, .gradesList_nodata .nodata_icon.reports {
+    background-size: 128px !important;
+}
+
+.smscToolbarButton.icon_reports, .gradesList_nodata .nodata_icon.reports, .frametitle_panel .frameTitleItem .frameTitleItemText.report_c, .frametitle_panel .frameTitleItem .frameTitleItemText.report_a, .frametitle_panel .frameTitleItem .frameTitleItemText.report_r {
+    background-image: url('https://static2.smart-school.net/smsc/svg/document_certificate/document_certificate_24x24.svg') !important;
+}
+
+.frametitle_panel .frameTitleItem .frameTitleItemText.className {
+    background-image: url('https://static2.smart-school.net/smsc/svg/briefcase/briefcase_24x24.svg') !important;
+    background-size: 16px !important;
+}
+
+.frametitle_panel .frameTitleItem .frameTitleItemText.period, .frametitle_panel .frameTitleItem .frameTitleItemText.period.projects_view, .frametitle_panel .frameTitleItem .frameTitleItemText.report_c, .frametitle_panel .frameTitleItem .frameTitleItemText.report_a, .frametitle_panel .frameTitleItem .frameTitleItemText.report_r {
+    background-size: 16px !important;
+}
+
+/* new pie */
+
+.central-tendency__text__title {
+    color: #c5c5c5 !important;
+}
+
+.progress-ring__svg__stroke {
+    stroke: #414141 !important;
+}
+
+.svg-btn[disabled] polyline {
+    stroke: #4c4c4c !important;
+}
+
+.svg-btn:not([disabled]) polyline {
+    stroke: #d9d9d9 !important;
+}
+
+.svg-btn:not([disabled]):hover polyline {
+    stroke: #37f !important;
+    stroke-width: 1.5 !important;
+}
+
+/* Table view */
+
+.cell {
+    background-color: #1b1b1b !important;
+    border-color: #111 !important;
+}
+ 
+.evaluation__content__tooltip {
+    color: #d9d9d9 !important;
+}
+
+[bubble].bubble--tooltip .bubble__arrow svg polyline {
+    fill:#212121 !important;
+    stroke:#414141 !important;
+}

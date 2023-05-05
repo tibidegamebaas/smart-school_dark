@@ -1,0 +1,217 @@
+/*Calender CSS*/
+
+[class="usernoselectmoz"][style="background-color:#ffffff;"] {
+    background-color: #111 !important;
+}
+
+.bgWhite {
+    background-color: #111 !important;
+}
+
+.dpGridColumn {
+    color: #c6c6c6 !important;
+}
+
+.dpHeader {
+    border-bottom: 1px solid #474747 !important;
+}
+
+.dpWeekendDay {
+    background-color: #212121 !important;
+}
+
+.dpCurrentDay {
+    background-color: #666 !important;
+    color: #FFF !important;
+}
+
+td[style*="background-image: url('https://static4.smart-school.net/modules/Calendar/themes/default/images/littleToolbar_left.png');"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/littleToolbar_left.png) !important;
+}
+
+td[style*="background-image: url('https://static4.smart-school.net/modules/Calendar/themes/default/images/littleToolbar_fill.png');"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/littleToolbar_fill.png) !important;
+}
+
+td[style*="background-image: url('https://static4.smart-school.net/modules/Calendar/themes/default/images/littleToolbar_leftfill.png');"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/littleToolbar_leftfill.png) !important;
+}
+
+td[style*="background-image: url('https://static4.smart-school.net/modules/Calendar/themes/default/images/littleToolbar_prev.png');"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/littleToolbar_prev.png) !important;
+}
+
+td[style*="background-image: url('https://static4.smart-school.net/modules/Calendar/themes/default/images/littleToolbar_today.png');"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/littleToolbar_today.png) !important;
+}
+
+td[style*="background-image: url('https://static4.smart-school.net/modules/Calendar/themes/default/images/littleToolbar_next.png');"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/littleToolbar_next.png) !important;
+}
+
+td[style*="background-image: url('https://static4.smart-school.net/modules/Calendar/themes/default/images/littleToolbar_rightfill.png');"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/littleToolbar_rightfill.png) !important;
+}
+
+td[style*="background-image: url('https://static4.smart-school.net/modules/Calendar/themes/default/images/littleToolbar_right.png');"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/littleToolbar_right.png) !important;
+}
+
+td[style*="background-image: url('https://static4.smart-school.net/modules/Calendar/themes/default/images/littleToolbar_middle1.png');"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/littleToolbar_middle1.png) !important;
+}
+
+.toolbar-top {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/tbartop.png) !important;
+}
+
+.toolbar-bottom {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/tbarbot.png) !important;
+}
+
+.header {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/title_backgr.gif) !important;
+    color: #c6c6c6 !important;
+    border-left: 1px solid #4e4e4e !important;
+    border-top: 1px solid #4e4e4e !important;
+}
+
+.currentDay, .currentMonthDay, .otherMonthDay, .otherMonthWeekendDay, .selectedDay, .weekendDay {
+    border-left: 1px solid #474747 !important;
+    border-bottom: 1px solid #474747 !important;
+}
+
+.monthNumber {
+    background-color: #1d1d1d !important;
+    color: #9d9d9d !important;
+}
+
+.currentDay {
+    background-color: #191919 !important;
+}
+
+.currentDayNumber {
+    background-color: #4e4e4e !important;
+    color: #c0c0c0 !important;
+}
+
+.otherMonthNumber {
+    background-color: #1d1d1d !important;
+    color: #4b4b4b !important;
+}
+
+.sunday {
+    border-right: 1px solid #474747 !important;
+}
+
+.hourBlockTotal {
+    border-bottom: 2px solid #474747 !important;
+}
+
+.hourBlock, .hourBlockTotal, .hourHeader {
+    border-left: 1px solid #474747 !important;
+}
+
+.hourBlock, .hourHeader {
+    border-bottom: 1px solid #474747 !important;
+}
+
+.hourBlockRightBorder {
+    border-right: 1px solid #474747 !important;
+}
+
+.listview_dateblock {
+    background-color: #191919 !important;
+    border-bottom: 1px solid #474747 !important;
+    color: #bfbfbf !important;
+}
+
+.listview_dateblock_odd, .trans-layer {
+    background-color: rgba(17, 17, 17, 0.5) !important;
+}
+
+.ccBackgr {
+    background-color: #212121 !important;
+}
+
+.ccFieldsTextarea {
+    background-color: #111 !important;
+}
+
+.dateChooserContainer {
+    border: 1px solid #6e584b !important;
+    background-color: #111 !important;
+}
+
+.contentContainer {
+    border-bottom: 1px solid #6e584b !important;
+    border-left: 1px solid #6e584b !important;
+    border-right: 1px solid #6e584b !important;
+}
+
+.ccFieldsInputRadioCheckboxRepetition, .ccFieldsInputRadioCheckbox {
+    filter: invert(1) !important;
+}
+
+.propertyButton {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/propertyButton.gif) !important;
+}
+
+.propertyButton_hover {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/propertyButton_hover.gif) !important;
+}
+
+.contentConfigurationContainer {
+    border: 1px solid #6e584b !important;
+    background-color: #111 !important;
+}
+
+.colorPicker-header, .inputForm_header550x300, .inputForm_header550x410, .inputForm_header600x440, .inputForm_header600x550, .inputForm_header700x100, .inputForm_newsView_header {
+    color: #c9c9c9 !important;
+}
+
+.calendarViewContainer, .newsView_main {
+    border: 1px solid #414141 !important;
+    background-color: #111 !important;
+}
+
+.ccFieldsTextareaCalendar {
+    background-color: #111 !important;
+}
+
+.toolbar.usernoselectmoz .toolbar-buttons div {
+    border: none !important;
+}
+
+.toolbar.usernoselectmoz .toolbar-buttons {
+    border-left: 1px solid #666 !important;
+}
+
+.toolbar.usernoselectmoz .toolbar-buttons div div.icon {
+    border: none !important;
+}
+
+.subTextHours {
+    color: #999 !important
+}
+
+.contentContainer {
+    background-color: #111 !important
+}
+
+.propertyItemContainer {
+    background-color: #212121 !important;
+    border: 1px solid #212121 !important;
+}
+
+.propertyItemContainerContent_show {
+    background-color: #111 !important;
+}
+
+.ssLoadingLayerImage {
+    filter: invert(1);
+}
+
+.calendarContainerBL, .calendarContainerBR, .calendarContainerTL, .calendarContainerTR {
+    filter: invert(1) contrast(0.87) !important;
+}

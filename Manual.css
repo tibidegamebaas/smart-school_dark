@@ -1,0 +1,95 @@
+/*Manual CSS*/
+
+.manual_widget_class_searchtop_T {
+    background-color: #2c2c2c !important;
+}
+
+.manual_widgetcontent_topborder, .manualmiddlecontent>.manual_widget>.manual_widgetcontent.manual_widgetcontent_topborder {
+    border-top: 1px solid #414141 !important
+}
+
+.manual_widgetcontent {
+    border-color: #414141 !important;
+    background-color: #111 !important;
+}
+
+#manual_searchbox {
+    border-color: #868686 !important
+}
+
+.smscMain .manual_widgettitle {
+    background-color: #2c2c2c !important;
+    border: 1px solid #414141 !important
+}
+
+.manual_widgettitleinner, .gridview__link {
+    color: #d9d9d9 !important
+}
+
+.manualmiddlecontent>.manual_widget>.manual_widgetcontent {
+    background-color: #111 !important;
+    border-color: #414141 !important
+}
+
+.manual_widgetcontent.manual_widgetcontent_topborder.manual_widget_class_kenniscentrum_M.middlewidget {
+    border-top: none !important;
+}
+
+.kenniscontent h1, .kenniscontent h2, .kenniscontent h3, .kenniscontent h4, .kenniscontent h5 {
+    color: #FFF !important;
+    border-bottom: 1px solid #735344 !important;
+}
+
+.kenniscontent .li, .kenniscontent ol {
+    color: #FFF !important
+}
+
+.kenniscontent ul {
+    color: #735344 !important
+}
+
+[title="handleiding:2fa:vlaamseoverheid"] img {
+    filter: invert(1) !important;
+}
+
+.noteclassic {
+    background-color: #000034 !important;
+}
+
+.notetip {
+    background-color: #004200 !important;
+}
+
+.noteimportant {
+    background-color: #535300 !important;
+}
+
+.notewarning {
+    background-color: #420000 !important;
+}
+
+.manualmiddle table.inline {
+    background-color: #111 !important
+}
+
+.manualmiddle table.inline th {
+    border: 1px solid #735344 !important;
+    background-color: #211813 !important
+}
+
+.manualmiddle table.inline td {
+    border: 1px solid #735344 !important;
+}
+
+.searchTitle {
+    color: #d9d9d9 !important;
+    border-bottom: 1px solid #d9d9d9 !important;
+}
+
+.searchSubTitle {
+    color: #d9d9d9 !important;
+}
+
+.searchSubTitle span[style*="background-color:yellow;font-weight:bold;"] {
+    color: #262626 !important
+}

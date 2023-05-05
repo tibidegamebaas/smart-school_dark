@@ -1,0 +1,156 @@
+/*Topnav CSS*/
+
+.smsc-topnav .topnav__btn {
+    color: #FFF !important;
+}
+
+.smsc-topnav .topnav__menuitem {
+    color: #d9d9d9 !important;
+}
+
+.smsc-topnav .topnav__menu {
+    border: 1px solid #414141 !important;
+    background-color: #242424 !important;
+    box-shadow: 0 0.333rem 1.333rem #000000 !important;
+}
+
+.smsc-topnav [data-shortcuts] .topnav__menu--shortcuts hr.menu-divider:before {
+    background-color: #404040 !important;
+}
+
+.smsc-topnav .topnav__menu-arrow:before {
+    border-color: #414141 transparent !important;
+}
+
+.smsc-topnav .topnav__menu-arrow:after {
+    border-color: #242424 transparent !important;
+}
+
+.smsc-topnav :not(.topnav__menuitem--no-hover).topnav__menuitem:hover {
+    border-color:#4f4f4f !important;
+    background-color:#2f2f2f !important;
+}
+
+h2#topnavCoursesTitle {
+    color: #ccc !important;
+}
+
+.modern-ui input[type=search].input-search:not(.loading):not([loading]), .modern-ui input[type=text].input-search:not(.loading):not([loading]), .modern-ui .smsc-topnav input[type=search].input-search, .smsc-topnav input[type=search].input-search {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/7fa2d9a842267f3a20bf4185aa3c029e547291f4/search_dark_16x16.svg) !important;
+}
+
+.smsc-topnav [data-courses] .course-btnbar {
+    border: 1px solid #474747 !important;
+}
+
+.smsc-topnav [data-courses] .course-btnbar [type=radio]:checked+label {
+    background-color: #252525 !important;
+}
+
+.smsc-topnav [data-courses] .course-btnbar .course-ico {
+    border-right: 1px solid #474747 !important;
+}
+
+[has-tooltip][aria-hidden="false"] .tooltip__wrapper {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+[has-tooltip] .tooltip__arrow:after {
+    border-color: #4c4c4c transparent !important;
+}
+
+[has-tooltip] .tooltip__arrow:before {
+    display: none !important;
+}
+
+[has-tooltip] .tooltip__content {
+    position: absolute !important;
+    top: 44.8px !important;
+    left: auto !important;
+    color: #d9d9d9 !important;
+    border: 1px solid #4c4c4c !important;
+    background-color: #4c4c4c !important;
+}
+
+.smsc-topnav [data-search] .form-search__filter legend {
+    color: #d9d9d9 !important;
+}
+
+.smsc-topnav [data-search] .form-search__results {
+    border-left: 1px solid #404040 !important;
+}
+
+.smsc-topnav [data-search] .search-result__title {
+    color: #d9d9d9 !important;
+}
+
+.smsc-topnav [data-search] .search-result:first-child {
+    border-top: 1px solid #404040 !important;
+}
+
+.smsc-topnav [data-search] .search-result {
+    border-bottom: 1px solid #404040 !important;
+}
+
+.smsc-topnav .search-result:hover {
+    color: #d9d9d9 !important;
+    border-color:#404040 !important;
+    background-color:#2f2f2f !important;
+}
+
+.smsc-topnav [data-notifs] .notification__btn {
+    color: #d9d9d9 !important;
+}
+
+.smsc-topnav [data-notifs] .notification {
+    border-bottom: 1px solid #404040 !important;
+}
+
+.smsc-topnav [data-notifs] .notifs__hdr {
+    border-bottom: 1px solid #404040 !important;
+}
+
+.smsc-topnav .notification:hover {
+    border-color:#404040 !important;
+    background-color:#2f2f2f !important;
+}
+
+.smsc-topnav [data-notifs] .notifs__hdr [role=switch] {
+    border: 1px solid #404040 !important;
+}
+
+.notifs-toaster__toast {
+    border: 1px solid #404040 !important;
+    background-color:#2f2f2f !important;
+}
+
+.smsc-topnav .search-result__breadcrumb li a {
+    color: #d9d9d9 !important;
+}
+
+.smsc-topnav .search-result__breadcrumb li:not(:last-child):after {
+    content: "›" !important;
+    color: #9e9e9e !important
+}
+
+.modern-ui .smsc-topnav .topnav__title, .smsc-topnav .topnav__title {
+    color: #fff !important;
+}
+
+/* .modern-ui .smsc-topnav .topnav, .smsc-topnav .topnav {
+    background: linear-gradient(270deg, #f00,#ff0080,#f0f,#8000ff,#00f,#0080ff,#0ff,#00ff80,#0f0,#80ff00,#ff0,#ff8000,#f00) !important;
+    background: #c93800 !important;
+} */
+
+.MessageBoxContainer{background-color:#fff !important;}
+
+.topMessageBox2,.topMessageBox3,.topMessageBox4{background-color:#fff !important;border-left:1px solid #fff !important;border-right:1px solid #fff !important}
+
+.bottomMessageBox2,.bottomMessageBox3,.bottomMessageBox4{background-color:#fff !important;border-left:1px solid #fff !important;border-right:1px solid #fff !important}
+
+.messageBoxTextContainer{color:#000 !important;}
+
+.messageBoxContentDivDate{color:#333 !important}
+
+.smsc-topnav [data-search] .form-search__placeholder {background-image: url(https://static2.smart-school.net//smsc/svg/search_bot/search_bot_184x168.svg),url(https://static2.smart-school.net//smsc/svg/search_bot/search_bot_ani_184x168.svg) !important;}

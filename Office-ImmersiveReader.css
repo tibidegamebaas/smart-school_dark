@@ -1,0 +1,30 @@
+/*ImmersiveReader*/
+
+#app.c-app.not-in-focus-mode.light-theme.light-theme.Light {background-color: #323130 !important; color: white !important;}
+#app.c-app.in-focus-mode.light-theme.light-theme.Light {background-color: #484644 !important; color: white !important;}
+#app.c-app.not-in-focus-mode.playing-light-theme.playing-light-theme.Light {background-color: #262626 !important; color: white !important;}
+#app.c-app.in-focus-mode.playing-light-theme.playing-light-theme.Light {background-color: #323130 !important; color: white !important;}
+
+#content-pane .selected {background-color: #767676 !important; outline: 1px dashed #9d9d9d !important}
+#content-pane .active-line{color: white !important}
+#content-pane .active-line .selected.focus {outline: none !important}
+
+.c-app__exit-button i, .document-title, .c-menu-options .ms-Button i, .c-app__reader-controls-settings i, .fullscreen-button i, .pos-disclaimer-button i {color: white !important}
+.c-app__exit-button:hover i, .c-menu-options .ms-Button:active i, .c-menu-options .ms-Button:hover:active i, .c-menu-options .ms-Button:hover i, .c-app__reader-controls-settings:hover i, .fullscreen-button i:hover {color: #008078 !important}
+.c-app__callout--picture-dictionary, .ms-Callout-beakCurtain, .ms-Callout {border-color: #ccc !important}
+.ms-Callout-beak, .ms-Callout-beakCurtain, .ms-Callout-main, .ms-Callout .ms-Tooltip {background-color: #ccc !important;}
+.ms-Callout.ms-Tooltip {background: #ccc !important; border-color: #ccc !important}
+.c-app__callout-voice-options{border-top: 1px solid #a5a5a5 !important}
+.c-app__callout--settings .c-app__callout-inner .c-app__callout-voice-speed .c-app__callout__slider-tick, .c-app__dialog--settings .c-app__callout-inner .c-app__callout-voice-speed .c-app__callout__slider-tick{border: 1px solid #a5a5a5 !important}
+.ms-Slider-inactive {background: #a5a5a5 !important}
+.ms-Slider-slideBox:hover .ms-Slider-inactive {background-color: #919191 !important;}
+.ms-ChoiceField-field::before {background-color: #c5c5c5 !important;}
+.ms-ChoiceField-field.is-checked::before {background-color: #eee !important;}
+.c-menu-options-pane__themes {visibility: hidden; display: none !important}
+.c-menu-options-pane__section.c-menu-options-pane__section-font+.c-menu-options-pane__section{display: none}
+.ms-Panel-main {background-color: #ccc !important}
+.ms-Panel-footer {background: #ccc !important}
+.ms-Panel-scrollableContent {border-bottom-color: #ccc !important}
+.c-menu-options-pane__section{border-bottom: 1px solid #919191 !important}
+.ms-ChoiceField-wrapper {border: 2px solid #ccc !important}
+.ms-ChoiceField-field.is-checked::before {background-color: transparent !important}

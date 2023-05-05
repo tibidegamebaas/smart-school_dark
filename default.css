@@ -1,0 +1,1316 @@
+body, html {
+    background-color: #212121 !important;
+}
+
+body, button, input, select, textarea {
+    color: #d9d9d9 !important;
+}
+
+body.modern-ui {
+    background-color: #111 !important;
+}
+
+input {
+    background-color: #111 !important;
+	border-color: #414141 !important;
+}
+
+input[type="radio"] {
+    background-color: transparent !important;
+}
+
+a, a:hover {
+    color: #278dd7 !important;
+}
+
+select {
+    background-color: #111 !important;
+}
+
+hr {
+    border-top-color: #414141 !important;
+}
+
+h1 {
+    color: #d9d9d9 !important;
+}
+
+body.bg-class {
+    background-color: #212121 !important;
+}
+
+.trans-layer {
+    background-color: #11111180 !important;
+}
+
+textarea {
+    background-color: #111 !important;
+}
+
+
+upload-app .smsc-container__buttonbar .loading {
+    filter: invert(1)
+}
+
+.loading-container {
+    filter: invert(1)
+}
+
+.smscMain {
+    background-color: transparent !important
+}
+
+#RibbonTopBarContainer {
+    background-color: red !important
+}
+
+tickets-app smsc-dialog .smsc-dialog__content {
+    border: 1px solid #414141 !important;
+}
+
+.smsc-svg--cube_black--24 {
+    background-image: url('https://static2.smart-school.net/smsc/svg/cube_white/cube_white_24x24.svg') !important;
+}
+
+.smsc-svg--crayon_black--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/e9d94499a24835c57b963352e8abe72ad39da0f2/crayon_white_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_a_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_a_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_b_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_b_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_c_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_c_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_d_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_d_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_e_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_e_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_f_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_f_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_g_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_g_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_h_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_h_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_i_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_i_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_j_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_j_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_k_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_k_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_l_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_l_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_m_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_m_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_n_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_n_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_o_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_o_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_p_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_p_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_q_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_q_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_r_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_r_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_s_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_s_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_t_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_t_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_u_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_u_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_v_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_v_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_w_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_w_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_x_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_x_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_y_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_y_color-white-500_24x24.svg) !important;
+}
+
+.smsc-svg--alphabet_z_color-black-500--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/fe82bb4070bb1af6a6004d22b2c623c8e1997cd9/alphabet_z_color-white-500_24x24.svg) !important;
+}
+
+/*splashscreen*/
+
+.splashscreen {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/spheres-new.jpg) !important;
+}
+
+.splashscreen__dialog {
+    background-color: #222 !important;
+    box-shadow: 0 0 30px #000 !important;
+}
+
+
+/*Messages-btn Sessie volgen*/
+a[style="font-size: 14px; line-height: 22px; padding: 6px 24px; font-family: 'Open Sans', sans-serif; font-weight: 600; font-style: normal; text-align: center; border-radius: 4px; color: #ffffff; background-color: #29a5ff; text-decoration: none; display: inline-block; min-width: 100px; cursor: pointer; border: 1px solid #29a5ff;"] {
+    color: white !important;
+}
+
+div[style="margin: 8px 0px 12px; font-size: 13px; line-height: 20px; font-family: 'Open Sans', sans-serif; font-weight: 400; font-style: normal; color: #262626;"] {
+    color: #d9d9d9 !important;
+}
+
+span[style="color: #000000;"] {
+    color: #d9d9d9 !important;
+}
+
+span[style="background-color: #ffffff; color: #000000;"] {
+    background-color: #111 !important;
+    color: #d9d9d9 !important;
+}
+
+.fancybox-skin {
+    background-color: #252525 !important;
+    color: #bbbbbb !important;
+}
+
+.fancybox-opened .fancybox-skin {
+    -webkit-box-shadow: 0 10px 25px #000000 !important;
+    -moz-box-shadow: 0 10px 25px #000000 !important;
+    box-shadow: 0 10px 25px #000000 !important;
+}
+
+div.smscRadiobutton label {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/774178329c09242a07b28ba4051260253c3b0a6b/radiobutton_14_14x14.svg) !important;
+}
+
+div.smscRadiobutton input[type=radio]:checked+label {
+    background-image: url('https://static2.smart-school.net/smsc/svg/radiobutton_14_selected/radiobutton_14_selected_14x14.svg') !important;
+}
+
+.moveToMyDoc__tree__toggle {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/8726ab6fdf55ae6a2c233998b1e6a15dd51281fb/driehoek_droplist_open_9x9.svg) !important;
+}
+
+smsc-tree .smsc-tree__item--hide-input-icon>input[type=checkbox]+label.smsc-tree__item__label, smsc-tree .smsc-tree__item--hide-input-icon>input[type=checkbox]:checked+label.smsc-tree__item__label, smsc-tree .smsc-tree__item--hide-input-icon>input[type=radio]+label.smsc-tree__item__label, smsc-tree .smsc-tree__item--hide-input-icon>input[type=radio]:checked+label.smsc-tree__item__label {
+    background-image: none !important;
+}
+
+smsc-tree .smsc-tree__item__open-toggle {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/8726ab6fdf55ae6a2c233998b1e6a15dd51281fb/driehoek_droplist_open_9x9.svg) !important;
+}
+
+div.smscCheckbox label, smsc-listview .checkbox-button, .smsc-select-dialog .smsc-select-bubble .smsc-select-selectall, .smsc-select-panel .smsc-select-bubble .smsc-select-selectall, .smsc-select-dialog .smsc-select-bubble .smsc-select-bubble-options .smsc-select-option .smsc-select-option-state.multicheckbox, .smsc-select-panel .smsc-select-bubble .smsc-select-bubble-options .smsc-select-option .smsc-select-option-state.multicheckbox {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/8726ab6fdf55ae6a2c233998b1e6a15dd51281fb/checkbox_14_14x14.svg) !important;
+}
+
+div.smscCheckbox input[type=checkbox]:checked+label, smsc-listview .checkbox-button--checked, smsc-listview .checkbox-button[aria-checked=true], .smsc-select-dialog .smsc-select-bubble .smsc-select-bubble-options .smsc-select-option.item.active .smsc-select-option-state.multicheckbox.selected, .smsc-select-panel .smsc-select-bubble .smsc-select-bubble-options .smsc-select-option.item.active .smsc-select-option-state.multicheckbox.selected, .smsc-select-dialog .smsc-select-bubble .smsc-select-bubble-options .smsc-select-option.item:hover .smsc-select-option-state.multicheckbox.selected, .smsc-select-panel .smsc-select-bubble .smsc-select-bubble-options .smsc-select-option.item:hover .smsc-select-option-state.multicheckbox.selected, .smsc-select-dialog .smsc-select-bubble .smsc-select-bubble-options .smsc-select-option .smsc-select-option-state.multicheckbox.selected, .smsc-select-panel .smsc-select-bubble .smsc-select-bubble-options .smsc-select-option .smsc-select-option-state.multicheckbox.selected, .smsc-select-dialog .smsc-select-bubble .smsc-select-selectall.selected, .smsc-select-panel .smsc-select-bubble .smsc-select-selectall.selected {
+    background-image: url('https://static2.smart-school.net/smsc/svg/checkbox_14_selected/checkbox_14_selected_14x14.svg') !important;
+}
+
+smsc-listview .checkbox-button--partial {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/8726ab6fdf55ae6a2c233998b1e6a15dd51281fb/checkbox_14_partial_selected_for_tom_14x14.svg) !important;
+}
+
+smsc-listview .checkbox-button--show {
+    background-color: rgb(17 17 17 / 90%) !important;
+}
+
+.personaliaTable>tbody>tr>td>input.readonly {
+    border-color: #323232 !important;
+}
+
+.radio.disabled {
+    filter: invert(1) !important;
+}
+
+.smsc-svg--logo_vlaamse_leeuw--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/e588756f7576f5a5be3153d53c1e311ff8f907ea/logo_vlaamse_leeuw_24x24.svg) !important;
+}
+
+.smsc-svg--logo_apple--16 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/1344cc7054805300309c591a82acf44f8b79d048/logo_apple_16x16.svg) !important;
+}
+
+.smsc-svg--2fa_yubikey--24 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/8b24c5dd036112191292bfb33e1590245926aa3b/2fa_yubikey_24x24.svg) !important;
+}
+
+.smsc-table__header, .agendaListViewDayTitle {
+    border: 1px solid #717171 !important;
+    text-shadow: 0 1px #000 !important;
+    background: #191919 !important;
+    background: -moz-linear-gradient(top,#424242 0,#191919 100%) !important;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#424242),color-stop(100%,#191919)) !important;
+    background: -webkit-linear-gradient(top,#424242 0,#191919 100%) !important;
+    background: -o-linear-gradient(top,#424242 0,#191919 100%) !important;
+    background: -ms-linear-gradient(top,#424242 0,#191919 100%) !important;
+    background: linear-gradient(top,#424242 0,#191919 100%) !important;
+}
+
+.agendaListViewDayTitle {
+    color: #d9d9d9 !important;
+}
+
+.smsc-column-nav__button:hover {
+    color:#d9d9d9 !important;
+    border-color:#414141 !important;
+    background-color:#1e1e1e !important;
+}
+
+/*Userselect*/
+
+.uscMain .uscSgrTitle {
+    border-bottom: 1px solid #fff !important;
+}
+
+#usersDiv .loading {filter: invert(1) !important}
+
+.uscMain .uscRow#uscContent #uscUsersContainer .uscColumnTop {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/column_bg_top.gif) top left no-repeat !important;
+}
+
+.uscMain .uscRow .uscTitleIcon {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/uscTitleIcon.gif) !important;}
+
+.uscMain .uscRow#uscContent #uscUsersContainer .uscColumnTop .uscColumnTopTitle {
+    color: #cfcfcf !important;
+}
+
+.uscMain .uscRow#uscContent #uscUsersContainer .uscColumnUsers {
+    border: 1px solid #424242 !important;
+}
+
+.uscMain .uscRow#uscContent #tabContainer .tab#tab1, .uscMain .uscRow#uscContent #tabContainer .tab#tab4 {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/tab.png) center left no-repeat !important;
+}
+
+.uscMain .uscRow#uscContent #tabContainer .tab.selected#tab1, .uscMain .uscRow#uscContent #tabContainer .tab.selected#tab4 {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/tab_selected.png) center left no-repeat !important;
+}
+
+.uscMain .uscRow#uscContent #tabContainer .tab#tab2 {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/tab2-.gif) center left no-repeat !important;
+}
+
+.uscMain .uscRow#uscContent #tabContainer .tab.selected#tab2 {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/tab2_selected-.gif) center left no-repeat !important;
+}
+
+.uscMain .uscRow#uscContent #tabContainer .tab#tab16 {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/tab16-.gif) center left no-repeat !important;
+}
+
+.uscMain .searchDiv {
+    background-color: #191919 !important;
+    box-shadow: 0 4px 16px #000000 !important;
+}
+
+.uscMain .searchDiv__content__result .imageHolder {
+    border: 1px solid #0000 !important;
+    background-color: #0000 !important;
+}
+
+.uscMain .searchDiv__search-btn {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/13bc9730f159a4481e7272425ed90ca197941c8e/search_dark_16x16.svg) !important;
+}
+
+.uscMain .usersContainerBlock {
+    border-bottom: 1px solid #424242 !important;
+}
+
+.uscMain .usersContainerBlock .usersContainerBlockBack, .wikiFormCheckBox {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check.gif) center right no-repeat !important;
+}
+
+.uscMain .usersContainerBlock .usersContainerBlockBack.selected, .wikiFormCheckBox.selected {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check_selected.gif) center right no-repeat !important;
+}
+
+.uscMain .usersContainerBlock:hover {
+    background-color:#1e1e1e !important;
+}
+
+.uscMain .uscButton#uscButtonJump {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/jumpButton.gif) center center no-repeat !important;
+}
+
+.uscMain .uscButton#uscButtonJumpBack {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/jumpBackButton.gif) center center no-repeat !important;
+}
+
+.uscMain .uscButton#uscButtonConfirm {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/confirmButton.gif) center center no-repeat !important;
+}
+
+.uscMain .usersContainerBlock .usersContainerBlockFront#usersContainerBlockIco_klas {
+    background: url(https://static2.smart-school.net/smsc/svg/briefcase/briefcase_16x16.svg) center left no-repeat !important;
+}
+
+.uscMain .usersContainerBlock .usersContainerBlockFront#usersContainerBlockIco_1 {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/groupicon_1.gif) center left no-repeat !important;
+}
+
+.uscMain .usersContainerBlock .usersContainerBlockFront#usersContainerBlockIco_2 {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/groupicon_2.gif) center left no-repeat !important;
+}
+
+.uscMain .usersContainerBlock .usersContainerBlockFront#usersContainerBlockIco_3 {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/groupicon_3.gif) center left no-repeat !important;
+}
+
+.uscMain .usersContainerBlock .usersContainerBlockFront#usersContainerBlockIco_4 {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/groupicon_4.gif) center left no-repeat !important;
+}
+
+.uscMain .usersContainerBlock .usersContainerBlockFront#usersContainerBlockIco_5 {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/groupicon_5.gif) center left no-repeat !important;
+}
+
+.uscMain .usersContainerBlock .usersContainerBlockFront#usersContainerBlockIco_6 {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/groupicon_6.gif) center left no-repeat !important;
+}
+
+.uscMain .uscRow#uscContent #uscUsersContainer .uscColumnTop .uscColumnTopBrowse {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/browseUp.gif) center left no-repeat !important;
+}
+
+.uscMain .uscRow#uscContent #uscUsersContainer .uscColumnTop .uscColumnTopCheckAll {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/checkAll.gif) center right no-repeat !important;
+}
+
+/*Toolbar lines and tip*/
+
+smsc-toolbar .smsc-toolbar:not(.smsc-toolbar--empty)::before {
+    border-bottom: 1px solid #414141 !important;
+}
+
+smsc-toolbar .smsc-toolbar::after, smsc-toolbar .smsc-toolbar::before {
+    background: linear-gradient(#414141,#414141) repeat-y !important;
+    background-size: 1px 1px !important;
+    background-position: center !important;
+}
+
+smsc-toolbar .smsc-toolbar:not(.smsc-toolbar--empty)::after {
+    border-top: 1px solid #414141 !important;
+}
+
+/* .smsc-tip--right .smsc-tip__arrow:before {
+    border-color: transparent #414141 !important;
+} */
+
+
+.smsctooltip, .smsc-tip {
+    background-color:#212121 !important;
+    border:1px solid #414141 !important;
+    color:#d9d9d9 !important;
+	border-radius: 3px;
+}
+
+.smscarrow, .smsc-tip__arrow:before {
+    border-right-color: #414141 !important;
+}
+
+.smsc-tip__bubble {	
+    background-color:#212121 !important;
+}
+
+.smsc-tip__arrow:before {
+    border-color: #414141 transparent !important;
+}
+
+.smsc-table__header:hover,.smsc-table__row:hover {
+    background-color:#1e1e1e !important;
+}
+
+.smsc-table__header--nohover:hover,.smsc-table__row--nohover:hover {
+    background-color:transparent !important;
+}
+
+smsc-listview .smsc-table__header tr:hover td:not(.cb-container),smsc-listview table tr:hover td:not(.cb-container) {
+    background-color:#1e1e1e !important;
+}
+
+[toolbar].toolbar__line--bottom, [toolbar] .toolbar__line--bottom, [toolbar].toolbar__line--top, [toolbar] .toolbar__line--top {
+    background: linear-gradient(#414141,#414141) repeat-y !important;
+    background-size: 1px 1px !important;
+    background-position: 50% !important;
+}
+
+[toolbar].toolbar__line--bottom:not(.toolbar__line--no-buttons):before, [toolbar] .toolbar__line--bottom:not(.toolbar__line--no-buttons):before {
+    background-color: #414141 !important;
+}
+
+[toolbar].toolbar__line--top:not(.toolbar__line--no-buttons):after, [toolbar] .toolbar__line--top:not(.toolbar__line--no-buttons):after {
+    background-color: #414141 !important;
+}
+
+.container-textbox-links {
+    border-top: 1px solid #414141 !important;
+}
+
+.category-hdr {
+    border: 1px solid #717171 !important;
+    text-shadow: 0 1px #000 !important;
+    background: #191919 !important;
+    background: -moz-linear-gradient(top,#424242 0,#191919 100%) !important;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#424242),color-stop(100%,#191919)) !important;
+    background: -webkit-linear-gradient(top,#424242 0,#191919 100%) !important;
+    background: -o-linear-gradient(top,#424242 0,#191919 100%) !important;
+    background: -ms-linear-gradient(top,#424242 0,#191919 100%) !important;
+    background: linear-gradient(top,#424242 0,#191919 100%) !important;
+}
+
+
+[textarea]:not([focus-within]):hover:before,[textarea]:not([focus-within])[border-always-visible]:before {
+    border:1px solid #414141 !important;
+    background-color:#1e1e1e !important;
+}
+
+body.modern-ui .smscMain .smsc-container--grey {
+    background-color: #1e1e1e !important;
+}
+
+.modern-ui .smscButton__dropdown {
+    border: 1px solid #414141 !important;
+}
+
+.modern-ui .smscButton__dropdown:before {
+    background-color: #1e1e1e !important;
+    border-left: 1px solid #414141 !important;
+}
+
+.modern-ui .smscButton__dropdown--on-hover {
+    border-color: transparent !important;
+}
+
+.modern-ui .smscButton__dropdown:enabled:hover, .modern-ui .smscButton__dropdown:enabled:active {
+    border-color: #868686 !important;
+}
+
+[textarea]>div[textarea-tinymceinput], [textarea]>textarea {
+    border-color: #868686 !important;
+}
+
+smsc-dialog .smsc-dialog__content {
+    background-color: #232323 !important;
+}
+
+smsc-dialog .smsc-dialog__buttons-container {
+    border-top: 1px solid #414141 !important;
+}
+
+input.minidb__search__input.input-search {
+    background-color: #111 !important;
+}
+
+smsc-contextmenu .smsc-contextmenu__content {
+    background-color: #1b1b1b !important;
+    box-shadow: 0 0.333rem 1.333rem #000000 !important;
+}
+
+smsc-templates {
+    background-color: #1b1b1b !important;
+}
+
+smsc-contextmenu .smsc-contextmenu__arrow--position-bottom:after {
+    border-color: #1b1b1b transparent !important;
+}
+
+button.smsc-templates__linkbutton:hover {
+    background-color: #2f2f2f !important;
+}
+
+tickets-create .hd-createticket__fieldcontent>input[type=text] {
+    border-color: #868686 !important;
+}
+
+.smsc-toolbar.smsc-toolbar--empty.smsc-toolbar--resizable::before {
+    border-bottom: none !important;
+}
+
+.smsc-toolbar.smsc-toolbar--empty.smsc-toolbar--resizable::after {
+    border-top: none !important;
+}
+
+.modern-ui .header {
+    background-image: none !important;
+    border: none !important;
+}
+
+.modern-ui .toolbar-buttons {
+    border: none !important;
+}
+
+.inputForm_main200x110, .colorPickerContainer {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/popup200x110.png) !important;
+}
+
+.inputForm_main550x300 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/popup550x300.png) !important;
+}
+
+.inputForm_main600x440, .wikiForm {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/popup600x440.png) !important;
+}
+
+.inputForm_main600x550 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/popup600x550.png) !important;
+}
+
+.tabs li {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/tab_bg.gif) left top no-repeat !important;
+}
+
+.tabs .current span {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/tab_sel_end.gif) right top no-repeat !important;
+}
+
+.tabs span {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/tab_end.gif) right top no-repeat !important;
+}
+
+.tabs {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/tabs_bg.gif) !important;
+}
+
+.tabs li.current {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/tab_sel_bg.gif) left top no-repeat !important;
+}
+
+.inputForm_close600x550, .inputForm_close600x440, .inputForm_close550x300, .inputForm_close200x110, .window_rightButton, .colorPicker-close, .wikiFormClose {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/close.png) !important;
+}
+
+.wborder {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/windowCorners_new.png) !important;
+}
+
+.wborder.wcentery.wtopy {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/2wborder-top.png) !important;
+}
+
+.wborder.wleftxy {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/2wborder-left.png) !important;
+}
+
+.wborder.wrightxy {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/2wborder-right.png) !important;
+}
+
+.wborder.wcentery.wbottomy {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/2wborder-bottom.png) !important;
+}
+
+.wborder.wcenterxy_r {
+    background-image: none !important;
+    background-color: #252525 !important;
+    color: #c9c9c9 !important;
+}
+
+.window_leftTitle {
+    color: #c9c9c9 !important;
+}
+
+.printWindowTitle, .printWindowTitle2 {
+    color: #a0a0a0 !important;
+}
+
+.smscselect {
+    background:-moz-linear-gradient(top,#292929 0,#111 100%) !important;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#292929),color-stop(100%,#111)) !important;
+    background:-webkit-linear-gradient(top,#292929 0,#111 100%) !important;
+    background:-o-linear-gradient(top,#292929 0,#111 100%) !important;
+    background:-ms-linear-gradient(top,#292929 0,#111 100%) !important;
+    background:linear-gradient(to bottom,#292929 0,#111 100%) !important;
+    border:1px solid #868686
+}
+
+.smscselect:before {
+    filter: contrast(7) !important;
+}
+
+.smscselect.disabled {
+    color:#414141 !important
+}
+
+.smscselect_dropdown {
+    background:#181818 !important;
+}
+
+.smscselect_dropdown ul .smscselect_dropdown_item.selected:before {
+    filter: invert(1) !important;
+}
+
+.smscselect_dropdown ul .smscselect_dropdown_item:hover.selected:before {
+    filter: invert(1) !important;
+}
+
+.smsc-topnav [data-courses] .course-btnbar[aria-busy=true] {
+    border: none !important;
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/spinner_ios_greytransp_16x16.gif) !important;
+}
+
+.modern-ui .smsc-topnav [aria-busy=true], .smsc-topnav [aria-busy=true] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/spinner_ios_greytransp_32x32.gif) !important;
+}
+
+.smsc-topnav [data-courses] .course-btnbar:last-child {
+    border-right: none !important;
+}
+
+smsc-dialog .smsc-dialog__bottom--loading>button:first-of-type::before--x-small, smsc-dialog .smsc-dialog__bottom--loading>button:first-of-type::before--x-small.loading--important, .loading--x-small, .loading--x-small.loading--important {
+    background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/5a907694e331f111a58aae4766df9cb9abc9cd93/spinner_16x16.svg) !important;
+}
+
+smsc-dialog .smsc-dialog__bottom--loading>button:first-of-type::before--small, smsc-dialog .smsc-dialog__bottom--loading>button:first-of-type::before--small.loading--important, .loading--small, .loading--small.loading--important {
+    background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/5a907694e331f111a58aae4766df9cb9abc9cd93/spinner_24x24.svg) !important;
+}
+
+smsc-dialog .smsc-dialog__bottom--loading>button:first-of-type::before--medium, smsc-dialog .smsc-dialog__bottom--loading>button:first-of-type::before--medium.loading--important, smsc-preview .smsc-preview__loader, .loading--medium {
+    background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/5a907694e331f111a58aae4766df9cb9abc9cd93/spinner_32x32.svg) !important;
+}
+
+smsc-dialog .smsc-dialog__bottom--loading>button:first-of-type::before--large, smsc-dialog .smsc-dialog__bottom--loading>button:first-of-type::before--large.loading--important, .loading--large, .loading--large.loading--important, .loading--large {
+    background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/5a907694e331f111a58aae4766df9cb9abc9cd93/spinner_48x48.svg) !important;
+}
+
+smsc-dialog .smsc-dialog__bottom--loading>button:first-of-type::before--x-large, smsc-dialog .smsc-dialog__bottom--loading>button:first-of-type::before--x-large.loading--important, .loading--x-large, .loading--x-large.loading--important {
+    background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/5a907694e331f111a58aae4766df9cb9abc9cd93/spinner_64x64.svg) !important;
+}
+
+[alt="loading..."] {
+    content: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/spinner_64x64.svg) !important;
+}
+
+div.tree-classic ul li a.loading ins {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/throbber.gif)!important;
+}
+
+.tree-classic li.open {
+    background: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/icons.png) -32px -48px no-repeat !important;
+}
+
+.tree-classic li {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/icons.png) !important;
+}
+
+.tree-classic ul {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/dot.gif) !important;
+}
+
+smsc-dialog .smsc-dialog__close-button {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/x_tiny_black_16x16.png) !important;
+}
+
+smsc-dialog .smsc-dialog__close-button:hover {
+    background-image:url(https://static2.smart-school.net/smsc/img/x_tiny_red/x_tiny_red_16x16.png) !important
+}
+
+button.button-close-svg:active .close-icon-svg path {stroke: #930000 !important; stroke-width: 1 !important}
+
+.fancybox-error {
+    color: #bbbbbb !important
+}
+
+.fileimg img[src="https://static2.smart-school.net/modules/Uploadzone/themes/default/images/page.gif"] {
+    content: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/page.gif)
+}
+
+
+
+/*Buttons - Modern UI*/
+
+    /*smscButton*/
+    .modern-ui .smscButton {
+        color: #d9d9d9 !important;
+        border: 1px solid #414141 !important;
+        background-color: #111 !important;
+    }
+
+    .modern-ui .smscButton:hover:not([disabled]) {
+        text-decoration:none !important;
+        background-color:#1e1e1e !important;
+    }
+
+    .modern-ui .smscButton:enabled:active {
+        background-color:#414141 !important;
+    }
+
+    .modern-ui .smscButton.active {
+        background-color:#414141 !important;
+    }
+
+    /*smscButton blue*/
+    .modern-ui .smscButton.blue {
+        border-color: #184cbf !important;
+        background-color: #184cbf !important;
+    }
+
+    .modern-ui .smscButton.blue.active,.modern-ui .smscButton.blue:enabled:active {
+        border-color:#183064 !important;
+        background-image:none !important;
+        background-color:#183064 !important;
+    }
+
+    .modern-ui .smscButton.blue:hover:not([disabled]) {
+        border-color:#244899 !important;
+        background-color:#244899 !important;
+    }
+
+    /*smscButton red*/
+    .modern-ui .smscButton.red {
+        border-color:#e30000 !important;
+        background-color:#e30000 !important;
+    }
+    
+    .modern-ui .smscButton.red.active,.modern-ui .smscButton.red:enabled:active {
+        border-color:#8e0000 !important;
+        background-image:none !important;
+        background-color:#8e0000 !important;
+    }
+    
+    .modern-ui .smscButton.red:hover:not([disabled]) {
+        border-color:#c50000 !important;
+        background-color:#c50000 !important;
+    }
+
+
+
+    /*smscButton*/
+    .smscButton, .btn.btn {background: none !important;background-color: #111 !important;border: 1px solid #414141 !important;color: #d9d9d9 !important}
+    .smscButton:enabled:active, .btn.btn:enabled:active {background-color: #414141 !important;}
+    .smscButton.active, .btn.btn:active {background-color: #414141 !important;}
+    .smscButton:hover:not([disabled]), .btn.btn:hover:not([disabled]) {background-color: #1e1e1e !important;color: #d9d9d9 !important;text-decoration: none !important;}
+
+    /*smscButton blue*/
+    .smscButton.blue, .btn.btn--primary {border-color: #184cbf !important;background-color: #184cbf !important;}
+    .smscButton.blue:enabled:active, .btn.btn--primary:enabled:active {border-color: #183064 !important;background-color: #183064 !important;}
+    .smscButton.blue.active, .btn.btn--primary:active {border-color: #183064 !important;background-color: #183064 !important;}
+    .smscButton.blue:hover, .btn.btn--primary:hover:not([disabled]) {border-color: #244899 !important;background-color: #244899 !important;}
+
+    /*smscButton red*/
+    .smscButton.red, .btn.btn--danger {border-color: #aa0000 !important;background-color: #aa0000 !important;}
+    .smscButton.red:enabled:active, .btn.btn--danger:enabled:active {border-color: #6a0000 !important;background-color: #6a0000 !important;}
+    .smscButton.red.active, .btn.btn--danger:active {border-color: #6a0000 !important;background-color: #6a0000 !important;}
+    .smscButton.red:hover, .btn.btn--danger:hover:not([disabled]) {border-color: #930000 !important;background-color: #930000 !important;}
+
+    /*smscButton green*/
+    .smscButton.green, .btn.btn--success {border-color: #3d8300 !important;background-color: #3d8300 !important;}
+    .smscButton.green:enabled:active, .btn.btn--success:enabled:active {border-color: #265300 !important;background-color: #265300 !important;}
+    .smscButton.green.active, .btn.btn--success:active {border-color: #265300 !important;background-color: #265300 !important;}
+    .smscButton.green:hover, .btn.btn--success:hover:not([disabled]) {border-color: #336f00 !important;background-color: #336f00 !important;}
+
+    /*btn-warning*/
+    .btn.btn--warning {border-color: #edbd00 !important;background-color: #edbd00 !important; color: #262626 !important}
+    .btn.btn--warning:enabled:active {border-color: #775e00 !important;background-color: #775e00 !important;color: #fff !important}
+    .btn.btn--warning:active {border-color: #775e00 !important;background-color: #775e00 !important;color: #fff !important}
+    .btn.btn--warning:hover:not([disabled]) {border-color: #c79f00 !important;background-color: #c79f00 !important;color: #262626 !important}
+
+    /*btn-neutral*/
+    .btn.btn--neutral {border-color: #475f78 !important;background-color: #475f78 !important;}
+    .btn.btn--neutral:enabled:active {border-color: #171e26 !important;background-color: #171e26 !important;}
+    .btn.btn--neutral:active {border-color: #171e26 !important;background-color: #171e26 !important;}
+    .btn.btn--neutral:hover:not([disabled]) {border-color: #253340 !important;background-color: #253340 !important;}
+
+/*jQuery button*/
+
+.ui-button, .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, html .ui-button.ui-state-disabled:active, html .ui-button.ui-state-disabled:hover {
+    border: 1px solid #474747 !important;
+    background: #1a1a1a !important;
+    color: #bababa !important;
+}
+
+.ui-button,.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited,a.ui-button,a:link.ui-button,a:visited.ui-button {
+    color:#bababa !important;
+}
+
+.ui-button:focus,.ui-button:hover,.ui-state-focus,.ui-state-hover,.ui-widget-content .ui-state-focus,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-focus,.ui-widget-header .ui-state-hover {
+    border:1px solid #414141 !important;
+    background:#414141 !important;
+    color:#d4d4d4 !important;
+}
+
+.ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited,.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,a.ui-button:focus,a.ui-button:hover {
+    color:#d4d4d4 !important;
+}
+
+.ui-visual-focus {
+    box-shadow:0 0 3px 1px #2e78b8 !important;
+}
+
+.ui-button.ui-state-active:hover,.ui-button:active,.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active,a.ui-button:active {
+    border:1px solid #003eff !important;
+    background:#007fff !important;
+    color:#FFF !important;
+}
+
+.ui-icon-background,.ui-state-active .ui-icon-background {
+    border:#003eff !important;
+    background-color:#FFF !important;
+}
+
+/*Receiverspan*/
+.receiverSpan.user {
+    color: #eafcea !important;
+    border-color: #177018 !important;
+    background-color: #0d450e !important;
+}
+
+.receiverSpan.group {
+    color: #e6f5ff !important;
+    border-color: #074b7e !important;
+    background-color: #022e4d !important;
+}
+
+.receiverSpan.class {
+    color: #fffce8 !important;
+    border-color: #987900 !important;
+    background-color: #4d4409 !important;
+}
+
+.receiverSpan.mygroup {
+    color: #ffe6e6 !important;
+    border-color: #7f0000 !important;
+    background-color: #4d0000 !important;
+}
+
+.receiverSpan.sgrgroup {
+    color: #eeebff !important;
+    border-color: #1600a2 !important;
+    background-color: #190f4d !important;
+}
+
+
+/*smscMainBlockContainer*/
+
+#smscMainBlockContainer {
+    background-color: #111 !important;
+    border: 1px solid #343434 !important;
+    box-shadow: -1px -1px 1px #757575 !important;
+}
+
+.smscAdminNav_body .smscAdminNav_body_link a {
+    color: #d9d9d9 !important;
+}
+
+.smscFrameTitleContainer .smscFrameTitle, .contentFrametitle {
+    background: #171717 !important;
+    background: -moz-linear-gradient(top,#303030 0,#171717 47%,#303030 100%) !important;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#303030),color-stop(47%,#171717),color-stop(100%,#303030)) !important;
+    background: -webkit-linear-gradient(top,#303030 0,#171717 47%,#303030 100%) !important;
+    background: linear-gradient(to bottom,#303030 0,#171717 47%,#303030 100%) !important;
+    border: 1px solid #676767 !important;
+    box-shadow: 1px 2px 5px #000 !important;
+}
+
+/*smscLeftnav*/
+
+#smscleftnav .smscleftnavcontainer {
+    background-color: #111 !important;
+    border: 1px solid #343434 !important;
+    box-shadow: -1px -1px 1px #757575 !important;
+}
+
+.smsc-column-nav__button, .smsc-column-nav__button:hover {
+    color: #d9d9d9 !important;
+}
+
+/*Dialog*/
+
+[dialog-content] {
+    background-color: #232323 !important;
+    border: 1px solid #414141 !important;
+}
+
+[dialog-content] .dialog__button-bar {
+    border-top: 1px solid #414141 !important;
+}
+
+/*Cards*/
+
+.card__container {
+    color: #d9d9d9 !important;
+    box-shadow: 0 6px 24px -1px hsla(0, 0%, 0%, 0.302) !important;
+    background-color: #222 !important;
+}
+
+.card {
+    color: #d9d9d9 !important;
+    box-shadow: 0 6px 24px -1px hsla(0, 0%, 0%, 0.302) !important;
+    background-color: #222 !important;
+}
+
+.card__content{height:80px}.card:hover {
+    color:#d9d9d9 !important;
+    box-shadow:0 6px 32px hsla(0, 0%, 0%, 0.75) !important;
+}
+
+.card__image {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/school-stuff4.png) !important;}
+
+    /*Card-colors*/
+    .c-red-combo--100,.c-red-combo-hover--100{color:#fe7878 !important;border-color:#d20000 !important;background-color:#960000 !important}
+    .c-red-combo--200,.c-red-combo-hover--100:hover{color:#fe7878 !important;border-color:#d20000 !important;background-color:#840000 !important}
+    .c-red-combo--300,.c-red-combo-hover--300{color:#222 !important;background-color:#720000 !important}
+    .c-red-combo--500,.c-red-combo-hover--300:hover,.c-red-combo-hover--500{color:#222 !important;background-color:#4f0000 !important}
+    .c-red-combo--700,.c-red-combo-hover--500:hover{color:#222 !important;background-color:#330000 !important}
+    
+    .c-brown-combo--100,.c-brown-combo-hover--100{color:#fcbc75 !important;border-color:#925410 !important;background-color:#774c1c !important}
+    .c-brown-combo--200,.c-brown-combo-hover--100:hover{color:#fcbc75 !important;border-color:#925410 !important;background-color:#64411a !important}
+    .c-brown-combo--300{color:#fcbc75 !important;background-color:#513617 !important}
+    .c-brown-combo--500,.c-brown-combo-hover--500{color:#222 !important;background-color:#371f06 !important}
+    .c-brown-combo--700,.c-brown-combo-hover--500:hover{color:#222 !important;background-color:#251402 !important}
+    
+    .c-orange-combo--100,.c-orange-combo-hover--100{color:#feb278 !important;border-color:#e15a00 !important;background-color:#963c00 !important}
+    .c-orange-combo--200,.c-orange-combo-hover--100:hover{color:#feb278 !important;border-color:#e15a00 !important;background-color:#813900 !important}
+    .c-orange-combo--300{color:#feb278 !important;background-color:#713200 !important}
+    .c-orange-combo--500,.c-orange-combo-hover--500{color:#222 !important;background-color:#542100 !important}
+    .c-orange-combo--700,.c-orange-combo-hover--500:hover{color:#222 !important;background-color:#331601 !important}
+
+    .c-tangerine-combo--100,.c-tangerine-combo-hover--100{color:#fec778 !important;border-color:#d37900 !important;background-color:#965a00 !important}
+    .c-tangerine-combo--200,.c-tangerine-combo-hover--100:hover{color:#fec778 !important;border-color:#d37900 !important;background-color:#844e00 !important}
+    .c-tangerine-combo--300{color:#fec778 !important;background-color:#724300 !important}
+    .c-tangerine-combo--500,.c-tangerine-combo-hover--500{color:#fec778 !important;background-color:#4f2d00 !important}
+    .c-tangerine-combo--700,.c-tangerine-combo-hover--500:hover{color:#222 !important;background-color:#331e00 !important}
+    
+    .c-yellow-combo--100,.c-yellow-combo-hover--100{color:#f1e389 !important;border-color:#fac700 !important;background-color:#968300 !important}
+    .c-yellow-combo--200,.c-yellow-combo-hover--100:hover{color:#f1e389 !important;border-color:#fac700 !important;background-color:#877300 !important}
+    .c-yellow-combo--300{color:#f1e389 !important;background-color:#796400 !important}
+    .c-yellow-combo--500,.c-yellow-combo-hover--500{color:#f1e389 !important;background-color:#5e4b00 !important}
+    .c-yellow-combo--700,.c-yellow-combo-hover--500:hover{color:#f1e389 !important;background-color:#41370b !important}
+
+    .c-grass-combo--100,.c-grass-combo-hover--100{color:#d2f189 !important;border-color:#9ad514 !important;background-color:#679700 !important}
+    .c-grass-combo--200,.c-grass-combo-hover--100:hover{color:#d2f189 !important;border-color:#9ad514 !important;background-color:#5c8303 !important}
+    .c-grass-combo--300{color:#d2f189 !important;background-color:#517105 !important}
+    .c-grass-combo--500,.c-grass-combo-hover--500{color:#222 !important;background-color:#3a5007 !important}
+    .c-grass-combo--700,.c-grass-combo-hover--500:hover{color:#222 !important;background-color:#2d3d0b !important}
+
+    .c-green-combo--100,.c-green-combo-hover--100{color:#8fe990 !important;border-color:#26ba28 !important;background-color:#128312 !important}
+    .c-green-combo--200,.c-green-combo-hover--100:hover{color:#8fe990 !important;border-color:#26ba28 !important;background-color:#0f760f !important}
+    .c-green-combo--300{color:#8fe990 !important;background-color:#106511 !important}
+    .c-green-combo--500,.c-green-combo-hover--500{color:#222 !important;background-color:#0e450f !important}
+    .c-green-combo--700,.c-green-combo-hover--500:hover{color:#222 !important;background-color:#0e370e !important}
+
+    .c-olive-combo--100,.c-olive-combo-hover--100{color:#92f578 !important;border-color:#236a10 !important;background-color:#39662c !important}
+    .c-olive-combo--200,.c-olive-combo-hover--100:hover{color:#92f578 !important;border-color:#236a10 !important;background-color:#305227 !important}
+    .c-olive-combo--300{color:#92f578 !important;background-color:#274020 !important}
+    .c-olive-combo--500,.c-olive-combo-hover--500{color:#222 !important;background-color:#0d2706 !important}
+    .c-olive-combo--700,.c-olive-combo-hover--500:hover{color:#222 !important;background-color:#081a03 !important}
+    
+    .c-mint-combo--100,.c-mint-combo-hover--100{color:#9ce0c0 !important;border-color:#29d783 !important;background-color:#0f884b !important}
+    .c-mint-combo--200,.c-mint-combo-hover--100:hover{color:#9ce0c0 !important;border-color:#29d783 !important;background-color:#0e7b48 !important}
+    .c-mint-combo--300{color:#9ce0c0 !important;background-color:#0e6d3f !important}
+    .c-mint-combo--500,.c-mint-combo-hover--500{color:#9ce0c0 !important;background-color:#0f5131 !important}
+    .c-mint-combo--700,.c-mint-combo-hover--500:hover{color:#222 !important;background-color:#0b2217 !important}
+    
+    .c-aqua-combo--100,.c-aqua-combo-hover--100{color:#78e0ff !important;border-color:#0094ba !important;background-color:#057390 !important}
+    .c-aqua-combo--200,.c-aqua-combo-hover--100:hover{color:#78e0ff !important;border-color:#0094ba !important;background-color:#06637d !important}
+    .c-aqua-combo--300{color:#78e0ff !important;background-color:#075368 !important}
+    .c-aqua-combo--500,.c-aqua-combo-hover--500{color:#78e0ff !important;background-color:#003746 !important}
+    .c-aqua-combo--700,.c-aqua-combo-hover--500:hover{color:#222 !important;background-color:#00252f !important}
+    
+    .c-blue-combo--100,.c-blue-combo-hover--100{color:#01253f !important;border-color:#0c7dd0 !important;background-color:#005a96 !important}
+    .c-blue-combo--200,.c-blue-combo-hover--100:hover{color:#01253f !important;border-color:#0c7dd0 !important;background-color:#004d85 !important}
+    .c-blue-combo--300{color:#01253f !important;background-color:#014273 !important}
+    .c-blue-combo--500,.c-blue-combo-hover--500{color:#222 !important;background-color:#042f4e !important}
+    .c-blue-combo--700,.c-blue-combo-hover--500:hover{color:#222 !important;background-color:#031e32 !important}
+    
+    .c-violet-combo--100,.c-violet-combo-hover--100{color:#a092e9 !important;border-color:#2f0dff !important;background-color:#160097 !important}
+    .c-violet-combo--200,.c-violet-combo-hover--100:hover{color:#a092e9 !important;border-color:#2f0dff !important;background-color:#150089 !important}
+    .c-violet-combo--300{color:#FFF !important;background-color:#12007c !important}
+    .c-violet-combo--500,.c-violet-combo-hover--500{color:#222 !important;background-color:#0e0064 !important}
+    .c-violet-combo--700,.c-violet-combo-hover--500:hover{color:#222 !important;background-color:#110c33 !important}
+    
+    .c-purple-combo--100,.c-purple-combo-hover--100{color:#bf9edc !important;border-color:#7b38ba !important;background-color:#4b1b7b !important}
+    .c-purple-combo--200,.c-purple-combo-hover--100:hover{color:#bf9edc !important;border-color:#7b38ba !important;background-color:#46196f !important}
+    .c-purple-combo--300{color:#bf9edc !important;background-color:#3d1860 !important}
+    .c-purple-combo--500,.c-purple-combo-hover--500{color:#222 !important;background-color:#2e1546 !important}
+    .c-purple-combo--700,.c-purple-combo-hover--500:hover{color:#222 !important;background-color:#1e102a !important}
+    
+    .c-lavender-combo--100,.c-lavender-combo-hover--100{color:#dd9ce0 !important;border-color:#ce28d7 !important;background-color:#810f88 !important}
+    .c-lavender-combo--200,.c-lavender-combo-hover--100:hover{color:#dd9ce0 !important;border-color:#ce28d7 !important;background-color:#760e7b !important}
+    .c-lavender-combo--300{color:#dd9ce0 !important;background-color:#680e6d !important}
+    .c-lavender-combo--500,.c-lavender-combo-hover--500{color:#222 !important;background-color:#4d0e51 !important}
+    .c-lavender-combo--700,.c-lavender-combo-hover--500:hover{color:#222 !important;background-color:#2c0f2e !important}
+    
+    .c-pink-combo--100,.c-pink-combo-hover--100{color:#f287c0 !important;border-color:#f8007c !important;background-color:#960055 !important}
+    .c-pink-combo--200,.c-pink-combo-hover--100:hover{color:#f287c0 !important;border-color:#f8007c !important;background-color:#870048 !important}
+    .c-pink-combo--300{color:#FFF !important;background-color:#78003f !important}
+    .c-pink-combo--500,.c-pink-combo-hover--500{color:#222 !important;background-color:#5d002e !important}
+    .c-pink-combo--700,.c-pink-combo-hover--500:hover{color:#222 !important;background-color:#33071e !important}
+    
+    .c-silver-combo--100,.c-silver-combo-hover--100{color:#c5c5c5 !important;border-color:#212121 !important;background-color:#414141 !important}
+    .c-silver-combo--200,.c-silver-combo-hover--100:hover{color:#c5c5c5 !important;border-color:#b6b6b6 !important;background-color:#4b4b4b !important}
+    .c-silver-combo--300{color:#c5c5c5 !important;background-color:#494949 !important}
+    .c-silver-combo--500,.c-silver-combo-hover--500{color:#FFF !important;background-color:#444444 !important}
+    .c-silver-combo--700,.c-silver-combo-hover--500:hover{color:#FFF !important;background-color:#303030 !important}
+    
+    .c-steel-combo--100,.c-steel-combo-hover--100{color:#b9c3cd !important;border-color:#708397 !important;background-color:#405058 !important}
+    .c-steel-combo--200,.c-steel-combo-hover--100:hover{color:#b9c3cd !important;border-color:#708397 !important;background-color:#394452 !important}
+    .c-steel-combo--300{color:#FFF !important;background-color:#343e49 !important}
+    .c-steel-combo--500,.c-steel-combo-hover--500{color:#FFF !important;background-color:#293139 !important}
+    .c-steel-combo--700,.c-steel-combo-hover--500:hover{color:#222 !important;background-color:#191d22 !important}
+    
+    .c-black-combo--100,.c-black-combo-hover--100{color:#b6b6b6 !important;border-color:#666 !important;background-color:#484848 !important}
+    .c-black-combo--200,.c-black-combo-hover--100:hover{color:#b6b6b6 !important;border-color:#666 !important;background-color:#393939 !important}
+    .c-black-combo--300{color:#222 !important;background-color:#1b1b1b !important}
+    .c-black-combo--500,.c-black-combo-hover--500{color:#222 !important;background-color:#0c0c0c !important}
+    .c-black-combo--700,.c-black-combo-hover--500:hover{color:#222 !important;background-color:#060606 !important}
+
+/*msg-bubble*/
+.msg--bubble-steel-shadow.msg--info{color:#eff2f4 !important;background-color:#353f49 !important;}
+.msg--bubble--blue{color:#b0deff !important;border-color:#1b96f1 !important;background-color:#022e4d !important}
+.msg--bubble--red{color:#ffacac !important;border-color:red !important;background-color:#4d0000 !important}
+.msg--bubble--green{color:#bcf6bc !important;border-color:#3bd63d !important;background-color:#0d450e !important}
+.msg--bubble--yellow{color:#fff4b7 !important;border-color:#ffd531 !important;background-color:#4d4409 !important}
+.msg--bubble--steel{color:#f4f6f7 !important;border-color:#91a0af !important;background-color:#343f49 !important}
+.msg--bubble-steel-shadow.msg--info{color:#f4f6f7 !important;background-color:#343f49 !important;border:transparent !important}
+
+.msg--black{color:#d9d9d9 !important}
+.msg--bubble-info{color:#cbd9f8 !important;border:1px solid #12398e !important;background-color:#0b2254 !important}
+.msg--bubble-danger{color:#ff8787 !important;border:1px solid #630000 !important;background-color:#210000 !important}
+.msg--bubble-warning{color:#ffeda3 !important;border:1px solid #806600 !important;background-color:#3d3100 !important}
+.msg--bubble-success{color:#baf39d !important;border:1px solid #28610c !important;background-color:#102605 !important}
+
+/*Upload_frame*/
+
+body.modern-ui #smscMain.smscMain--main.modUpload--in-iframe {
+    margin: 12px !important;
+}
+
+.modern-ui smsc-tabs .smsc-tabslist:before {
+    border-color: #414141 !important;
+}
+
+smsc-tabs .smsc-tabslist:before {
+    border-bottom: 1px solid #606060 !important;
+}
+
+.modern-ui smsc-tabs .smsc-tabslist__item {
+    background: #1e1e1e !important;
+    border-color: #414141 !important;
+    box-shadow: 0 3px 3px rgb(0 0 0) !important;
+}
+
+smsc-tabs .smsc-tabslist__item {
+    text-shadow: 0 1px #000 !important;
+}
+
+.modern-ui smsc-tabs .smsc-tabslist__item:before {
+    box-shadow: 2px 2px 0 #1e1e1e !important;
+}
+
+.modern-ui smsc-tabs .smsc-tabslist__item:after, .modern-ui smsc-tabs .smsc-tabslist__item:before {
+    border-color: #414141 !important;
+}
+
+smsc-tabs .smsc-tabslist__item:after, smsc-tabs .smsc-tabslist__item:before {
+    border: 1px solid #606060 !important;
+}
+
+smsc-tabs .smsc-tabslist__item a {
+    color: #bfbfbf !important;
+}
+
+smsc-tabs .smsc-tabslist__item--active a {
+    color: #ff520e !important;
+}
+
+.modern-ui smsc-tabs .smsc-tabslist__item:after {
+    box-shadow: -2px 2px 0 #1e1e1e !important;
+}
+
+.modern-ui smsc-tabs .smsc-tabslist__item:after, .modern-ui smsc-tabs .smsc-tabslist__item:before {
+    border-color: #414141 !important;
+}
+
+smsc-tabs .smsc-tabslist__item:after, smsc-tabs .smsc-tabslist__item:before {
+    border: 1px solid #606060 !important;
+}
+
+.modern-ui smsc-tabs .smsc-tabslist__item--active:after {
+    box-shadow: -2px 2px 0 #111 !important;
+}
+
+smsc-tabs .smsc-tabslist__item:before {
+    border-width: 0 1px 1px 0 !important;
+}
+
+smsc-tabs .smsc-tabslist__item:after {
+    border-width: 0 0 1px 1px !important;
+}
+
+.modern-ui smsc-tabs .smsc-tabslist__item--active {
+    background: #111 !important;
+    border-bottom-color: #111 !important;
+}
+
+.modern-ui smsc-tabs .smsc-tabslist__item--active:before {
+    box-shadow: 2px 2px 0 #111 !important;
+}
+
+.smsc-table__row.smsc-table__row--nohover.smsc-table__row--noborder {
+    border-bottom: none !important;
+}
+
+smsc-tree .smsc-treeitem__label {
+    color: #d9d9d9 !important;
+}
+
+smsc-tree .smsc-treeitem__dummy-checkbox {
+    filter: invert(1) !important;
+}
+
+upload-mycomp .smsc-table__empty {
+    border: 2px dashed #414141 !important;
+}
+
+upload-mycomp .drag-container--dragging {
+    border-color: #2863e3 !important
+}
+
+upload-mycomp .add-btn {
+    color: #278dd7 !important;
+}
+
+body.modern-ui #smscMain .smsc-container__buttonbar {
+    border-top: 1px solid #414141 !important;
+}
+
+.smartHoofdtekst {
+    color: #FFF !important;
+}
+
+.loading--x-large {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/e6a618a2502988d1af3472f1b96bed7612b92a38/spinner_64x64.svg) !important;
+}
+
+smsc-preview .smsc-preview__loader {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/e6a618a2502988d1af3472f1b96bed7612b92a38/spinner_24x24.svg) !important;
+}
+
+#fancybox-loading {
+    filter: invert(1);
+}
+
+#sendLoading.loading {filter: invert(1) contrast(0.87);}
+
+.loading--x-small{background-repeat:no-repeat;background-position:50%;background-size:16px 16px;min-width:16px;min-height:16px;background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/e6a618a2502988d1af3472f1b96bed7612b92a38/spinner_16x16.svg) !important}
+.loading--x-small.loading--important{background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/e6a618a2502988d1af3472f1b96bed7612b92a38/spinner_16x16.svg)!important}
+.loading--small{background-repeat:no-repeat;background-position:50%;background-size:24px 24px;min-width:24px;min-height:24px;background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/e6a618a2502988d1af3472f1b96bed7612b92a38/spinner_24x24.svg) !important}
+.loading--small.loading--important{background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/e6a618a2502988d1af3472f1b96bed7612b92a38/spinner_24x24.svg)!important}
+.loading--medium{background-repeat:no-repeat;background-position:50%;background-size:32px 32px;min-width:32px;min-height:32px;background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/e6a618a2502988d1af3472f1b96bed7612b92a38/spinner_32x32.svg) !important}
+.loading--medium.loading--important{background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/e6a618a2502988d1af3472f1b96bed7612b92a38/spinner_32x32.svg)!important}
+.loading--large{background-repeat:no-repeat;background-position:50%;background-size:48px 48px;min-width:48px;min-height:48px;background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/e6a618a2502988d1af3472f1b96bed7612b92a38/spinner_48x48.svg) !important}
+.loading--large.loading--important{background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/e6a618a2502988d1af3472f1b96bed7612b92a38/spinner_48x48.svg)!important}
+.loading--x-large{background-repeat:no-repeat;background-position:50%;background-size:64px 64px;min-width:64px;min-height:64px;background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/e6a618a2502988d1af3472f1b96bed7612b92a38/spinner_64x64.svg) !important}
+.loading--x-large.loading--important{background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/e6a618a2502988d1af3472f1b96bed7612b92a38/spinner_64x64.svg)!important}
+
+.templatebuttons>a, .templatebuttons>a:hover {
+    color: #0f80e1 !important;
+}
+
+/*Color Rows*/
+
+.warning_row {
+    color: #fee996 !important;
+    border: 1px solid #837025 !important;
+    background: #403300 !important
+}
+
+/*input buttons*/
+
+smsc-inlineeditor .smsc-inlineeditor__editor .smsc-inlineeditor__input__buttons,smsc-inlineeditor .smsc-inlineeditor__editor input.smsc-inlineeditor__input__buttons{
+    background-color:#1e1e1e !important;
+    border:1px solid #797979 !important;
+}
+
+smsc-inlineeditor .smsc-inlineeditor__button {
+    background-color: #1e1e1e !important;
+}
+
+smsc-inlineeditor .smsc-inlineeditor__button:first-child {
+    border-right: 1px solid #797979 !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+smsc-inlineeditor .smsc-inlineeditor__button:last-child {
+    border-bottom-right-radius: 4px !important;
+}
+
+/*Pseudo*/
+
+::-webkit-scrollbar-thumb {
+    background-color: hsla(0, 0%, 100%, 0.20) !important;
+    box-shadow: 0 0 1px hsl(0deg 0% 0% / 50%) !important;
+    -webkit-box-shadow: 0 0 1px hsl(0deg 0% 0% / 50%) !important;
+}
+
+::selection {
+    background: #054491 !important;
+    color: white !important;
+}
+
+/* Date picker */
+
+.dates__content .date span {
+    background-color: #212121 !important;
+}
+
+.dates__content .date--selected span {
+    border-color: #414141 !important;
+    background-color: #303030 !important;
+}
+
+.dates__content .date:hover span {
+    background-color: #4c4c4c !important;
+}
+
+.datepicker .datepicker__block .header input[type="number"]:hover {
+    color-scheme: dark !important;
+}
+
+[bubble].bubble .bubble__arrow svg polyline {
+	fill: #212121 !important;
+	stroke: #414141 !important;
+}

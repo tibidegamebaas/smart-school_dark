@@ -1,0 +1,236 @@
+/*News*/
+
+.smsc_cm_no_items#nownews {
+    background-image: url(https://static2.smart-school.net/smsc/svg/star_yellow/star_yellow_24x24.svg) !important;
+    background-size: 64px !important;
+}
+
+.smsc_cm_body_row_block[style="background-image:url('/themes/default/icons/star_yellow_32x32.png');"] {
+    background-image: url(https://static2.smart-school.net/smsc/svg/star_yellow/star_yellow_24x24.svg) !important;
+    background-size: 32px !important;
+}
+
+.smsc_cm_body_row {
+    border-bottom: none !important;
+    border-top: 1px solid #484848 !important;
+}
+
+.smsc_cm_body_row_block.weblink {
+    background-image: url(https://static2.smart-school.net/smsc/svg/earth_location/earth_location_24x24.svg) !important;
+    background-size: 32px !important;
+}
+
+.smsc_cm_no_items#noweblinks {
+    background-image: url(https://static2.smart-school.net/smsc/svg/earth_location/earth_location_24x24.svg) !important;
+    background-size: 64px !important;
+}
+
+.smsc-column-nav__button--tasks {
+    background-image: url(https://static2.smart-school.net/smsc/svg/briefcase2_document/briefcase2_document_24x24.svg) !important;
+}
+
+.smsc_cm_no_items#notasks {
+    background-image: url(https://static2.smart-school.net/smsc/svg/briefcase2_document/briefcase2_document_24x24.svg) !important;
+    background-size: 64px !important;
+}
+
+.smsc_cm_no_items#noexercises {
+    background-image: url(https://static2.smart-school.net/smsc/svg/dot-chart/dot-chart_24x24.svg) !important;
+    background-size: 64px !important;
+}
+
+.smsc_cm_body .smsc_cm_no_items .lpaths_no_items_image {
+    background-image: url(https://static2.smart-school.net/smsc/svg/step/step_24x24.svg) !important;
+    background-size: 64px !important;
+}
+
+#uploadzone img[src="https://static4.smart-school.net/smsc/img/uz_module_icon/uz_module_icon_128x128.png"] {
+    content: url(https://static2.smart-school.net/smsc/svg/uz_module_icon/uz_module_icon_24x24.svg) !important;
+    width: 128px !important;
+    height: 128px !important;
+}
+
+#uploadzone img[src="https://static4.smart-school.net/smsc/img/uz_module_icon/uz_module_icon_32x32.png"] {
+    content: url(https://static2.smart-school.net/smsc/svg/uz_module_icon/uz_module_icon_24x24.svg) !important;
+    width: 32px !important;
+    height: 32px !important;
+}
+
+.smsc_cm_no_items#nodocs {
+    background-image: url(https://static2.smart-school.net/smsc/svg/document/document_24x24.svg) !important;
+    background-size: 64px !important;
+}
+
+/*Live*/
+
+.course-session-page__container {
+    background-color: #111 !important;
+    border: 1px solid #343434 !important;
+    box-shadow: -1px -1px 1px #757575 !important;
+}
+
+/*Documents*/
+
+.smsc_cm_breadcrumb a, .smsc_cm_link {
+    color: #c4c4c4 !important;
+}
+
+.smsc_cm_body_row_block_mime {
+    color: #999 !important;
+}
+
+/*Lpaths*/
+
+.view_lpath_progress .view_lpath_progress_div .view_lpath_progress_bar {
+    background: #111 !important;
+    border: 1px solid #6d6d6d !important;
+    box-shadow: inset 0 1px 2px 0 #ffffff3d !important;
+}
+
+.view_lpath_content .view_lpath_left {
+    border-right: solid 1px #414141 !important;
+}
+
+.view_lpath_right fieldset {
+    background-color: #111 !important;
+    border: 1px solid #666 !important;
+}
+
+.view_lpath_content .view_lpath_left .view_lpath_left_parts .view_lpath_body_title .view_lpath_body_title_link {
+    color: inherit !important;
+}
+
+/*Tests*/
+
+.questionPoolTable .table_head {
+    background-color: #011952 !important;
+}
+
+/*Tasks*/
+
+.smsc_quick_edit {
+    background-color: #2e400d !important;
+}
+
+.smsc_quick_edit:hover {
+    background-color: #0d2c40 !important;
+}
+
+.dictionaryEditModeLayer {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/dicEditMode.gif) !important;
+}
+
+.dictionaryExplanationSpan {
+    border-bottom: 1px dashed #183ee7 !important;
+    color: #aaa !important
+}
+
+a.dictionaryExplanationSpan:hover {
+    border-bottom: 1px dashed #3052e8 !important;
+    color: #ddd !important
+}
+
+.dictionaryEditModeLayerInside {
+    color: #c9c9c9 !important
+}
+
+/*Uploadzone*/
+
+.tree-classic li.open.root{background-image:none !important}
+
+.uploadzone .files .navigation {
+    border-bottom: 1px solid #868686 !important;
+}
+
+.fileinfogrey, .fileuploadblock, .correctioninfo, .formBlock.even {
+    background-color: #1e1e1e !important;
+}
+
+.fileinfowhite {
+    background-color: #111 !important;
+}
+
+.correctionline {
+    background-color: #161616 !important;
+    border-top: 1px solid #414141 !important;
+}
+
+.correctionline:first-child {
+    border-top: 0 !important;
+}
+
+.correctioninfocorr {
+    background-color: #161616 !important;
+}
+
+.formContent {
+    background-color: #111 !important;
+    border: 1px solid #6e584b !important;
+}
+
+td .toolbar {
+    border-bottom: none !important;
+}
+
+.upload-connect__container img[src="/smsc/img/dropbox_banner/dropbox_banner_227x68.png"] {
+    content: url(https://raw.githubusercontent.com/matti606/smart-school_dark/a3b2ded7be494f392e6efa66289564fc5b0e0450/logo_dropbox_220x50.svg) !important
+}
+
+.smscFrameTitleContainer .smscFrameTitle .arrow {filter: invert(1) !important}
+
+upload-connect .upload-connect__link {
+    background-image: url(https://static2.smart-school.net/smsc/svg/earth/earth_16x16.svg) !important;
+}
+
+smsc-tree .smsc-treeitem__arrow--loading {
+    filter: invert(1) !important;
+}
+
+img[src="https://static1.smart-school.net/modules/Uploadzone/themes/default/images/page.gif"] {
+    content: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/page.gif);
+}
+
+textarea {
+    border-color: #212121 !important;
+}
+
+/*Classmates*/
+
+.classMatesContainer.show fieldset, .fieldset2 {
+    background-color: #111 !important;
+    border: 1px solid #414141 !important;
+}
+
+.classMatesContainer.show fieldset legend, .legend2 {
+    background-color: #1e1e1e !important;
+    color: #fff !important
+}
+
+.legend2 legend {
+    border: 1px solid #F90 !important;
+    color: #fff !important
+}
+
+/*Scoodle*/
+
+.scoodlePlayButton.loading, .scoodleEditButton.loading, scoodle-app .smsc_cm_body--loading, scoodle-app .smsc_cm_body--loading.loading--important {filter: invert(1) !important}
+
+/* Wiki */
+
+.wiki_page_container {
+    background-color: #212121 !important;
+}
+
+.pageNavBar {
+    background-color: #111 !important;
+}
+
+#contentContainerMiddlePage {
+    color: #161616 !important;
+}
+
+.pageNavBarButtons:nth-child(n) {
+    filter: invert(1) !important;
+}
+
+/* Wiki */

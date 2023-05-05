@@ -1,0 +1,216 @@
+/*Homepage CSS*/
+
+body.modern-ui .homepage__block__top__title h2 {
+    color: #d9d9d9 !important;
+}
+
+div#homepage__block--news .homepage__block__top__title .smsc-title--1 {
+    color: #FF6600 !important;
+}
+
+body.modern-ui .homepage__block:not(:last-child) {
+    border-bottom: 1px solid #313131 !important;
+}
+
+body.modern-ui .homepage__center {
+    border-left: 1px solid #313131 !important;
+    border-right: 1px solid #313131 !important;
+}
+
+/*Courses-list block*/
+
+div#homepage__block--courses .homepage__block__top__title .smsc-title--1 {
+    color: #fa0001 !important;
+}
+
+body.modern-ui .homepage .course__list .course__image {
+    color: #d9d9d9 !important;
+}
+
+body.modern-ui .homepage .course__list .course__block__description {
+    color: #828282 !important;
+}
+
+body.modern-ui .homepage .course__list .course__image:hover {
+    color: #d9d9d9 !important;
+    border-color:#414141 !important;
+    background-color:#1e1e1e !important;
+}
+
+
+
+
+/*Calendar block*/
+
+#homeAgenda .datepicker__navigation__label>h2 {
+    color: #d9d9d9 !important;
+}
+
+#homeAgenda .datepicker__cell.datepicker--current-day .datepicker__cell__content {
+    border-color: #414141 !important;
+}
+
+#homeAgenda .datepicker__cell__content:not(.datepicker--bold):hover {
+    background-color:#252525 !important;
+}
+
+.smsc-contextmenu .smsc-contextmenu-bubble {
+    background-color: #1b1b1b !important;
+    border: 1px solid #828282 !important;
+    box-shadow: 0 4px 16px #000000 !important;
+}
+
+.smsc-contextmenu.position-bottom .smsc-contextmenu-arrow:after {
+    border-color: #1a1a1a transparent !important;
+}
+
+.smsc-linkbutton, .ui-widget-content a.smsc-linkbutton {
+    color: #278dd7 !important;
+}
+
+.smsc-linkbutton:hover,.ui-widget-content a.smsc-linkbutton:hover {
+    color: #278dd7 !important;
+}
+
+#homeAgenda .datepicker--other-month-day {
+    color: #555 !important;
+}
+
+a.menu-type.menu-linkbutton.smsc-linkbutton.smsc-linkbutton--icon.smsc-linkbutton--svg.smsc-linkbutton--24.smsc-svg--24.smsc-svg--cal_purple_31--24:hover, a.menu-type.menu-linkbutton.smsc-linkbutton.smsc-linkbutton--icon.smsc-linkbutton--svg.smsc-linkbutton--24.smsc-svg--24.smsc-svg--address_book2--24:hover {
+    background-color: transparent !important;
+}
+
+/*Search block*/
+
+body.modern-ui .homepage__search>input[type=search] {
+    border: solid 1px #414141 !important;
+}
+
+
+/*News block*/
+
+.ui-widget.ui-widget-content {
+    border: 1px solid #404040 !important;
+}
+
+.ui-dialog .ui-dialog-content {
+    border: 0 !important;
+    background: 0 0 i !important;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    border-width: 1px 0 0 0 !important;
+    background-image: none !important;
+}
+
+.ui-dialog {
+    box-shadow: 0 4px 16px rgb(0 0 0) !important;
+}
+
+.ui-widget-header {
+    border: 1px solid #232323 !important;
+    background: #232323 !important;
+    color: #ccc !important;
+}
+
+.ui-widget-content {
+    border: 1px solid #404040 !important;
+    background: #232323 !important;
+    color: #ccc !important;
+}
+
+.newsDialog__title.smsc-title--1 {
+    color: #d9d9d9 !important;
+}
+
+body.modern-ui .homepage #homepage__block--news .news--loading {
+    filter: invert(1) contrast(0.87) !important;
+}
+
+span[style="background-color: rgb(194, 224, 244);"] {
+	background-color: transparent !important;
+}
+
+/*Tabs block*/
+
+.home__container__tab {
+    text-shadow: 0 1px #000 !important;
+    background: -webkit-linear-gradient(top,#424242 0,#191919 100%) !important;
+    border: 1px solid #404040 !important;
+}
+
+.home__container__tab::before {
+    border-width: 1px 3px 1px 0 !important;
+    border-top: none !important;
+    box-shadow:2px 0 0 #404040 !important;
+}
+
+.home__container__tab::after, .home__container__tab::before {
+    border: solid 1px #404040 !important;
+}
+
+.home__container__tab::after {
+    border-width: 0 0 1px 1px !important;
+    box-shadow: -2px 0 0 #404040 !important;
+}
+
+.home__container__tabs::before {
+    border-bottom: 1px solid #404040 !important;
+}
+
+.home__container__tab--active {
+    color: #ff8829 !important;
+    background: #111 !important;
+    border-bottom-color: transparent !important;
+}
+
+.home__container__tab.home__container__tab--active::before {
+    border-width: 1px 1px 1px 0 !important;
+    box-shadow: 2px 2px 0 #111 !important;
+}
+
+.home__container__tab.home__container__tab--active::after {
+    box-shadow:-2px 2px 0 #111 !important;
+}
+
+.home__container__tab::before {
+    border-width: 1px 3px 1px 0 !important;
+    border-top: none !important;
+    box-shadow:2px 0 0 #404040 !important;
+}
+
+/*Scoodle block*/
+
+div#homepage__block--scoodle .homepage__block__top__title .smsc-title--1 {
+    color: #99CC00 !important;
+}
+
+.scoodle-kit__kit {
+    color: #d9d9d9 !important;
+}
+
+.scoodle-kit__kit:hover {
+    color: #37f !important;
+}
+
+.scoodle__container .scoodle__tabs .home__container__tab--active {
+    color: #56bdc6 !important;
+}
+
+.home__container__content__loading {
+    filter: invert(1) !important;
+}
+
+body.modern-ui .homepage #homepage__block--office365 .smsc-column-nav--homepage .smsc-column-nav__item #office365 {
+    color: transparent !important;
+}
+
+/* Youth services */
+
+.icon-label__text {
+	color: #d9d9d9 !important;
+}
+
+/****** temp ******/
+
+.homepage__block__content img[src="/public/decampusschoolgent/Images/dcCwhgt8KLVkRkLmtcLETMrbg1635249841.JPG"] {content: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/Halloween.png) !important}
