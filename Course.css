@@ -249,7 +249,7 @@ scoodle-app .smsc_cm_body--loading.loading--important {
 }
 
 #contentContainerMiddlePage {
-  color: #161616 !important;
+  color: #ccc !important;
 }
 
 .pageNavBarButtonsFront {
@@ -265,3 +265,28 @@ scoodle-app .smsc_cm_body--loading.loading--important {
 }
 
 /* middle inverting - test */
+
+.navigationTop {
+  background-image: url(https://raw.githubusercontent.com/tibidegamebaas/smart-school_dark/main/thema_03.png) !important;
+}
+
+.navigationContentBackground, .navigationButtonContainer {
+  background-image: url(https://raw.githubusercontent.com/tibidegamebaas/smart-school_dark/main/thema_20.png) !important;
+}
+
+.navigationBottom {
+  background-image: url(https://raw.githubusercontent.com/tibidegamebaas/smart-school_dark/main/thema_26.png) !important;
+}
+
+.contentContainerTop {
+  background-image: url(https://raw.githubusercontent.com/tibidegamebaas/smart-school_dark/main/thema_05.png) !important;
+  color: #ccc !important;
+}
+
+.contentContainerMiddle {
+  background-image: url(https://raw.githubusercontent.com/tibidegamebaas/smart-school_dark/main/thema_08.png) !important;
+}
+
+.contentContainerBottom {
+  background-image: url(https://raw.githubusercontent.com/tibidegamebaas/smart-school_dark/main/thema_12.png) !important;
+}
