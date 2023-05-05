@@ -1,0 +1,21 @@
+/*Live CSS*/
+
+.live__overview [listview].listview .listview__cell--link {
+    color: #d9d9d9 !important;
+}
+
+.listview__row:hover:not(.listview__row--selected) .listview__cell:not(.listview__cell--select-btn) {
+    background-color:#1e1e1e !important;
+}
+
+.smsc-svg--message_play_grey--128 {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/8a7a1e5f66aef10bd74ddcdf739c695cf50eac78/message_play_grey_16x16.svg) !important;
+}
+
+label.checkbox input[type=checkbox]:checked {
+    background-image: url(https://static2.smart-school.net/smsc/svg/checkbox_14_selected/checkbox_14_selected_14x14.svg) !important;
+}
+
+label.checkbox input[type=checkbox] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/checkbox_14_14x14.png) !important;
+}

@@ -1,0 +1,1253 @@
+/*WordViewer*/
+
+/*.MLRVisualRefresh#WACInnerFrame{background-color:#202428 !important;}
+.prFlyout UL LI{color:#111 !important;}
+.prModernFlyout span{color:#111 !important;}
+.prDancingDots{fill:#111 !important;}
+.WACButton{color:#bfbfbf !important;border:solid 1px #7e8082 !important;background-color:#111 !important;}
+.WACButton:focus,.WACGlyph:focus{border-color:#fff !important;background-color:#0a1c38 !important;}
+.usehover .WACButton:hover,.usehover .WACGlyph:hover{border-color:#224270 !important;background-color:#142641 !important;}
+.WACButton:active,.WACGlyph:active{border-color:#5682c6 !important;background-color:#224270 !important;}
+.WACButton:disabled{border-color:#464646 !important;background-color:#1f1f1f !important;color:#909090 !important;}
+.WACDialogOverlay{background:#464646 !important;}
+.WACDialogPanel{border:1px solid #7098d7 !important;background-color:#111 !important;box-shadow:0 0 10px 1px #224270 !important;color:#bfbfbf !important;}
+.WACCrashDialogInput{border-color:#5b5b5b !important;}
+.WACDialogInput{border:solid 1px #fff !important;}
+.WACDialogError{color:#ff5b5b !important;}
+.WACAltTextInput{border:1px solid #3c464c !important;}
+.WACDialogList{color:#bfbfbf !important;border:1px solid #3c464c !important;}
+.WACProgressText{color:#bfbfbf !important;}
+.WACProgressSmallText{color:#bfbfbf !important;}
+.WACNotificationEntry{border:1px solid #94800e !important;color:#bfbfbf !important;background-color:#676004 !important;}
+.WACNotificationBottomBar{border-top:4px solid #94800e !important;}
+.WACBusinessBar{color:#bfbfbf !important;}
+.WACBusinessBarEntry{border-bottom:1px solid #86872d !important;background-color:#676004 !important;}
+.WACBusinessBarEntry:first-child{border-top-color:#86872d !important;}
+.WACBusinessBarButton{border:1px solid #5f5f5f !important;background-color:#111 !important;color:#bfbfbf !important;}
+.usehover .WACBusinessBarButton:hover{background:#1f1f1f !important;}
+.WACBusinessBarButton:active{background:#464646 !important;}
+.WACBusinessBarLink{color:#70a0cf !important;}
+.ImageCaptureButton{background-color:#111 !important;box-shadow:0 0 0 1px #7e8082 !important;}
+.ImageCaptureButton:focus{box-shadow:0 0 0 1px #fff !important;background-color:#142641 !important;}
+.usehover .ImageCaptureButton:hover{background-color:#142641 !important;box-shadow:0 0 0 1px #224270 !important;}
+.ImageCaptureButton:active{background-color:#224270 !important;box-shadow:0 0 0 1px #5682c6 !important;}
+.CameraSwitchButton{background-color:#fff !important;box-shadow:0 0 0 2px #111 !important;}
+.CameraSwitchButton:focus{box-shadow:0 0 0 1px #111,0 0 0 2px #fff !important;}
+.usehover .CameraSwitchButton:hover{box-shadow:0 0 0 2px #111 !important;}
+.ImageCaptureButton:disabled,.CameraSwitchButton:disabled{background-color:#3b3b3b !important;}
+.ClipartDialog a{color:#70a0cf !important;}
+.ClipartSearchInput{border:solid 1px #3e494f !important;}
+.AppRtl .ClipartSearchInput{border:solid 1px #3e494f !important;}
+.ClipartSearchResults{border:1px solid #3e494f !important;}
+.ClipartSelectedImage{background-color:#224270 !important;}
+.InsertMediaDialog a{color:#70a0cf !important;}
+.InsertMediaM365Dialog a{color:#70a0cf !important;}
+.GraphicsEditorDialog a{color:#70a0cf !important;}
+.WACPageStatsButton{background-color:#000053 !important;-moz-box-shadow:5px 5px 5px #808080 !important;-webkit-box-shadow:5px 5px 5px #808080 !important;box-shadow:5px 5px 5px #808080 !important;}
+.EmbedCodeTextArea{border:1px solid #5f5f5f !important;}
+.OICRetryDialog{background-color:#111 !important;color:#fff !important;}
+.WACDialogTitlePanel.OICDialog{background-color:#7098d7 !important;}
+.ProtocolLaunchingDialogTitle{color:#7098d7 !important;}
+.ProtocolLaunchingDialogButtonAnchor{-webkit-tap-highlight-color:#142641 !important;}
+.ProtocolLaunchingDialogTitle.OICDialog{color:#7098d7 !important;}
+div.OICDialog#Issues{color:#7098d7 !important;}
+a.ProtocolLaunchingDialogButtonAnchor.OICDialog:focus{background-color:#111 !important;}
+a.ProtocolLaunchingDialogButtonAnchor:focus{border-color:#7098d7 !important;background-color:#142641 !important;}
+.BreadcrumbItem{color:#111 !important;}
+a.BreadcrumbItem:focus{outline:#142641 dotted thin !important;}
+.BreadcrumbItem#BreadcrumbTitle,.BreadcrumbItem#BreadcrumbSaveStatus,.BreadcrumbItem#BreadcrumbAppModeStatus{color:#111 !important;}
+.BreadcrumbItem#BreadcrumbAppModeDash,.BreadcrumbItem#BreadcrumbSaveStatusDash{color:#111 !important;}
+.BreadcrumbItem#BreadcrumbSaveStatus:hover,.BreadcrumbItem#BreadcrumbAppModeStatus:hover,.BreadcrumbItem#BreadcrumbAppModeDash:hover,.BreadcrumbItem#BreadcrumbSaveStatusDash:hover{background-color:transparent !important;}
+.usehover div.BreadcrumbItem:hover,div.BreadcrumbItem:focus{background-color:#bfbfbf !important;}
+div.EditableBreadcrumbItem:focus,.usehover div.EditableBreadcrumbItem:hover:focus{color:#111 !important;background-color:transparent !important;}
+.OfficeOnlineBrandSwitcherSeparator,.OfficeOnlineBrandBreadcrumbSeparator{background-color:#111 !important;}
+.UsernameContainer{background-color:#2d2d2d !important;}
+.UsernameNameContainer{color:#bfbfbf !important;}
+a.SignoutLink{color:#bfbfbf !important;}
+a.SignoutLink:focus{outline:#bfbfbf dotted thin !important;}
+a.SignInLink{color:#111 !important;background-color:#bfbfbf !important;}
+a.SignInLink:hover,a.SignInLink:focus{background-color:#d4ccca !important;}
+a.cui-ctl-medium + a.SignInLink{color:#bfbfbf !important;background-color:#2d2d2d !important;}
+a.cui-ctl-medium + a.SignInLink:hover,a.cui-ctl-medium + a.SignInLink:focus{background-color:#1f1f1f !important;}
+.UserNameSeparator{background-color:#464646 !important;}
+.cui-topBar1-transistionalHeaderUI .AppAndBrandContainer + .BreadcrumbItem#BreadcrumbBrand:after,.cui-topBar1-transistionalHeaderUI .AppAndBrandContainer + .BreadcrumbItem#BreadcrumbFolder:after{background:#111 !important;}
+.usehover .cui-topBar1-transistionalHeaderUI a.BreadcrumbItem.SwitcherDropdown:hover,.cui-topBar1-transistionalHeaderUI a.BreadcrumbItem.SwitcherDropdown:focus,.cui-topBar1-transistionalHeaderUI .BreadcrumbItem#BreadcrumbTitle:hover,.cui-topBar1-transistionalHeaderUI .BreadcrumbItem#BreadcrumbTitle:focus{background-color:#497ecc !important;}
+.cui-topBar1-transistionalHeaderUI a.BreadcrumbItem.SwitcherDropdown:active,.usehover .cui-topBar1-transistionalHeaderUI a.BreadcrumbItem.SwitcherDropdown:hover:active,.cui-topBar1-transistionalHeaderUI .EditableBreadcrumbItem#BreadcrumbTitle:hover,.cui-topBar1-transistionalHeaderUI .EditableBreadcrumbItem#BreadcrumbTitle:focus{background-color:#204072 !important;}
+.cui-topBar1-transistionalHeaderUI a.SignInLink,.cui-topBar1-transistionalHeaderUI a.cui-ctl-medium + a.SignInLink{background-color:inherit !important;color:#111 !important;}
+.cui-topBar1-transistionalHeaderUI a.SignInLink:hover,.cui-topBar1-transistionalHeaderUI a.SignInLink:focus,.cui-topBar1-transistionalHeaderUI a.cui-ctl-medium + a.SignInLink:hover,.cui-topBar1-transistionalHeaderUI a.cui-ctl-medium + a.SignInLink:focus{background-color:#497ecc !important;}
+.WACCalloutOuter{box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2) !important;-webkit-box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2) !important;-moz-box-shadow:0px 0px 10px 0px rgba(2rgba(0, 0, 0, 0.2)) !important;border: 1px solid #558ed5 !important;background-color:#111 !important;}
+.WACCalloutBeakContainerWithoutImage{border-bottom:16px solid #7098d7 !important;}
+.WACCalloutTitle{color:#fff !important;}
+.ModalCalloutControlOverlay{background-color:#464646 !important;z-index:1 !important;}
+.ModalCalloutControl{color:#3b3b3b !important;}
+*{scrollbar-base-color:#111 !important;scrollbar-track-color:#111 !important;scrollbar-darkshadow-color:#111 !important;scrollbar-3dlight-color:#111 !important;scrollbar-arrow-color:#8f9192 !important;scrollbar-shadow-color:#464a4e !important;scrollbar-highlight-color:#464a4e !important;}
+.legacyScrollBar div::-webkit-scrollbar-button:start:decrement,.legacyScrollBar div::-webkit-scrollbar-button:end:decrement,.legacyScrollBar div::-webkit-scrollbar-button:start:increment,.legacyScrollBar div::-webkit-scrollbar-button:end:increment,.legacyScrollBar div::-webkit-scrollbar-thumb{border:1px solid #464a4e !important;}
+.legacyScrollBar div::-webkit-scrollbar-thumb:hover,.legacyScrollBar div::-webkit-scrollbar-button:hover{background-color:#1c1c1c !important;}
+.legacyScrollBar .WACDocumentPanel div::-webkit-scrollbar-thumb,.legacyScrollBar .WACDocumentPanel div::-webkit-scrollbar-button{background-color:#1c1c1c !important;}
+.legacyScrollBar .WACDocumentPanel div::-webkit-scrollbar-thumb:hover,.legacyScrollBar .WACDocumentPanel div::-webkit-scrollbar-button:hover{background-color:#312e2b !important;}
+.customScrollBar,.customScrollBar .cui-menu,.customScrollBar .ms-Callout-main,.customScrollBar .WACViewPanel{scrollbar-color:#7e8082 transparent !important;}
+.customScrollBar div::-webkit-scrollbar-thumb{background-color:#7e8082 !important;}
+.customScrollBar div::-webkit-scrollbar-thumb:hover{background-color:#92908e !important;}
+.customScrollBar div::-webkit-scrollbar-thumb:active{background-color:#a9a8a6 !important;}
+.FShadowLeftInner,.FShadowLeftOuter,.FShadowTopLeftInner,.FShadowTopLeftOuter,.FShadowTopInner,.FShadowTopOuter,.FShadowTopRightInner,.FShadowTopRightOuter,.FShadowRightInner,.FShadowRightOuter,.FShadowBottomRightInner,.FShadowBottomRightOuter,.FShadowBottomInner,.FShadowBottomOuter,.FShadowBottomLeftInner,.FShadowBottomLeftOuter{background-color:#35393d !important;}
+.StandardButton{color:#d6d8dd !important;}
+.StandardButton:focus{border:1px solid #142641 !important;background-color:#142641 !important;}
+.usehover .StandardButton:hover{border:1px solid #142641 !important;background-color:#142641 !important;}
+.StandardButton:active{border:1px solid #224270 !important;background-color:#224270 !important;}
+.StandardButtonNoImage{border-color:#2d4573 !important;background-color:#111 !important;}
+.DisabledButton *{color:#707070 !important;}
+.StandardButtonNoImage.DisabledButton{border-color:#414141 !important;background-color:#1f1f1f !important;}
+.CommentPane{color:#dbdbdb !important;}
+.CommentGroupDivider{border-bottom:1px solid #2d2d2d !important;color:#909090 !important;}
+.SaveFailure{background-color:#460d0d !important;}
+.CommentIsDone,.CommentIsDone .CommentDate{color:#5f5f5f !important;}
+.SelectedComment.CommentIsDone,.CommentIsDone .CommentDate{color:#dbdbdb !important;}
+.CommentDate{color:#909090 !important;}
+.CommentTextEntry{border:1px solid #2d2d2d !important;}
+.usehover .Interactive .CommentContainer:hover,.Interactive .CommentContainer:focus,.CommentContainer:focus.NewOrEditComment{border-left:2px solid #224270 !important;}
+.AppRtl.usehover .Interactive .CommentContainer:hover,.AppRtl .Interactive .CommentContainer:focus,.AppRtl .CommentContainer:focus.NewOrEditComment{border-right:2px solid #224270 !important;}
+.usehover .Interactive .Reply1.CommentContainer:hover,.Interactive .Reply1.CommentContainer:focus,.Reply1.CommentContainer:focus.NewOrEditComment{border-left:2px solid #224270 !important;}
+.AppRtl.usehover .Interactive .Reply1.CommentContainer:hover,.AppRtl .Interactive .Reply1.CommentContainer:focus,.AppRtl .Reply1.CommentContainer:focus.NewOrEditComment{border-right:2px solid #224270 !important;}
+.Interactive .CommentContainer:focus,.Interactive .SelectedComment,.NewOrEditComment{background-color:#111 !important;border-left:5px solid #224270 !important;outline:1px solid #224270 !important;}
+.AppRtl .Interactive .CommentContainer:focus,.AppRtl .Interactive .SelectedComment,.AppRtl .NewOrEditComment{border-right:5px solid #224270 !important;}
+.SelectedParentComment,.usehover .SelectedParentComment.CommentContainer:hover{border-left:5px solid #224270 !important;}
+.AppRtl .SelectedParentComment,.AppRtl.usehover .SelectedParentComment.CommentContainer:hover{border-right:5px solid #224270 !important;}
+.AccCheckerPane{background-color:#111 !important;color:#bfbfbf !important;}
+.AccCheckerStatusLabelCheckingText{color:#bfbfbf !important;}
+.AccCheckerStatusLabelSuccessText{color:#4d94ff !important;}
+.AccCheckerStatusLabelErrorText{color:#ff5e5e !important;}
+.AccCheckerGroupDivider{color:#909090 !important;}
+.AccCheckerHelpContentContainer{background-color:#111 !important;}
+.AccCheckerNotification{background-color:#282828 !important;}
+.AccCheckerResultCategoryName:hover,.AccCheckerRuleNameSection:hover,.AccCheckerCheckResult:hover{border-color:#142641 !important;background-color:#142641 !important;}
+.PeoplesWellControl .cui-ctl-iconContainer{background-color:#7098d7 !important;}
+div.FlexPane{border-left:1px solid #2d2d2d !important;}
+.AppRtl div.FlexPane{border-right:1px solid #2d2d2d !important;}
+.SkypeToastDiv{background-color:#111 !important;border:1px solid #1f1f1f !important;box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px !important;}
+.SkypePresenceImage{background-color:#5f5f5f !important;}
+.SkypeNotificationArea{color:#cfcfcf !important;}
+.SkypeNotificationActionArea{background-color:#1c1c1c !important;}
+.SkypeNotificationButton{border:0px outset #313131 !important;color:#45afff !important;}
+a.AllowBrowserClick:focus{outline:#fff dotted 1px !important;}
+.DisabledSaveAsButton{background-color:#1f1f1f !important;}
+.FolderIconSVG{fill:#a0a0a0 !important;}
+.SeparatorCaret{fill:#a0a0a0 !important;}
+.AppInstallButton{border:1px solid #7098d7 !important;}
+.CatchUpChangeNotificationDot{background-color:#0c67c9 !important;}
+.CatchUpChangeNotificationNewText{color:#1175ff !important;}
+.CatchUpChangeNotificationTitle{color:#212121 !important;}
+.AppRtl .CatchUpChangeNotificationTitle{color:#212121 !important;}
+.CatchUpChangeNotificationMessageText{color:#212121 !important;}
+.CatchUpActivityNotificationContainer{background-color:#111 !important;box-shadow:0px 8px 10px -2px rgba(0,0,0,0.1) !important;}
+.CatchUpActivityNotificationBeak{border-top:10px solid #fff !important;}
+.CatchUpActivityNotificationContainer .CatchUpActivityNotificationBeak{border-bottom:10px solid #111 !important;}
+.CatchUpActivityNotificationContainerBorder{border:1px solid #312e2b !important;}
+.CatchUpActivityNotificationContainerBorder .CatchUpActivityNotificationBeakBorder{border-bottom-color:#312e2b !important;}
+.CatchUpActivityNotificationTitle{color:#212121 !important;}
+.CatchUpActivityNotificationDot{background-color:#0c67c9 !important;cursor:default !important;}
+.CatchUpActivityNotificationNewText{color:#1175ff !important;}
+.CatchUpActivityNotificationMessageText{color:#212121 !important;}
+.CatchUpActvitiyNotificationButton{background-color:#7098d7 !important;border:1px solid #312e2b !important;color:#111 !important;}
+div.bookmarkCalloutLabel{color:#dfdfdf !important;}
+div.bookmarkCalloutDismissButton{color:#a0a0a0 !important;}
+.EnrichmentPane{background-color:#111 !important;color:#bfbfbf !important;}
+.TrustCenterDialogOuterContainer{border:1px solid #464646 !important;}
+.PrivacyDialogTitle{color:#7098d7 !important;}
+.TrustCenterDialogInfoContainer{border:1px solid #464646 !important;background-color:#2d2d2d !important;}
+.TrustCenterExperiencesDisabledDialogInfoContainer{border:1px solid #a97315 !important;background-color:#4043ee !important;}
+.TrustCenterDialogExperiencesContainer{border:1px solid #464646 !important;}
+.MsDialogLogo{fill:#939393 !important;}
+.WACStatusBarContainer{background-color:#111 !important;}
+div#WACTopbarPlaceholder .cui-color-update,div#EmptyHeaderTopBars .cui-color-update,div#ExternalHeaderViewerChromeTopBars .cui-color-update,div#AppHeaderPanel .cui-color-update{background-color:#508de9 !important;}
+.cui-ribbonTopBars{background-color:#111 !important;}
+.cui-topBar1{color:#111 !important;background-color:#fff !important;}
+.cui-topBar2{background-color:#1c1c1c !important;}
+.cui-viewerchrome .cui-topBar2.elevated-toolbar{background-color:#1f1d1a !important;}
+.cui-topBar1 .cui-ctl{background-color:#2d2d2d !important;border-color:#2d2d2d !important;}
+.cui-topBar1 .cui-ctl-mediumlabel{color:#111 !important;}
+.cui-topBar1 .cui-ctl-medium{border-color:#7098d7 !important;background-color:#7098d7 !important;}
+.usehover .cui-topBar1 .cui-ctl-medium:hover,.cui-topBar1 .cui-ctl-medium:focus{border-color:#5682c6 !important;background-color:#5682c6 !important;}
+.cui-topBar1 .cui-ctl-active,.cui-topBar1 .usehover .cui-ctl-active:hover{border-color:#d4ccca !important;background-color:#d4ccca !important;}
+.AppAndBrandContainer{background-color:#7098d7 !important;}
+.ModernUXFastViewHeader .AppAndBrandContainer,div#AppHeaderPanel .ModernUXFastViewHeader .AppAndBrandContainer{background-color:#111 !important;}
+.usehover .cui-topBar1 .cui-ctl:hover,.usehover .cui-TabRowInline .cui-ctl:hover,.usehover .cui-TabRowInline .cui-ctl-medium:hover,.usehover .cui-TabRowRight .cui-ctl:hover,.usehover .cui-TabRowRight .cui-ctl-medium:hover,.cui-topBar1 .cui-ctl:focus,.cui-TabRowInline .cui-ctl:focus,.cui-TabRowInline .cui-ctl-medium:focus,.cui-TabRowRight .cui-ctl:focus,.cui-TabRowRight .cui-ctl-medium:focus{border-color:#1f1f1f !important;background-color:#1f1f1f !important;}
+.cui-topBar1 .cui-ctl-active,.cui-TabRowInline .cui-ctl-active,.cui-TabRowRight .cui-ctl-active,.usehover .cui-topBar1 .cui-ctl-active:hover,.usehover .cui-TabRowInline .cui-ctl-active:hover,.usehover .cui-TabRowRight .cui-ctl-active:hover,.cui-TabRowInline .cui-fa-dropped,.cui-TabRowRight .cui-fa-dropped{border-color:#111 !important;background-color:#111 !important;}
+.cui-topBar1 .cui-ctl.cui-disabled:focus,.cui-topBar1 .cui-ctl.cui-disabled:focus:hover,.cui-TabRowInline .cui-ctl.cui-disabled:focus,.cui-TabRowInline .cui-ctl.cui-disabled:focus:hover,.cui-TabRowInline .cui-ctl-medium.cui-disabled:focus,.cui-TabRowInline .cui-ctl-medium.cui-disabled:focus:hover,.cui-TabRowRight .cui-ctl.cui-disabled:focus,.cui-TabRowRight .cui-ctl.cui-disabled:focus:hover,.cui-TabRowRight .cui-ctl-medium.cui-disabled:focus,.cui-TabRowRight .cui-ctl-medium.cui-disabled:focus:hover{border-color:#1f1f1f !important;background-color:#1f1f1f !important;}
+.cui-jewel-label{color:#bfbfbf !important;}
+.cui-singlerowlayout .cui-jewel-label{color:#bfbfbf !important;}
+.usehover .cui-jewel-jewelMenuLauncher:hover .cui-jewel-label,.cui-jewel-jewelMenuLauncher:focus .cui-jewel-label{color:#7098d7 !important;}
+.cui-jewel-jewelMenuLauncher:focus{background-color:#1f1f1f !important;}
+.cui-toolbar-toolbar{width:100% !important;height:100% !important;background:#111 !important;}
+.cui-viewerchrome .BreadcrumbItem#BreadcrumbTitle{color:#bfbfbf !important;}
+.cui-herobar-breadcrumbContainer .BreadcrumbItem{color:#bfbfbf !important;}
+.cui-herobar-breadcrumbContainer a.BreadcrumbItem:focus{outline:#bfbfbf dotted thin !important;}
+.AppBrandSeparator{background-color:#bfbfbf !important;}
+.cui-viewerchrome .cui-emphasized{background-color:#7098d7 !important;}
+.usehover .cui-viewerchrome .cui-emphasized:hover{background-color:#153c75 !important;}
+.cui-viewerchrome .cui-emphasized.cui-fa-dropped,.usehover .cui-viewerchrome .cui-emphasized.cui-ctl-active,.usehover .cui-viewerchrome .cui-emphasized.cui-ctl-active:hover{background-color:#102f5c !important;}
+.cui-viewerchrome .cui-emphasized .cui-ctl-mediumlabel{color:#111 !important;}
+.cui-topBar1 .cui-ctl.SkypeButton.activated{background-color:#2d2d2d !important;}
+.usehover .cui-topBar1 .cui-ctl.SkypeButton:hover,.SkypeButton.cui-ctl-active,.usehover .SkypeButton.cui-ctl-active:hover{background-color:#bfbfbf !important;border-color:rgba(255,255,255,0.3) !important;}
+.SkypeUnreadConversationsBubble{border-color:#153c75 !important;}
+.SkypeUCBBackground{background-color:#153c75 !important;}
+.usehover .cui-ctl.SkypeButton:hover .SkypeUCBBackground,.SkypeUCBBackground:hover{background-color:#153c75 !important;color:white !important;}
+.cui-topBar2 .cui-ctl-medium.DocumentActionButton,.cui-topBar2 .cui-ctl-medium.CommentsButton,.cui-topBar2 .cui-ctl-medium.ChangesButton{border:1px solid #312e2b !important;background-color:#111 !important;color:#7098d7 !important;}
+.cui-topBar2 .cui-ctl-medium.DocumentActionButton .cui-ctl-mediumlabel,.cui-topBar2 .cui-ctl-medium.CommentsButton .cui-ctl-mediumlabel,.cui-topBar2 .cui-ctl-medium.ChangesButton .cui-ctl-mediumlabel{color:#7098d7 !important;}
+.usehover .MLRVisualRefresh .cui-TabRowRight .DocumentActionButton:hover,.usehover .MLRVisualRefresh .cui-TabRowRight .CommentsButton:hover,.usehover .MLRVisualRefresh .cui-TabRowRight .ChangesButton:hover,.MLRVisualRefresh .cui-TabRowRight .DocumentActionButton:focus,.MLRVisualRefresh .cui-TabRowRight .CommentsButton:focus,.MLRVisualRefresh .cui-TabRowRight .ChangesButton:focus{border-color:#312e2b !important;background-color:#312e2b !important;}
+.MLRVisualRefresh .cui-TabRowRight .DocumentActionButton.cui-ctl-active,.MLRVisualRefresh .cui-TabRowRight .CommentsButton.cui-ctl-active,.MLRVisualRefresh .cui-TabRowRight .ChangesButton.cui-ctl-active,.usehover .MLRVisualRefresh .cui-TabRowRight .DocumentActionButton.cui-ctl-active:hover,.usehover .MLRVisualRefresh .cui-TabRowRight .CommentsButton.cui-ctl-active:hover,.usehover .MLRVisualRefresh .cui-TabRowRight .ChangesButton.cui-ctl-active:hover{border-color:#3f3d3b !important;background-color:#3f3d3b !important;}
+.cui-topBar1-transistionalHeaderUI{background-color:#7098d7 !important;}
+.cui-topBar1-transitionalReactHeaderUI{background-color:#7098d7 !important;}
+.cui-topBar1-transistionalHeaderUI .cui-ctl-medium:after,.cui-topBar1-transistionalHeaderUI .cui-ctl:after{background:#111 !important;}
+.usehover .cui-topBar1-transistionalHeaderUI .cui-ctl:hover,.cui-topBar1-transistionalHeaderUI .cui-ctl:focus,.usehover .cui-topBar1-transistionalHeaderUI .cui-ctl.SkypeButton:hover,.cui-topBar1-transistionalHeaderUI .cui-ctl.SkypeButton:focus,.usehover .cui-topBar1-transistionalHeaderUI .cui-ctl-medium:hover,.cui-topBar1-transistionalHeaderUI .cui-ctl-medium:focus{background-color:#497ecc !important;}
+.cui-topBar1-transistionalHeaderUI .cui-ctl-active,.usehover .cui-topBar1-transistionalHeaderUI .cui-ctl-active:hover,.cui-topBar1-transistionalHeaderUI .cui-ctl.SkypeButton.cui-ctl-active,.cui-topBar1-transistionalHeaderUI .cui-ctl.SkypeButton.activated{background-color:#204072 !important;}
+.cui-topBar1-transistionalHeaderUI #btnToggleRibbon_Header .toggleButton-iconContainer:focus{outline:#111 dotted thin !important;}
+.o365cs-base svg[class^="ms-searchux"]{fill:#7098d7 !important;}
+.o365cs-base button:not(:focus)[class^="submitSuggestion"]{border:1px solid transparent !important;color:#7098d7 !important;}
+.o365cs-base button:focus[class^="submitSuggestion"]{border:1px solid #7098d7 !important;color:#7098d7 !important;}
+.o365cs-base a:focus[class^="suggestion-selector"]{border:1px solid #797673 !important;background:#1f1d1a !important;}
+.cui-ctl-mediumlabel,.cui-ctl-largelabel,.cui-ctl-menulabel,.cui-btn-menu-description{color:#bfbfbf !important;}
+.cui-touch span.cui-ctl-large > a.cui-ctl-a1{border-bottom:1px solid #2d2d2d !important;}
+.cui-fslb{color:#bfbfbf !important;}
+.cui-separator{background-color:#464646 !important;}
+.cui-sldr-input::-webkit-slider-runnable-track{background:#313131 !important;}
+.cui-sldr-input::-webkit-slider-thumb{border:1px solid #909090 !important;background:#212121 !important;}
+.cui-sldr-input:focus::-webkit-slider-runnable-track{background:#313131 !important;}
+.cui-sldr-input::-moz-range-track{background:#313131 !important;}
+.cui-sldr-input::-moz-range-thumb{border:1px solid #909090 !important;background:#212121 !important;}
+.cui-sldr-input::-ms-fill-lower{background:#5185ba !important;border:1px solid #5185ba !important;}
+.cui-sldr-input::-ms-fill-upper{background:#313131 !important;border:1px solid #313131 !important;}
+.cui-sldr-input::-ms-thumb{border:1px solid #909090 !important;background:#212121 !important;}
+.cui-ctl-on{border-color:#122d56 !important;background-color:#122d56 !important;}
+.cui-gallerybutton-highlighted{border-color:#122d56 !important;}
+.cui-gallerybutton-highlighted .cui-gallerybutton-a{border-color:#122d56 !important;}
+.cui-gallerybutton-highlighted.cui-gallerybutton-Size16by16 .cui-gallerybutton-a{background-color:#122d56 !important;}
+.cui-gallerybutton-highlighted.cui-gallerybutton-Size20by20 .cui-gallerybutton-a{background-color:#122d56 !important;}
+.cui-gallerybutton-highlighted.cui-gallerybutton-Size24by24 .cui-gallerybutton-a{background-color:#122d56 !important;}
+.cui-gallerybutton-highlighted.cui-gallerybutton-Size84by21 .cui-gallerybutton-a{background-color:#122d56 !important;}
+.cui-gallerybutton-highlighted.cui-gallerybutton-Size90by21 .cui-gallerybutton-a{background-color:#122d56 !important;}
+.usehover .cui-tb:hover .cui-txtbx,.cui-tb-focus .cui-txtbx,.usehover .cui-spn:hover .cui-spn-txtbx,.usehover .cui-spn:hover .cui-spn-arwbx,.cui-spn-focus .cui-spn-txtbx,.cui-spn-focus .cui-spn-arwbx,.usehover span:hover > .cui-dd-arrow-button,.usehover .cui-dd:hover .cui-dd-text,.cui-dd:focus .cui-dd-text,.cui-dd:focus .cui-dd-arrow-button,.usehover .cui-cb:hover .cui-cb-input,.cui-cb-focus .cui-cb-input,.cui-cb-focus .cui-dd-arrow-button,.WACDialogList:focus{border-color:#224270 !important;}
+.usehover .cui-ctl:hover,.cui-ctl:focus,.usehover .cui-ctl-medium:hover,.cui-ctl-medium:focus,.usehover .cui-ctl-large:hover,.cui-ctl-large:focus,.usehover .cui-sldr:hover,.cui-sldr-onfocus,.cui-ctl-split-hovered,.cui-ctl-split-hovered-primary,.cui-ctl-menu-hovered-without-focus,.cui-ctl-menu:focus,.cui-gallerybutton-Size16by16.cui-gallerybutton-focused,.cui-gallerybutton-Size16by16.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-Size20by20.cui-gallerybutton-focused,.cui-gallerybutton-Size20by20.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-Size24by24.cui-gallerybutton-focused,.cui-gallerybutton-Size24by24.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-Size84by21.cui-gallerybutton-focused,.cui-gallerybutton-Size84by21.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-Size90by21.cui-gallerybutton-focused,.cui-gallerybutton-Size90by21.cui-gallerybutton-focused .cui-gallerybutton-a,.usehover .cui-ctl-thin:hover,.cui-ctl-thin:focus,.usehover .cui-spn-btnup:hover,.usehover .cui-spn-btndown:hover,.usehover .cui-dd-arrow-button:hover,.WACZoomDialogRadioRow-highlight,.WACZoomDialogRadioRow:hover{border-color:#142641 !important;background-color:#142641 !important;}
+.WACDialogCheckboxDiv:hover,.WACDialogCheckboxDivHighlight{border:1px solid #fff !important;outline:2px dashed transparent !important;}
+.cui-ctl-menu{-webkit-tap-highlight-color:#142641 !important;}
+.usehover .cui-groupBody .cui-gallerybutton-Size40by40:hover,.usehover .cui-groupBody .cui-gallerybutton-Size40by40:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-Size48by48:hover,.usehover .cui-groupBody .cui-gallerybutton-Size48by48:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-Size64by48:hover,.usehover .cui-groupBody .cui-gallerybutton-Size64by48:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-Size70by48:hover,.usehover .cui-groupBody .cui-gallerybutton-Size70by48:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-Size85by16:hover,.usehover .cui-groupBody .cui-gallerybutton-Size85by16:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-Size85by48:hover,.usehover .cui-groupBody .cui-gallerybutton-Size85by48:hover .cui-gallerybutton-a,.usehover .cui-gallerybutton-Size110by75:hover,.usehover .cui-gallerybutton-Size110by75:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-Size32by32:hover,.usehover .cui-groupBody .cui-gallerybutton-Size32x32:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-Size120x20:hover,.usehover .cui-groupBody .cui-gallerybutton-Size120x20:hover .cui-gallerybutton-a,.cui-gallerybutton-Size40by40.cui-gallerybutton-focused,.cui-gallerybutton-Size40by40.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-Size48by48.cui-gallerybutton-focused,.cui-gallerybutton-Size48by48.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-Size61by75.cui-gallerybutton-focused,.cui-gallerybutton-Size61by75.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-Size64by48.cui-gallerybutton-focused,.cui-gallerybutton-Size64by48.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-Size70by48.cui-gallerybutton-focused,.cui-gallerybutton-Size70by48.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-Size85by16.cui-gallerybutton-focused,.cui-gallerybutton-Size85by48.cui-gallerybutton-focused,.cui-gallerybutton-Size85by48.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-Size32by32.cui-gallerybutton-focused,.cui-gallerybutton-Size32by32.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-Size120by20.cui-gallerybutton-focused,.cui-gallerybutton-Size120by20.cui-gallerybutton-focused .cui-gallerybutton-a{border-color:#142641 !important;}
+.cui-ctl-split-hovered-secondary{border-color:#142641 !important;background-color:#111 !important;}
+.usehover .cui-ctl.cui-ctl-on:hover,.cui-ctl-on:focus,.cui-ctl-on .cui-ctl-split-hovered,.cui-ctl-on .cui-ctl-split-hovered-primary{border-color:#224270 !important;background-color:#142641 !important;}
+.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size40by40:hover,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size48by48:hover,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size64by48:hover,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size70by48:hover,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size85by16:hover,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size85by48:hover,.usehover .cui-gallerybutton-highlighted.cui-gallerybutton-Size110by75:hover,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size32by32:hover,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size120by20:hover,.cui-gallerybutton-highlighted.cui-gallerybutton-Size16by16.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size40by40.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size48by48.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size61by75.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size64by48.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size70by48.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size85by16.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size85by48.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size32by32.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size120by20.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size20by20.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size24by24.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size84by21.cui-gallerybutton-focused,.cui-gallerybutton-highlighted.cui-gallerybutton-Size90by21.cui-gallerybutton-focused{border-color:#224270 !important;}
+.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size40by40:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size48by48:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size64by48:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size70by48:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size85by16:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size85by48:hover .cui-gallerybutton-a,.usehover .cui-gallerybutton-highlighted.cui-gallerybutton-Size110by75:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size32by32:hover .cui-gallerybutton-a,.usehover .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton-Size120by20:hover .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size40by40.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size48by48.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size61by75.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size64by48.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size70by48.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size85by16.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size85by48.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size32by32.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size120by20.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size84by21.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size90by21.cui-gallerybutton-focused .cui-gallerybutton-a{border-color:#142641 !important;}
+.cui-gallerybutton-highlighted.cui-gallerybutton-Size16by16.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size20by20.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size24by24.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size84by21.cui-gallerybutton-focused .cui-gallerybutton-a,.cui-gallerybutton-highlighted.cui-gallerybutton-Size90by21.cui-gallerybutton-focused .cui-gallerybutton-a{border-color:#142641 !important;background-color:#142641 !important;}
+.cui-ctl-active,.usehover .cui-ctl-active:hover,.cui-gallerybutton-Size16by16.cui-ctl-active,.cui-gallerybutton-Size16by16.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size20by20.cui-ctl-active,.cui-gallerybutton-Size20by20.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size24by24.cui-ctl-active,.cui-gallerybutton-Size24by24.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size84by21.cui-ctl-active,.cui-gallerybutton-Size84by21.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size90by21.cui-ctl-active,.cui-gallerybutton-Size90by21.cui-ctl-active .cui-gallerybutton-a,.cui-fa-dropped,.cui-fa-dropped .cui-ctl-a1,.cui-fa-dropped .cui-ctl-a2{border-color:#224270 !important;background-color:#224270 !important;}
+.cui-ctl-menu.cui-fa-dropped{border-color:#142641 !important;background-color:#142641 !important;}
+.cui-gallerybutton-Size40by40.cui-ctl-active,.cui-gallerybutton-Size40by40.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size48by48.cui-ctl-active,.cui-gallerybutton-Size48by48.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size61by75.cui-ctl-active,.cui-gallerybutton-Size61by75.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size64by48.cui-ctl-active,.cui-gallerybutton-Size64by48.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size70by48.cui-ctl-active,.cui-gallerybutton-Size70by48.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size85by16.cui-ctl-active,.cui-gallerybutton-Size85by16.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size85by48.cui-ctl-active,.cui-gallerybutton-Size85by48.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size110by75.cui-ctl-active,.cui-gallerybutton-Size110by75.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size32by32.cui-ctl-active,.cui-gallerybutton-Size32by32.cui-ctl-active .cui-gallerybutton-a,.cui-gallerybutton-Size120by20.cui-ctl-active,.cui-gallerybutton-Size120by20.cui-ctl-active .cui-gallerybutton-a{border-color:#224270 !important;background-color:#111 !important;}
+.MLRVisualRefresh .cui-ctl-on{border-color:#494644 !important;background-color:#494644 !important;}
+.MLRVisualRefresh .cui-gallerybutton-highlighted{border-color:#494644 !important;}
+.MLRVisualRefresh .cui-gallerybutton-highlighted .cui-gallerybutton-a{border-color:#494644 !important;}
+.MLRVisualRefresh .cui-gallerybutton-highlighted.cui-gallerybutton-Size16by16 .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton-highlighted.cui-gallerybutton-Size20by20 .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton-highlighted.cui-gallerybutton-Size24by24 .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton-highlighted.cui-gallerybutton-Size84by21 .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton-highlighted.cui-gallerybutton-Size90by21 .cui-gallerybutton-a{background-color:#494644 !important;}
+.usehover .MLRVisualRefresh .cui-ctl:hover,.MLRVisualRefresh .cui-ctl:focus,.usehover .MLRVisualRefresh .cui-ctl-medium:hover,.MLRVisualRefresh .cui-ctl-medium:focus,.usehover .MLRVisualRefresh .cui-ctl-large:hover,.MLRVisualRefresh .cui-ctl-large:focus,.usehover .MLRVisualRefresh .cui-sldr:hover,.MLRVisualRefresh .cui-sldr-onfocus,.MLRVisualRefresh .cui-ctl-split-hovered,.MLRVisualRefresh .cui-ctl-split-hovered-primary,.MLRVisualRefresh .cui-ctl-menu-hovered-without-focus,.MLRVisualRefresh .cui-ctl-menu:focus,.MLRVisualRefresh .cui-gallerybutton-Size16by16.cui-gallerybutton-focused,.MLRVisualRefresh .cui-gallerybutton-Size16by16.cui-gallerybutton-focused .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton-Size20by20.cui-gallerybutton-focused,.MLRVisualRefresh .cui-gallerybutton-Size20by20.cui-gallerybutton-focused .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton-Size24by24.cui-gallerybutton-focused,.MLRVisualRefresh .cui-gallerybutton-Size24by24.cui-gallerybutton-focused .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton-Size84by21.cui-gallerybutton-focused,.MLRVisualRefresh .cui-gallerybutton-Size84by21.cui-gallerybutton-focused .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton-Size90by21.cui-gallerybutton-focused,.MLRVisualRefresh .cui-gallerybutton-Size90by21.cui-gallerybutton-focused .cui-gallerybutton-a,.usehover .MLRVisualRefresh .cui-ctl-thin:hover,.MLRVisualRefresh .cui-ctl-thin:focus,.usehover .MLRVisualRefresh .cui-spn-btnup:hover,.usehover .MLRVisualRefresh .cui-spn-btndown:hover,.usehover .MLRVisualRefresh .cui-dd-arrow-button:hover,.MLRVisualRefresh .WACZoomDialogRadioRow-highlight,.MLRVisualRefresh .WACZoomDialogRadioRow:hover{border-color:#312e2b !important;background-color:#312e2b !important;}
+.MLRVisualRefresh .WACDialogCheckboxDiv:hover,.MLRVisualRefresh .WACDialogCheckboxDivHighlight{border:1px solid #fff !important;}
+.usehover .MLRVisualRefresh .cui-tb:hover .cui-txtbx,.MLRVisualRefresh .cui-tb-focus .cui-txtbx,.usehover .MLRVisualRefresh .cui-spn:hover .cui-spn-txtbx,.usehover .MLRVisualRefresh .cui-spn:hover .cui-spn-arwbx,.MLRVisualRefresh .cui-spn-focus .cui-spn-txtbx,.MLRVisualRefresh .cui-spn-focus .cui-spn-arwbx,.usehover .MLRVisualRefresh span:hover > .cui-dd-arrow-button,.usehover .MLRVisualRefresh .cui-dd:hover .cui-dd-text,.MLRVisualRefresh .cui-dd:focus .cui-dd-text,.MLRVisualRefresh .cui-dd:focus .cui-dd-arrow-button,.usehover .MLRVisualRefresh .cui-cb:hover .cui-cb-input,.MLRVisualRefresh .cui-cb-focus .cui-cb-input,.MLRVisualRefresh .cui-cb-focus .cui-dd-arrow-button,.MLRVisualRefresh .WACDialogList:focus{border-color:#737373 !important;}
+.MLRVisualRefresh .cui-ctl-split-hovered-secondary{border-color:#312e2b !important;}
+.MLRVisualRefresh .cui-ctl-menu{-webkit-tap-highlight-color:#312e2b !important;}
+.usehover .MLRVisualRefresh .cui-groupBody .cui-gallerybutton:hover,.usehover .MLRVisualRefresh .cui-groupBody .cui-gallerybutton:hover .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton.cui-gallerybutton-focused,.MLRVisualRefresh .cui-gallerybutton.cui-gallerybutton-focused .cui-gallerybutton-a{border-color:#312e2b !important;}
+.usehover .MLRVisualRefresh .cui-ctl.cui-ctl-on:hover,.MLRVisualRefresh .cui-ctl-on:focus,.MLRVisualRefresh .cui-ctl-on .cui-ctl-split-hovered,.MLRVisualRefresh .cui-ctl-on .cui-ctl-split-hovered-primary{border-color:#797673 !important;background-color:#494644 !important;}
+.usehover .MLRVisualRefresh .cui-groupBody .cui-gallerybutton-highlighted.cui-gallerybutton:hover,.MLRVisualRefresh .cui-gallerybutton-highlighted.cui-gallerybutton.cui-gallerybutton-focused{border-color:#797673 !important;}
+.MLRVisualRefresh .cui-ctl-active,.usehover .MLRVisualRefresh .cui-ctl-active:hover,.MLRVisualRefresh .cui-gallerybutton-Size16by16.cui-ctl-active,.MLRVisualRefresh .cui-gallerybutton-Size16by16.cui-ctl-active .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton-Size20by20.cui-ctl-active,.MLRVisualRefresh .cui-gallerybutton-Size20by20.cui-ctl-active .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton-Size24by24.cui-ctl-active,.MLRVisualRefresh .cui-gallerybutton-Size24by24.cui-ctl-active .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton-Size84by21.cui-ctl-active,.MLRVisualRefresh .cui-gallerybutton-Size84by21.cui-ctl-active .cui-gallerybutton-a,.MLRVisualRefresh .cui-gallerybutton-Size90by21.cui-ctl-active,.MLRVisualRefresh .cui-gallerybutton-Size90by21.cui-ctl-active .cui-gallerybutton-a,.MLRVisualRefresh .cui-fa-dropped,.MLRVisualRefresh .cui-fa-dropped .cui-ctl-a1,.MLRVisualRefresh .cui-fa-dropped .cui-ctl-a2{border-color:#3f3d3b !important;background-color:#3f3d3b !important;}
+.MLRVisualRefresh .cui-gallerybutton.cui-ctl-active,.MLRVisualRefresh .cui-gallerybutton.cui-ctl-active .cui-gallerybutton-a{border-color:#3f3d3b !important;}
+.MLRVisualRefresh .cui-disabled:focus,.MLRVisualRefresh .cui-disabled:focus:hover,.MLRVisualRefresh .cui-disabled .cui-ctl-split-hovered-primary,.MLRVisualRefresh .cui-disabled .cui-ctl-split-hovered-secondary{border-color:#312e2b !important;background-color:#312e2b !important;}
+.MLRVisualRefresh .cui-disabled.cui-gallerybutton.cui-gallerybutton-focused,.MLRVisualRefresh .cui-disabled.cui-gallerybutton.cui-gallerybutton-focused .cui-gallerybutton-a,.MLRVisualRefresh .cui-groupBody .cui-disabled.cui-gallerybutton.cui-gallerybutton-focused:hover,.MLRVisualRefresh .cui-groupBody .cui-disabled.cui-gallerybutton.cui-gallerybutton-focused:hover .cui-gallerybutton-a{border-color:#312e2b !important;}
+.MLRVisualRefresh .cui-disabled:focus .cui-img-container,.MLRVisualRefresh .cui-disabled:focus .cui-img-cont-float{background-color:#312e2b !important;}
+.tellme-flight.cui-sb-hover,.tellme-flight.cui-sb-focus,.tellme-flight.cui-fa-dropped{background-color:#5f6165 !important;color:white !important;}
+.cui-disabled *{color:#b1b1b1 !important;}
+.cui-disabled .cui-txtbx,.cui-disabled .cui-spn-txtbx,.cui-disabled .cui-cb-input{color:#b1b1b1 !important;background-color:#1f1f1f !important;cursor:default !important;}
+.cui-disabled .cui-txtbx,.cui-disabled .cui-spn-txtbx,.cui-disabled .cui-spn-arwbx,.cui-disabled .cui-dd-arrow-button,.cui-disabled .cui-dd-text,.cui-disabled .cui-cb-input{border-color:#2d2d2d !important;}
+.usehover .cui-disabled:hover .cui-txtbx,.usehover .cui-disabled:hover .cui-spn-txtbx,.usehover .cui-disabled:hover .cui-spn-arwbx,.usehover .cui-disabled:hover .cui-dd-text,.usehover .cui-disabled:hover .cui-cb-input,.usehover .cui-disabled .cui-dd-arrow-button:hover{border-color:#2d2d2d !important;outline:none !important;}
+.usehover .cui-disabled.cui-ctl-thin:hover{border-color:transparent !important;border-left-color:#2d2d2d !important;}
+.AppRtl.usehover .cui-disabled.cui-ctl-thin:hover{border-color:transparent !important;border-right-color:#2d2d2d !important;}
+.cui-disabled:focus,.cui-disabled:focus:hover,.cui-disabled .cui-ctl-split-hovered-primary,.cui-disabled .cui-ctl-split-hovered-secondary{border-color:#142641 !important;background-color:#142641 !important;}
+.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size40by40,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size40by40 .cui-gallerybutton-a,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size48by48,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size48by48 .cui-gallerybutton-a,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size61by75,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size61by75 .cui-gallerybutton-a,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size64by48,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size64by48 .cui-gallerybutton-a,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size70by48,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size70by48 .cui-gallerybutton-a,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size85by16,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size85by16 .cui-gallerybutton-a,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size85by48,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size85by48 .cui-gallerybutton-a,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size110by75,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size110by75 .cui-gallerybutton-a,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size32by32,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size32by32 .cui-gallerybutton-a,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size120by20,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size120by20 .cui-gallerybutton-a,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size110by75:hover,.cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size110by75:hover .cui-gallerybutton-a,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size40by40:hover,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size40by40:hover .cui-gallerybutton-a,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size48by48:hover,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size48by48:hover .cui-gallerybutton-a,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size64by48:hover,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size64by48:hover .cui-gallerybutton-a,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size70by48:hover,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size70by48:hover .cui-gallerybutton-a,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size85by16:hover,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size85by16:hover .cui-gallerybutton-a,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size85by48:hover,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size85by48:hover .cui-gallerybutton-a,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size32by32:hover,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size32by32:hover .cui-gallerybutton-a,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size120by20:hover,.cui-groupBody .cui-disabled.cui-gallerybutton-focused.cui-gallerybutton-Size120by20:hover .cui-gallerybutton-a{border-color:#142641 !important;}
+.cui-disabled:focus .cui-img-container,.cui-disabled:focus .cui-img-cont-float{background-color:#142641 !important;}
+table.SelectableDialogTable{border:1px solid #414141 !important;}
+.SelectableDialogTable thead{border-bottom:1px solid #414141 !important;}
+.SelectableDialogTable tbody tr.inactiveRowSelection{background-color:#212121 !important;}
+.cui-menu{border:1px solid #464646 !important;background-color:#111 !important;}
+.cui-menusection-title{border:solid #1f1f1f !important;background-color:#1f1f1f !important;color:#bfbfbf !important;}
+.cui-menusection-title-lightBackground{background-color:#111 !important;}
+li.cui-menusection-contextmenu-title{background-color:#1f1f1f !important;color:#bfbfbf !important;}
+.cui-menusection-title-empty{border-bottom:solid #1f1f1f 1px !important;}
+.cui-menusection-separator{background-color:#2d2d2d !important;}
+.cui-jewelsubmenu .cui-footerbutton,.cui-jewelsubmenu .cui-templatebutton-label-portrait,.cui-jewelsubmenu .cui-templatebutton-label-landscape,.cui-jewelsubmenu .cui-templatebutton-label-square,.cui-jewelsubmenu .cui-mrubutton-title,.cui-jewelsubmenu .cui-mrubutton-description{color:#bfbfbf !important;}
+.cui-jewelsubmenu .cui-ctl-filenamelabel.cui-menusection-filenametitle{color:#7098d7 !important;}
+.cui-jewelsubmenu .cui-ctl-menu.cui-ctl-on{background-color:#816c02 !important;}
+.cui-jewelmenu #jbtnBackArrow-Menu32,.cui-jewelmenu .cui-ctl-menu.cui-disabled,.usehover .cui-jewelmenu .cui-ctl-menu.cui-disabled:hover{background-color:transparent !important;}
+.cui-jewelsubmenu .cui-ctl-menu.cui-ctl-on.cui-disabled{background-color:#816c02 !important;}
+.cui-jewelmenu #jbtnBackArrow-Menu32 .cui-ctl-iconContainer{display:inline-block !important;border:none !important;}
+.cui-jewelmenu{background-color:#7098d7 !important;border-color:#7098d7 !important;}
+.cui-jewelsubmenu{background-color:#111 !important;border:1px solid #7098d7 !important;}
+.cui-jewelmenu span{color:#111 !important;}
+.cui-jewelmenu .cui-disabled span{color:#5682c6 !important;}
+.cui-jewelmenu .cui-menusection-separator{background-color:#5682c6 !important;}
+.cui-jewelsubmenu .cui-ctl-menu.cui-ctl-active .cui-ctl-iconContainer,.cui-jewelsubmenu .cui-ctl-menu.cui-ctl-active:hover .cui-ctl-iconContainer{border-color:#5682c6 !important;}
+.usehover .cui-jewelsubmenu .cui-disabled .cui-ctl-iconContainer:hover,.usehover .cui-jewelsubmenu .cui-disabled:hover .cui-ctl-iconContainer,.cui-jewelsubmenu .cui-disabled:focus .cui-ctl-iconContainer{border-color:#2d2d2d !important;background-color:transparent !important;}
+.cui-jewelsubmenu .cui-btn-menu-description{max-width:470px !important;color:#a0a0a0 !important;}
+.cui-jewelmenu #jbtnBackArrow-Menu32 .cui-img-cont-float{background-color:#111 !important;}
+.cui-jewelmenu #jbtnBackArrow-Menu32:hover .cui-img-cont-float,.cui-jewelmenu #jbtnBackArrow-Menu32:focus .cui-img-cont-float{background-color:#122d56 !important;}
+.cui-jewelmenu-backarrowrefresh #jbtnBackArrow-Menu32:hover .cui-img-cont-float,.cui-jewelmenu-backarrowrefresh #jbtnBackArrow-Menu32:focus .cui-img-cont-float{background-color:transparent !important;}
+.usehover .cui-jewelmenu-backarrowrefresh #jbtnBackArrow-Menu32:hover,.cui-jewelmenu-backarrowrefresh #jbtnBackArrow-Menu32:focus,.cui-jewelmenu-backarrowrefresh .cui-ctl-menu:focus #jbtnBackArrow-Menu32{background-color:#7ea9e7 !important;}
+.cui-jewelsubmenu a.cui-footerbutton,.cui-jewelsubmenu a.cui-subsectionlabellink{color:#70a0cf !important;}
+a.cui-footerbutton:focus,a.cui-subsectionlabellink:focus{outline:#fff dotted 1px !important;}
+.cui-jewelsubmenu .cui-img-95by123,.cui-menu .cui-img-95by123{border:1px solid #2d2d2d !important;}
+.cui-jewelsubmenu .cui-img-123by95,.cui-menu .cui-img-123by95{border:1px solid #2d2d2d !important;}
+.cui-jewelsubmenu .cui-img-123by69,.cui-menu .cui-img-123by69{border:1px solid #2d2d2d !important;}
+.cui-jewelsubmenu .cui-img-100by100,.cui-menu .cui-img-100by100{border:1px solid #2d2d2d !important;}
+.usehover .cui-jewelsubmenu .cui-templatebutton-portrait:hover,.usehover .cui-jewelsubmenu .cui-templatebutton-landscape:hover,.usehover .cui-jewelsubmenu .cui-templatebutton-shortlandscape:hover,.usehover .cui-jewelsubmenu .cui-templatebutton-square:hover,.usehover .cui-jewelsubmenu .cui-headerbutton:hover,.usehover .cui-jewelsubmenu .cui-mrubutton:hover,.cui-jewelsubmenu .cui-templatebutton-portrait:focus,.cui-jewelsubmenu .cui-templatebutton-landscape:focus,.cui-jewelsubmenu .cui-templatebutton-shortlandscape:focus,.cui-jewelsubmenu .cui-templatebutton-square:focus,.cui-jewelsubmenu .cui-headerbutton:focus,.cui-jewelsubmenu .cui-mrubutton:focus{border-color:#142641 !important;background-color:#142641 !important;}
+.cui-jewelsubmenu .cui-menusection-filenametitle{color:#707070 !important;}
+.usehover .cui-jewelmenu .cui-ctl-menu:hover{background-color:#497ecc !important;}
+.usehover .cui-jewelsubmenu.cui-jewelsubmenu #btnProtectDocument-Menu48:hover.cui-ctl-menu.cui-ctl-on.cui-disabled,.usehover .cui-jewelsubmenu.cui-jewelsubmenu #btnProtectDocument-Menu48:hover.cui-ctl-menu.cui-ctl-on.cui-disabled .cui-ctl-iconContainer{background-color:#816c02 !important;}
+.cui-jewelmenu .cui-ctl-menu:focus{background-color:#497ecc !important;border-color:white !important;}
+.cui-jewelmenu #jbtnBackArrow-Menu32:focus{background-color:#497ecc !important;}
+.cui-jewelmenu .cui-fa-dropped.cui-ctl-menu{background-color:#9bb7e2 !important;}
+.cui-jewelsubmenu .cui-menusection-titleAtTop{color:#7098d7 !important;}
+.usehover .cui-jewelsubmenu .cui-ctl-menu:hover,.cui-jewelsubmenu .cui-ctl-menu:focus{background-color:#0e1b30 !important;}
+.usehover .cui-jewelsubmenu .cui-ctl-iconContainer:hover,.usehover .cui-jewelsubmenu .cui-ctl-menu:hover .cui-ctl-iconContainer,.cui-jewelsubmenu .cui-ctl-menu:focus .cui-ctl-iconContainer{border-color:#0e1b30 !important;background-color:#0e1b30 !important;}
+.cui-jewelsubmenu .cui-ctl-menu.cui-ctl-active .cui-ctl-iconContainer,.cui-jewelsubmenu .cui-ctl-menu.cui-ctl-active:hover .cui-ctl-iconContainer{background-color:#122d56 !important;}
+.cui-jewelsubmenu .cui-ctl-menu.cui-ctl-active,.cui-jewelsubmenu .cui-ctl-menu.cui-ctl-active:hover{background-color:#122d56 !important;}
+.usehover .cui-jewelmenu #jbtnBackArrow-Menu32:hover,.cui-jewelmenu .cui-ctl-menu:focus #jbtnBackArrow-Menu32{background-color:#497ecc !important;}
+.cui-jewelsubmenu .cui-ctl-mediumlabel{color:#212121 !important;}
+.cui-statusbar{height:22px !important;background-color:#111 !important;border-top:1px solid #2d2d2d !important;}
+.dark .cui-statusbar{background-color:#bfbfbf !important;border-top:1px solid #afafaf !important;}
+.cui-statusbar .cui-ctl-mediumlabel,.cui-statusbar .cui-fslb{color:#bfbfbf !important;}
+.dark .cui-statusbar .cui-ctl-mediumlabel,.dark .cui-statusbar .cui-fslb{color:#111 !important;}
+.cui-statusbar .cui-ctl-on{border-color:#122d56 !important;background-color:#122d56 !important;}
+.dark .cui-statusbar .cui-ctl-on{border-color:#909090 !important;background-color:#909090 !important;}
+.usehover .cui-statusbar .cui-ctl:hover,.cui-statusbar .cui-ctl:focus,.usehover .cui-statusbar .cui-ctl-medium:hover,.cui-statusbar .cui-ctl-medium:focus{border-color:#142641 !important;background-color:#142641 !important;}
+.usehover .dark .cui-statusbar .cui-ctl:hover,.dark .cui-statusbar .cui-ctl:focus,.usehover .dark .cui-statusbar .cui-ctl-medium:hover,.dark .cui-statusbar .cui-ctl-medium:focus{border-color:#909090 !important;background-color:#909090 !important;}
+.usehover .cui-statusbar .cui-ctl-on:hover,.cui-statusbar .cui-ctl-on:focus{border-color:#224270 !important;background-color:#142641 !important;}
+.usehover .dark .cui-statusbar .cui-ctl-on:hover,.dark .cui-statusbar .cui-ctl-on:focus{border-color:#dbdbdb !important;background-color:#909090 !important;}
+.cui-statusbar .cui-ctl.cui-ctl-active,.usehover .cui-statusbar .cui-ctl.cui-ctl-active:hover,.cui-statusbar .cui-ctl-medium.cui-ctl-active,.usehover .cui-statusbar .cui-ctl-medium.cui-ctl-active:hover,.cui-statusbar .cui-fa-dropped{border-color:#224270 !important;background-color:#224270 !important;}
+.dark .cui-statusbar .cui-ctl.cui-ctl-active,.usehover .dark .cui-statusbar .cui-ctl.cui-ctl-active:hover,.dark .cui-statusbar .cui-ctl-medium.cui-ctl-active,.usehover .dark .cui-statusbar .cui-ctl-medium.cui-ctl-active:hover,.dark .cui-statusbar .cui-fa-dropped{border-color:#dbdbdb !important;background-color:#dbdbdb !important;}
+.MLRVisualRefresh .cui-statusbar .cui-ctl-on{border-color:#494644 !important;background-color:#494644 !important;}
+.usehover .MLRVisualRefresh .cui-statusbar .cui-ctl:hover,.MLRVisualRefresh .cui-statusbar .cui-ctl:focus,.usehover .MLRVisualRefresh .cui-statusbar .cui-ctl-medium:hover,.MLRVisualRefresh .cui-statusbar .cui-ctl-medium:focus{border-color:#312e2b !important;background-color:#312e2b !important;}
+.usehover .MLRVisualRefresh .cui-statusbar .cui-ctl-on:hover,.MLRVisualRefresh .cui-statusbar .cui-ctl-on:focus{border-color:#797673 !important;background-color:#312e2b !important;}
+.MLRVisualRefresh .cui-statusbar .cui-ctl.cui-ctl-active,.usehover .MLRVisualRefresh .cui-statusbar .cui-ctl.cui-ctl-active:hover,.MLRVisualRefresh .cui-statusbar .cui-ctl-medium.cui-ctl-active,.usehover .MLRVisualRefresh .cui-statusbar .cui-ctl-medium.cui-ctl-active:hover,.MLRVisualRefresh .cui-statusbar .cui-fa-dropped{border-color:#3f3d3b !important;background-color:#3f3d3b !important;}
+.cui-statusbar .cui-disabled *{color:#b1b1b1 !important;}
+.dark .cui-statusbar .cui-disabled *{color:#b1b1b1 !important;}
+.cui-statusbar .cui-disabled .cui-img-container,.cui-statusbar .cui-disabled .cui-img-cont-float{background-color:#111 !important;}
+.dark .cui-statusbar .cui-disabled .cui-img-container,.dark .cui-statusbar .cui-disabled .cui-img-cont-float{background-color:#bfbfbf !important;}
+.cui-statusbar .cui-disabled:focus{border-color:#142641 !important;background-color:#142641 !important;}
+.dark .cui-statusbar .cui-disabled:focus{border-color:#909090 !important;background-color:#909090 !important;}
+.MLRVisualRefresh .cui-statusbar .cui-disabled:focus{border-color:#312e2b !important;background-color:#312e2b !important;}
+.swBar{background-color:#111 !important;border:1px solid #555555 !important;box-shadow:0px 1px 15px rgba(0,0,0,0.4) !important;}
+.swLoadingText{color:#fff !important;}
+.swLoadingErrorText{color:#fff !important;}
+.swBar .arrow{border-bottom:8px solid #111 !important;}
+.swBar .border-arrow{border-bottom-color:#555555 !important;}
+.swTileLink{color:#111 !important;}
+.headerBarBG{background-color:#111 !important;}
+.WACFrameWord{background:top left repeat-x #111 !important;background-image:-webkit-gradient(linear,left top,left bottom,from(#1d1d1d),to(#111)) !important;background-image:-moz-linear-gradient(top,#1d1d1d,#111) !important;background-image:-ms-linear-gradient(top,#1d1d1d,#111) !important;}
+.InternetExplorer.v8 .WACFrameWord,.InternetExplorer.v9 .WACFrameWord{background-color:#1d1d1d !important;}
+.WACAccessibilityLinkShown{border:1px solid black !important;color:black !important;background-color:#111 !important;}
+.Embed.WACFrameWord{border:1px solid #2d2d2d !important;}
+.usehover .Embed.WACFrameWord:hover{border-color:#247ee2 !important;}
+div.WACSelection{background-color:#979797 !important;}
+div.WACSurface{background-color:#111 !important;opacity:0 !important;}
+div.WACPageBorder{border:solid 1px #35393d !important;}
+div.WACHighlight{background-color:#FFE000 !important;}
+div.WACCommentHighlight{background-color:#2b507c !important;}
+div.WACActiveHighlight{background-color:#2b507c !important;}
+.PaneTitle{color:#7098d7 !important;}
+.FindPane{color:#a0a0a0 !important;}
+.SearchBoxButtonFrame{border:1px solid #5f5f5f !important;}
+.SearchBoxButtonFrame:hover,.SearchBoxButtonFrame:focus,.SearchUIArea .cui-ctl-split-hovered-primary,.SearchUIArea .cui-ctl-split-hovered-secondary{border-color:#142641 !important;}
+input.SearchBox{color:#bfbfbf !important;}
+.PlaceholderText{color:#808080 !important;}
+.PlaceholderFocus{border-color:#142641 !important;}
+.FindDropDown{background-color:#9a8400 !important;border:1px solid #464646 !important;border-top:0px !important;color:#b5a396 !important;}
+.WACNavigationButtonFrameHover{background-color:#111 !important;}
+.usehover .WACResultOutline:hover{border:solid 1px #7098d7 !important;}
+.WACSelectedResult{border:solid 2px #7098d7 !important;}
+.usehover .WACSelectedResult:hover{border:solid 2px #7098d7 !important;}
+.WACSearchResult{border:1px solid transparent !important;color:#a7a7a7 !important;}
+.ResultDivider{border-bottom:1px solid #262626 !important;}
+.wildfireBannerLink{color:#1183ff !important;}
+.wildfireBannerSubText{color:#cfcfcf !important;}
+.wildfireBannerContainer{background:#1d1d1d !important;}
+.wildfireOverlayBase{background:#111 !important;}
+.wildfireOverlayButtonDark{background-color:#5280c1 !important;color:white !important;}
+.wildfireOverlayButtonLight{color:#5280c1 !important;border-color:#5280c1 !important;}
+.wildfireOverlaySmall{color:#7b7a7e !important;}
+.wildfireBannerImgContainer{background-color:#6794d4 !important;}
+.wildfireBannerImgSpan{background-color:#6794d4 !important;}
+.SelectedComment:focus{outline:2px solid #224270 !important;box-shadow:inset -2px 0px 0px 0px #224270,inset 2px 0px 0px 0px #224270 !important;}
+
+a.BreadcrumbItem{-webkit-tap-highlight-color:rgba(0,0,0,0.3) !important;}
+.usehover .cui-topBar1 a.BreadcrumbItem.SwitcherDropdown:hover,.cui-topBar1 a.BreadcrumbItem.SwitcherDropdown:focus{background-color:rgba(0,0,0,0.12) !important;}
+div.bookmarkCalloutBeak{background-color:#111 !important;}
+div.bookmarkCalloutBeakCurtain{background-color:#111 !important;box-shadow:0 5px 20px 0 rgba(0,0,0,0.3) !important;}
+.cui-topBar2.elevated-toolbar{box-shadow:0 1.6px 3.6px 0 rgba(0,0,0,0.132),0 0.3px 0.9px 0 rgba(0,0,0,0.108) !important;}
+.cui-topBar1 .cui-ctl.SkypeButton{background-color:transparent !important;border-color:rgba(255,255,255,0.3) !important;}
+.ModernUXFastViewHeader .AppAndBrandContainer,div#AppHeaderPanel .ModernUXFastViewHeader .AppAndBrandContainer{background-color:#111 !important;}
+.cui-modalDiv{background-color:#111 !important;}
+.cui-ctl-initials{background-color:orange !important;color:#111 !important;}*/
+
+
+svg > path.OfficeIconColors_m22 {fill: #d4d4d4 !important}
+svg > path.OfficeIconColors_m20 {fill: transparent !important}
+.WACFrameWord{background-color: #262626 !important; 
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#262626),to(#262626)) !important;
+    background-image: -moz-linear-gradient(top,#262626,#262626) !important;
+    background-image: -ms-linear-gradient(top,#262626,#262626) !important;
+}
+
+.ms-Callout-beak{background-color: #ccc !important; border-color: #ccc !important}
+.ms-Callout.ms-Tooltip {background: #ccc !important}
+.ms-Callout-beakCurtain, .ms-Callout-main, .ms-Tooltip-subtext {background-color: #ccc !important; border: 1px solid #ccc !important}
+.ms-Tooltip-content, .ms-Tooltip-subtext {color: black !important}
+.ms-ContextualMenu-Callout .ms-Callout-main {background-color: #323130 !important; border: 1px solid #323130 !important}
+#CustomTabDialogComboBoxLeader0Dropdown .ms-Callout-main, #CustomTabDialogComboBoxAlignment0Dropdown .ms-Callout-main, #SpecialComboBoxDropdown .ms-Callout-main, #LineSpacingComboBoxDropdown .ms-Callout-main, #AlignmentComboBoxDropdown .ms-Callout-main {background-color: #323130 !important; border: none !important}
+
+.WACHorizontalRulerContainer {background-color: #2a2a2a !important; box-shadow: 0px 1px 3px 1px hsl(0deg 0% 0% / 15%) !important; border-top: 1px solid #2a2a2a !important}
+.WACHorizontalRulerContainer>div>div>div>div {background: #3f3f3f !important}
+.WACHorizontalRulerContainer>div>div>div>div>canvas {filter: invert(1) contrast(0.79) grayscale(10) !important}
+.ruler-indent-svg {fill: #a0a0a0 !important; stroke: #0a0a0a !important}
+#FirstLineIndent_0:hover path.ruler-indent-svg, #HangingIndent_1:hover path.ruler-indent-svg, #RightIndent_2:hover path.ruler-indent-svg, #LeftIndent_3:hover path.ruler-indent-svg {fill: rgb(103, 148, 215) !important; stroke: rgb(103, 148, 215) !important}
+
+.cui-ribbonTopBars {background-color: #323130 !important}
+.cui-topBar2 {background-color: #323130 !important}
+.cui-viewerchrome .cui-topBar2.elevated-toolbar {background-color: #323130 !important}
+div[class^="outerContainer-"] {background-color: #323130 !important}
+#WACStatusBarContainer div[class^="outerContainer-"] {background-color: #323130!important; border-top: 1px solid #3b3a39 !important}
+#HeaderTopBars .ms-Button{color: #fff !important}
+#HeaderTopBars .ms-Button:hover{color: #fff !important; background-color: #484644 !important;}
+#HeaderTopBars .ms-Button:focus{color: #fff !important; background-color: #605e5c !important; border-color: #8a8886 !important;}
+#HeaderTopBars .ms-Button:active{color: #fff!important; background-color: #797775 !important;}
+#HeaderTopBars .ms-Button.is-expanded.ms-Button--hasMenu {color: #fff!important; background-color: #484644 !important;}
+#HeaderTopBars .ms-Button.is-checked {color: #fff!important; background-color: #484644 !important;}
+
+#WACStatusBarContainer .ms-Button{color: #fff !important}
+#WACStatusBarContainer .ms-Button:hover{color: #fff !important; background-color: #484644 !important;}
+#WACStatusBarContainer .ms-Button:focus{color: #fff !important; background-color: #605e5c !important; border-color: #8a8886 !important;}
+#WACStatusBarContainer .ms-Button:active{color: #fff!important; background-color: #797775 !important;}
+[data-unique-id="GetQueryCurrentPageLabel"]{color:#fff !important;}
+#MoreViewerOptionsFlyoutAnchorDropdown [class^="label-"] {color: #fff !important}
+
+[role="presentation"] [role="menuitemcheckbox"]:hover, [role="presentation"] [role="menuitem"]:hover {color: #fff !important; background-color: #484644 !important;}
+[role="presentation"] [role="menuitemcheckbox"]:focus, [role="presentation"] [role="menuitem"]:focus {color: #fff !important; background-color: #605e5c !important; border-color: #8a8886 !important;}
+[role="presentation"] [role="menuitemcheckbox"]:focus:hover, [role="presentation"] [role="menuitem"]:focus:hover {border-color: transparent !important;}
+[role="presentation"] [role="menuitemcheckbox"]:active, [role="presentation"] [role="menuitem"]:active, [role="presentation"] [role="menuitemcheckbox"][aria-checked="true"], [role="presentation"] [role="menuitem"][aria-checked="true"] {color: #fff!important; background-color: #797775 !important;}
+[role="presentation"] [role="menuitem"][aria-expanded="true"], [role="presentation"] [role="menuitemcheckbox"][aria-expanded="true"], [role="presentation"] [role="menuitemradio"][aria-expanded="true"] {color: #fff!important; background-color: #797775 !important;}
+
+[role="presentation"] [role="menuitemradio"]:hover {color: #fff !important; background-color: #484644 !important;}
+[role="presentation"] [role="menuitemradio"]:focus {color: #fff !important; background-color: #605e5c !important; border-color: #8a8886 !important;}
+[role="presentation"] [role="menuitemradio"]:focus:hover {border-color: transparent !important;}
+[role="presentation"] [role="menuitemradio"]:active, [role="presentation"] [role="menuitemradio"][aria-checked="true"] {color: #fff!important; background-color: #797775 !important;}
+
+.WACDialogOverlay {background: #464646 !important;}
+.WACDialogPanel {border: 1px solid #e3e3e3 !important;background-color: #444 !important; color: #fff !important; box-shadow: 0 0 10px 1px #2e2e2e !important}
+.usehover .WACButton:hover, .usehover .WACGlyph:hover, .usehover .StandardButton:hover{border-color:#595959 !important;background-color:#4e4e4e !important;}
+.usehover .cui-ctl:hover, .cui-ctl:focus, .usehover .cui-ctl-medium:hover, .cui-ctl-medium:focus, .usehover .cui-ctl-large:hover, .cui-ctl-large:focus, .usehover .cui-sldr:hover, .cui-sldr-onfocus, .cui-ctl-split-hovered, .cui-ctl-split-hovered-primary, .cui-ctl-menu-hovered-without-focus, .cui-ctl-menu:focus, .usehover .cui-ctl-thin:hover, .cui-ctl-thin:focus, .usehover .cui-spn-btnup:hover, .usehover .cui-spn-btndown:hover, .usehover .cui-dd-arrow-button:hover, .WACZoomDialogRadioRow-highlight, .WACZoomDialogRadioRow:hover{
+    border-color:#555 !important;
+    background-color: #555 !important;
+}
+
+.WACButton {color:#fff !important;background-color:#444 !important}
+.WACButton:focus, .WACGlyph:focus, .StandardButton:focus {background-color: #484848 !important;}
+[type="button"].WACButton:active, [type="button"].WACGlyph:active, [role="button"].StandardButton:active{border:1px solid #c8c8c8 !important; background: #595959 !important}
+.WACDialogRadio {filter: invert(1) hue-rotate(180deg) contrast(0.87) !important}
+
+#obf-OverlayBackground {
+    color:#fff !important;
+}
+
+#obf-MainContainer {
+    border-top: 1px solid #444 !important;
+    border-bottom: 1px solid #444 !important;
+    background-color: #444 !important;
+}
+
+.obf-CloseButton {
+    fill: white !important;
+}
+
+.obf-CloseButton:hover {
+    background-color:#808080 !important;
+}
+
+.obf-ShowRightBorder {
+    border-right: 1px solid #888 !important;
+}
+
+.obf-TextInput {
+    color:#fff !important;
+    background-color: #222 !important;
+}
+
+.obf-CheckBox {filter: invert(1) hue-rotate(180deg) contrast(0.87) !important;}
+.obf-SubmitButton[disabled], .obf-SubmitButton[disabled]:hover, .obf-SubmitButton[disabled]:focus, .obf-SubmitButton[disabled]:active{background-color: #7a7a7a !important;}
+
+.WACDialogList {
+    color:#fff !important;
+    border: 1px solid #717171 !important;
+    background-color: #222 !important;
+}
+
+.StandardButton, .PaneTitle {color: #fff !important}
+.FindPane{color:#a0a0a0 !important;}
+input.SearchBox{color: #fff !important; background-color: #222 !important}
+
+.SearchBoxButtonFrame:hover, .SearchBoxButtonFrame:focus, .SearchUIArea .cui-ctl-split-hovered-primary, .SearchUIArea .cui-ctl-split-hovered-secondary {
+    border-color: #373737 !important;
+}
+
+.cui-ctl-split-hovered-secondary {background-color: #373737 !important}
+
+.WACSearchResult {color: #ccc !important;}
+.ResultDivider{border-bottom:1px solid #484644 !important;}
+
+#callout [class^="beak-"], #callout [class^="beakCurtain-"], #callout [class^="beakMain-"], #callout [class^="calloutMain-"] {
+    background-color: #363636 !important;
+}
+
+label[for="CommitNewDocumentTitle"] {color: #fff !important}
+
+input#CommitNewDocumentTitle {border: none #666 !important; background: #444 !important;color: #fff !important}
+
+#callout[class^="root-"] {border-color: #505050 !important;}
+
+[class^="documentTitleSection-"] [class^="root-"] [class^="suffix-"] {background: #444 !important; color: #fff !important}
+
+a#PrintPDFLink, #feedbackPositiveId, #feedbackNegativeId{color: #37f !important}
+
+.cui-menu {background-color:#222 !important; border: 1px solid #575757 !important}
+.cui-menusection-separator {background-color: #484644 !important;}
+.cui-ctl-mediumlabel, .cui-ctl-largelabel, .cui-ctl-menulabel, .cui-btn-menu-description{color:#ccc !important}
+
+.FShadowLeftInner, .FShadowLeftOuter, .FShadowTopLeftInner, .FShadowTopLeftOuter, .FShadowTopInner, .FShadowTopOuter, .FShadowTopRightInner, .FShadowTopRightOuter, .FShadowRightInner, .FShadowRightOuter, .FShadowBottomRightInner, .FShadowBottomRightOuter, .FShadowBottomInner, .FShadowBottomOuter, .FShadowBottomLeftInner, .FShadowBottomLeftOuter {background-color: black !important}
+
+
+/*Editor*/
+
+div.WACFrame {background-color: #262626 !important;}
+div.ThemedFishbowl.MLRVisualRefresh#WACInnerFrame{background-color: #262626 !important;}
+.AppHeaderPanel{background-color: #0a0a0a !important}
+div#RibbonTopBarContainer, #FileMenuLauncherContianer{background-color: #323130 !important}
+[data-automation-type="RibbonFileButton"][data-unique-id="FileMenu"] {background-color: #323130; color: #fff !important;}
+[data-automation-type="RibbonFileButton"][data-unique-id="FileMenu"]:hover {background-color: #484644; color: #fff !important;}
+[data-automation-type="RibbonFileButton"][data-unique-id="FileMenu"]:focus {background-color: #484644; border: 1px solid #fff !important;}
+[data-automation-type="RibbonFileButton"][data-unique-id="FileMenu"]:active {background-color: #484644; border-color: #484644 !important;}
+
+[data-automation-type="RibbonTab"][role="tab"] {background-color: #323130; color: #fff !important;}
+[data-automation-type="RibbonTab"][role="tab"]:hover {background-color: #484644; color: #fff !important;}
+[data-automation-type="RibbonTab"][role="tab"]:focus {background-color: #484644; border: 1px solid #fff !important;}
+[data-automation-type="RibbonTab"][role="tab"]:active {background-color: #484644; border-color: #484644 !important;}
+
+[role="tabpanel"] {background-color: #323130 !important}
+.ribbon-bottom-bar-divider{background-color: #484644 !important}
+[class^="splitButtonContainer-"]:hover button {border-color: #484644 !important;}
+[class^="splitButtonContainer-"]:hover button[data-automation-type="RibbonSplitButton"] {border-color: #484644 !important;}
+[class^="splitButtonContainer-"]:active button[data-automation-type="RibbonSplitButton"] {border-color: #797775 !important;}
+[class^="splitButtonContainer-"]:active button {border-color: #797775 !important;}
+[class^="splitButtonContainer-"]:active:hover button {border-color: #797775 !important;}
+[data-unique-id="Ribbon-Undo"][role="menuitem"]{color: #fff !important}
+[data-unique-id="Ribbon-Redo"][role="menuitem"]{color: #fff !important}
+[role="presentation"] button[role="menuitem"]{color: #fff !important}
+[role="presentation"] button[role="menuitem"][aria-disabled="true"]{color: #bebbb8 !important}
+[class*="splitButtonMenuButtonExpanded-"] {background-color: #797775 !important; color: #fff !important}
+[class*="splitButtonMenuButton-"]:hover, [class*="splitPrimaryButton root-"]:hover {background-color: #484644 !important; color: #fff !important}
+[class*="splitButtonMenuButton-"]:focus, [class*="splitPrimaryButton root-"]:focus {background-color: #484644 !important; color: #fff !important}
+[class*="splitButtonMenuButton-"]:active, [class*="splitPrimaryButton root-"]:active {background-color: #605e5c !important; color: #fff !important}
+#innerRibbonContainer .ms-Button.ms-Button--hasMenu:hover, #innerRibbonContainer .ms-Button:hover, #innerRibbonContainer .splitPrimaryButton:hover {background-color: #484644 !important}
+#innerRibbonContainer .ms-Button.ms-Button--hasMenu:active, #innerRibbonContainer .ms-Button:active,#innerRibbonContainer .ms-Button.is-checked, #innerRibbonContainer .splitPrimaryButton:active {background-color: #605e5c !important}
+#innerRibbonContainer .ms-Button.splitMenuButton[class*="splitButtonMenuButtonExpanded-"] {background-color: #605e5c !important}
+#innerRibbonContainer .ms-Button.is-expanded.ms-Button--hasMenu {background-color: #605e5c !important}
+
+#Ribbon-FontNamewrapper, #Ribbon-FontSizewrapper {border-color: #797775!important;background-color: #3b3a39 !important;}
+#Ribbon-FontNamewrapper:hover, #Ribbon-FontSizewrapper:hover {border-color: #979593!important;background-color: #3b3a39 !important;}
+#Ribbon-FontNamewrapper:hover button, #Ribbon-FontSizewrapper:hover button {background-color: #484644 !important;}
+#Ribbon-FontNamewrapper button:not(.is-checked), #Ribbon-FontSizewrapper button:not(.is-checked) {background-color: #3b3a39 !important;}
+#Ribbon-FontNamewrapper:focus button:not(.is-checked), #Ribbon-FontSizewrapper:focus button:not(.is-checked) {background-color: #484644 !important;}
+#Ribbon-FontName-input, #Ribbon-FontSize-input {color:#fff !important}
+#Ribbon-FontName-input[aria-disabled="true"], #Ribbon-FontSize-input[aria-disabled="true"] {color:#bebbb8 !important}
+
+[data-automation-type="AppCharacterCodeGalleryButton"], [data-automation-type="AppIconGalleryButton"] {color:#fff !important; background-color: transparent !important}
+
+.SelectTableHandle {filter: invert(1) !important}
+[data-automation-type="RibbonCompoundButton"] .ms-Button-label+div {color:#fff !important}
+
+[aria-label="Deelvenster voor opmerkingen"]{background-color: #323130 !important}
+
+img.WACPageImg{filter:invert(1) hue-rotate(180deg) contrast(0.7)!important}
+
+[class^="documentLocation-"] {border-color: #666 !important}
+[class^="sectionName-"], #LoadingMessage {color: white !important}
+.staticSearchBoxContainer {background-color: #323130 !important; border: 1px solid #797775 !important}
+#StaticSearchbox {background-color: #323130 !important; color: white !important}
+
+/*div.ms-Dialog-content[class*="innerContent-"]>div>div>div>div>div:not(#previewContainer) {color: white !important}
+div.ms-Dialog-content[class*="innerContent-"]>div>div>div>div:not(#previewContainer) {color: white !important}
+div.ms-Dialog-content[class*="innerContent-"]>div>div>div>div>div+div:not(#previewContainer) {color: #fff !important}*/
+
+.ruler-tooltip [class^="calloutMain-"] {background-color: #ccc !important}
+
+[class*="baseCard-"] {background-color: #484644 !important;}
+
+[class^="standardTextStyles-"], #ReactDialogText[class^="title-"] {color: white !important}
+#WACDialogFeedbackLink {color: #c7deff !important}
+#WACDialogFeedbackLink:hover {color: #82b4ff !important}
+#WACDialogFeedbackLink:active {color: #82b4ff !important}
+
+.Themed .Selected .EOP, .Themed .EOP.Selected, .Themed .LineBreakBlob.Selected, .Themed .TabRun.Selected, .Themed .TextRun .Selected {border-color: #777 !important}
+span.TOCLinkOverrideThemed, span.TOCLinkOverrideThemed span.TabRun, span.TOCLinkOverrideThemed span.TabLeaderChars, span.TOCLinkOverrideThemed span.TextRun, span.TOCLinkOverrideThemed span.TextRun.Underlined, span.TOCLinkOverrideThemed span.NormalTextRun, span.TOCLinkOverrideThemed span.BreakObjectText, span.TOCLinkOverrideThemed span.Selected{color: white !important}
+.Themed .Selected, .Themed .Selected p, .Themed .Selected p *, .Themed .Selected.MergeHighlight {background-color: #777 !important;}
+
+#ModeSwitcher, [data-unique-id="ShowCommentsTopBar"], [data-unique-id="CatchUpWithChanges"] {background-color: #323130 !important; border: 1px solid #605e5c !important}
+#ModeSwitcher.ms-Tooltip-content {background-color: #ccc !important; border: 1px solid #ccc !important}
+#ModeSwitcher:hover, [data-unique-id="ShowCommentsTopBar"]:hover, [data-unique-id="CatchUpWithChanges"]:hover {background-color: #484644 !important; border: 1px solid #605e5c !important}
+#ModeSwitcher:active, [data-unique-id="ShowCommentsTopBar"]:active, [data-unique-id="CatchUpWithChanges"]:active {background-color: #605e5c !important; border: 1px solid #605e5c !important}
+#ModeSwitcher .themedBtn-icon path,[data-unique-id="CatchUpWithChanges"] .themedBtn-icon path.OfficeIconColors_m233, [data-unique-id="CatchUpWithChanges"]:hover .themedBtn-icon path.OfficeIconColors_m233 {fill: #d4d4d4 !important}
+[data-unique-id="ShowCommentsTopBar"] .themedBtn-icon path.OfficeIconColors_m233, [data-unique-id="ShowCommentsTopBar"]:hover .themedBtn-icon path.OfficeIconColors_m233, [data-unique-id="ShowCommentsTopBar"]:active .themedBtn-icon path.OfficeIconColors_m233, [data-unique-id="ShowCommentsTopBar"][aria-pressed="true"] .themedBtn-icon path.OfficeIconColors_m233, [data-unique-id="ShowCommentsTopBar"][aria-pressed="true"]:hover .themedBtn-icon path.OfficeIconColors_m233, [data-unique-id="ShowCommentsTopBar"][aria-pressed="true"]:active .themedBtn-icon path.OfficeIconColors_m233{fill: #d4d4d4 !important}
+#ModeSwitcher[aria-expanded="true"], [data-unique-id="ShowCommentsTopBar"][aria-pressed="true"], [data-unique-id="CatchUpWithChanges"][aria-pressed="true"] {background-color: #605e5c !important; border: 1px solid #605e5c !important}
+#ModeSwitcher[aria-expanded="true"]:hover, [data-unique-id="CatchUpWithChanges"][aria-pressed="true"]:hover {background-color: #605e5c !important; border: 1px solid #605e5c !important}
+
+#catchUpFlyoutContainer>#flyoutItem[data-unique-id="no-changes-item"]>div>div {color: white !important}
+
+[role="listbox"] [class^="css-"] {color:#fff !important; background-color: transparent !important;}
+[role="listbox"] [role="separator"] {background-color:#484644 !important}
+[role="listbox"] .ms-Stack #OptionText {color:#fff !important}
+[role="listbox"] [role="option"].ms-Button.ms-Button--action.ms-Button--command.is-checked.ms-ComboBox-option {background-color:#605e5c !important; color:#fff !important}
+[role="listbox"] [role="option"].ms-Button.ms-Button--action.ms-Button--command.ms-ComboBox-option:hover {background-color:#505050 !important; color:#fff !important}
+[role="listbox"] [role="option"].ms-Button.ms-Button--action.ms-Button--command.ms-ComboBox-option:focus {background-color:#505050 !important; color:#fff !important}
+[role="listbox"] [role="option"].ms-Button.ms-Button--action.ms-Button--command.ms-ComboBox-option:active {background-color:#605e5c !important; color:#fff !important}
+
+ul[class^="list-"][role="presentation"] li[role="presentation"][class^="item-"] {background-color: #323130 !important;}
+ul[class^="list-"][role="presentation"] li[role="presentation"][class^="item-"] span[class^="label-"]{color: #fff !important;}
+ul[class^="list-"][role="presentation"] li[role="presentation"][class^="item-"] [aria-disabled="true"] span[class^="label-"]{color: #bebbb8 !important;}
+[role="presentation"] [role="separator"][class^="divider-"] {background-color: #484644 !important;}
+svg > path.OfficeIconColors_mWord0001 {fill: #808080 !important;}
+[class*="colorCell-"]:hover {background-color: #484644 !important;}
+[class*="colorCell-"]:focus {background-color: #484644 !important;}
+[class*="colorCell-"]:focus:hover {border-color: #484644 !important;}
+[class*="colorCell-"]:focus:hover .gridCell-SVG{border-color: #484644 !important;}
+[class*="colorCell-"]:active {background-color: #605e5c !important;}
+[class*="colorCell-"]:active .gridCell-SVG{border-color: #605e5c !important;}
+[class*="colorCell-"]:active:hover .gridCell-SVG{border-color: #605e5c !important;}
+
+[class*="top-Button-"] .ms-Button.ms-Button--icon:hover {background-color: #505050 !important;}
+[class*="top-Button-"] .ms-Button.ms-Button--icon:active {background-color: #808080 !important;}
+
+.ms-ColorPicker-colorRect[class*="colorRectangle-"], .ms-ColorPicker-slider.is-hue, .ms-ColorPicker-colorSquare {border: 1px solid #797775 !important;}
+.ms-Fabric.ms-Layer-content[class*="content-"] {color: #fff !important}
+input.ms-TextField-field {background: #3b3a39 !important; color: #fff !important}
+.ms-TextField-fieldGroup {background: #3b3a39 !important; border: 1px solid #797775 !important;}
+.ms-TextField-fieldGroup:hover, .ms-TextField-fieldGroup:hover:active ,.ms-TextField-fieldGroup:active {border: 1px solid #979593 !important;}
+
+[class*="splitButtonContainerChecked-"] button, [class*="splitButtonContainerChecked-"]:hover button {border-color: #605e5c !important}
+.splitPrimaryButton[aria-pressed="true"] {background-color: #605e5c !important; color: #fff !important}
+
+[role="presentation"] [role="heading"][id^="title-"] {background-color: #323130 !important; color: #fff !important}
+
+[data-automation-type="AppCharacterCodeGalleryButton"][aria-current="true"], [data-automation-type="AppListGalleryButton"][aria-current="true"], [data-automation-type="AppIconGalleryButton"][aria-current="true"] {border-color: transparent !important}
+[data-automation-type="AppListGalleryButton"] {background-color: #323130 !important; color: #fff !important}
+
+[data-unique-id="DialogCancelButton"], [type="MessageBarButtonProps"], [data-unique-id="DialogSecondaryActionButton"], [data-unique-id="tabStopOptionsButton"], [data-unique-id="AddTabStop"], [data-unique-id="ClearAllTabStops"] {background-color: #323130 !important; color: #fff !important; border: 1px solid #797775 !important}
+[data-unique-id="DialogCancelButton"]:hover, [type="MessageBarButtonProps"]:hover, [data-unique-id="DialogSecondaryActionButton"]:hover, [data-unique-id="tabStopOptionsButton"]:hover, [data-unique-id="AddTabStop"]:hover, [data-unique-id="ClearAllTabStops"]:hover {background-color: #484644 !important; color: #fff !important; border: 1px solid #797775 !important}
+[data-unique-id="DialogCancelButton"]:active, [type="MessageBarButtonProps"]:active, [data-unique-id="DialogSecondaryActionButton"]:active, [data-unique-id="tabStopOptionsButton"]:active, [data-unique-id="AddTabStop"]:active, [data-unique-id="ClearAllTabStops"]:active {background-color: #797775 !important; color: #fff !important; border: 1px solid #797775 !important}
+
+#RibbonPlaceHolder div[style*="background-color: rgb(243, 242, 241);"], .ms-Fabric div[class^="body-"], .ribbonContent {background-color: #323130 !important}
+.topbar div div[style*="background-color: rgb(237, 235, 233);"], .bottombar div div[style*="background-color: rgb(237, 235, 233);"] {background-color: #484644 !important}
+
+#CustomTabDialogComboBoxAlignment0wrapper, #CustomTabDialogComboBoxLeader0wrapper {background-color: #323130 !important; border: 1px solid #797775 !important}
+#CustomTabDialogComboBoxAlignment0wrapper[aria-owns="CustomTabDialogComboBoxAlignment0-list"], #CustomTabDialogComboBoxLeader0wrapper[aria-owns="CustomTabDialogComboBoxLeader0-list"] {background-color: #323130 !important; border: 1px solid #979593 !important}
+
+#DeleteTabStop.ms-Button.ms-Button--icon:hover {background-color: #666 !important;}
+#DeleteTabStop.ms-Button.ms-Button--icon:active {background-color: #777 !important;}
+
+[data-unique-id="ClearAllTabStops"][aria-disabled="true"] {background-color: #323130 !important; color: #bebbb8 !important; border: 1px solid #323130 !important}
+[data-unique-id="ClearAllTabStops"][aria-disabled="true"] span.ms-Button-label {color: #bebbb8 !important;}
+#CustomTabDialogComboBoxAlignment0-input, #CustomTabDialogComboBoxLeader0-input {color: white !important}
+
+.cui-txtbx, .cui-spn-txtbx, .cui-sb-input, .cui-dd-text, .cui-cb-input {border: 1px solid #797775 !important; background-color: #3B3A38 !important}
+.cui-sb-image-button, .cui-dd-arrow-button, .cui-spn-arwbx {border: 1px solid #797775 !important;}
+.MLRVisualRefresh .cui-ctl-active, .usehover .MLRVisualRefresh .cui-ctl-active:hover, .MLRVisualRefresh .cui-fa-dropped, .MLRVisualRefresh .cui-fa-dropped .cui-ctl-a1, .MLRVisualRefresh .cui-fa-dropped .cui-ctl-a2{border-color: #979593 !important; background-color: #797775 !important}
+
+.cui-disabled .cui-txtbx, .cui-disabled .cui-spn-txtbx, .cui-disabled .cui-spn-arwbx, .cui-disabled .cui-dd-arrow-button, .cui-disabled .cui-dd-text, .cui-disabled .cui-cb-input, .usehover .cui-disabled:hover .cui-txtbx, .usehover .cui-disabled:hover .cui-spn-txtbx, .usehover .cui-disabled:hover .cui-spn-arwbx, .usehover .cui-disabled:hover .cui-dd-text, .usehover .cui-disabled:hover .cui-cb-input, .usehover .cui-disabled .cui-dd-arrow-button:hover{
+    border-color: #3b3a39 !important;
+}
+
+[data-unique-id="OpenLanguageDialog"][aria-disabled="true"] {background-color: #323130 !important; border-color: #323130 !important}
+
+.cui-disabled .cui-txtbx, .cui-disabled .cui-spn-txtbx, .cui-disabled .cui-cb-input {
+    color: #605e5c !important;
+    background-color: #323130 !important;
+}
+
+.WACBusinessBarEntry.ReactBusinessBarEntry.WacAirSpaceShared_BasicClass [class^="root-"] {background: #eed067 !important}
+
+[class^="chevronContainer-"] {background-color: #323130 !important}
+
+[data-automation-type="AppFontStylesPreviewGallery"][class^="galleryContainer-"] {background-color: #444 !important; border-color: #484644 !important;}
+#innerRibbonContainer [type="button"][aria-current="true"][data-automation-type="AppFontStylesPreviewGalleryButton"].ms-Button,#innerRibbonContainer [type="button"][aria-current="true"][data-automation-type="AppFontStylesPreviewGalleryButton"].ms-Button:hover {background-color: #737373 !important; border-color: #969696 !important;}
+#innerRibbonContainer [type="button"][data-automation-type="AppFontStylesPreviewGalleryButton"].ms-Button:hover {background-color: #666 !important; border-color: #484644 !important;}
+
+#ApplyStyle-previewExpandButton {background-color: #323130 !important; color: white !important; border-left: 1px solid #484644 !important;}
+#ApplyStyle-previewExpandButton:active {border-left: 1px solid #484644 !important;}
+
+[class^="topButton-"] button.ms-Button.ms-Button--icon[aria-label="Sluiten"]:hover, [class^="topButton-"] button.ms-Button.ms-Button--icon[aria-label="Fermer"]:hover {background-color: #666 !important;}
+[class^="topButton-"] button.ms-Button.ms-Button--icon[aria-label="Sluiten"]:active, [class^="topButton-"] button.ms-Button.ms-Button--icon[aria-label="Fermer"]:active {background-color: #777 !important}
+
+label[for="styleText"].ms-Label, label[for="previewContainer"].ms-Label, [data-unique-id="styleText"] {color: #fff !important}
+[class^="fieldGroup-"] {border: 1px solid #666 !important}
+[class^="fieldGroup-"]:hover, [class^="fieldGroup-"]:active {border: 1px solid #808080 !important}
+
+#saveStatusValue {color: white !important}
+
+.WACDialogInput {border: solid 1px #797775 !important; color: white !important; background: #3b3a39 !important;}
+#previewContainer {background: white}
+.ms-Button-textContainer [class^="label-"], [role="heading"] {color: #fff !important}
+
+#tabbedTaskPaneContainer {background: #323130 !important; border-left: 1px solid #575757 !important}
+#FindReplaceTaskPane-panel div[class^="container-"] {background: #323130 !important}
+[type="button"][role="tab"][data-unique-id*="navigationTab"] {color: #fff !important}
+[type="button"][role="tab"][data-unique-id*="navigationTab"]:hover {color: #fff !important; background-color: transparent !important}
+[type="button"][role="tab"][data-unique-id*="navigationTab"]:active {color: #fff !important; background-color: transparent !important}
+
+#FindSearchBox::-webkit-input-placeholder, #ReplaceSearchBox::-webkit-input-placeholder {color: #9e9e9e !important}
+#FindSearchBox, #ReplaceSearchBox {color: white !important;}
+
+[data-unique-id="FindReplaceExplanationText"], [data-unique-id="FindReplaceFilterLabel"] {color: #f0f0f0 !important}
+[id*="navigationTab"][id*="-panel"] [class^="fieldGroup-"], [id*="navigationTab"][id*="-panel"] [class^="fieldGroup-"]:hover, [id*="navigationTab"][id*="-panel"] [class^="fieldGroup-"]:active {background: #363636 !important; color: #fff !important}
+
+[data-automation-type="SearchResult"], #HeadingsContainer div .css-732 {color: #888 !important}
+[data-automation-type="SearchResult"]:hover {background-color: #484644 !important; border-color: #484644 !important; color: #f0f0f0 !important}
+[data-automation-type="SearchResult"]:hover:active {background-color: #605e5c !important; border-color: #605e5c !important; color: #f0f0f0 !important}
+[data-automation-type="SearchResult"]:active {background-color: #605e5c !important; border-color: #605e5c !important; color: #f0f0f0 !important}
+/*.css-708, .css-709, .css-720, .css-721, .css-722, .css-723, .css-724 {border-bottom: 1px solid #575757 !important}*/
+/*Search results background colors couldn't be changed, so temporary workaround*/
+
+#TaskPaneCloseBtnFindReplaceTaskPane:hover, #TaskPaneCloseBtnDesignerTaskPane:hover {background-color: #484644 !important}
+#TaskPaneCloseBtnFindReplaceTaskPane:focus, #TaskPaneCloseBtnDesignerTaskPane:focus {background-color: #484644 !important}
+#TaskPaneCloseBtnFindReplaceTaskPane:active, #TaskPaneCloseBtnDesignerTaskPane:active {background-color: #605e5c !important}
+
+#HeadingsContainer div div{color:#f0f0f0 !important}
+.ms-MessageBar.ms-MessageBar-multiline {background: #323130 !important; color: #f0f0f0 !important}
+.ReactNavPaneHeadingsLine{border:1px solid #575757 !important;}
+.ReactNavPaneHeadingsLine:hover{border-color: #484644!important; background-color: #484644 !important;}
+.ReactNavPaneHeadingsLine:focus{border-color: #484644!important; background-color: #484644 !important;}
+.ReactNavPaneHeadingsLine:active{border-color: #605e5c!important; background-color: #605e5c !important;}
+.ReactNavPaneHeadingClick {background-color:#605e5c !important; border-color: #999 !important;}
+
+[data-automation-type="TaskPaneButton"][aria-disabled="true"] {background-color: #323130 !important; color: #9a9a9a !important; border: 1px solid #797775 !important}
+[data-automation-type="TaskPaneButton"][aria-disabled="true"] .ms-Button-label {color: #9a9a9a !important;}
+[data-automation-type="TaskPaneButton"] .ms-Button-label {color: #f0f0f0 !important;}
+[data-automation-type="TaskPaneButton"] {background-color: #363636 !important; color: #999 !important; border: 1px solid #686868 !important}
+[data-automation-type="TaskPaneButton"]:hover {background-color: #484644 !important; color: #999 !important; border: 1px solid #686868 !important}
+[data-automation-type="TaskPaneButton"]:active {background-color: #605e5c !important; color: #999 !important; border: 1px solid #686868 !important}
+
+.ms-Button-label {color: white !important}
+#AppForOfficePanel0-panel div{background: #323130 !important}
+
+.transcription-pan .ms-MessageBar.ms-MessageBar-multiline {background: rgb(0, 120, 212) !important}
+
+#AppForOfficePanel0-panel {background: #323130 !important}
+#AppForOfficePanel0-panel .ms-Label {color: #f0f0f0 !important}
+.ms-ProgressIndicator-progressTrack {background: #555555 !important}
+.ms-ProgressIndicator-progressBar {background: #317df1 !important}
+[class^="bottomLabelContainer-"] .ms-Link, #learnMoreLink, .ms-Dialog-inner a, .ms-Dialog-inner a:hover, [class*="documentLocation-"] a, [class*="documentLocation-"] a:hover{color: #317df1 !important}
+
+[class*="loadingGradient-"] {background: radial-gradient(at center center, #777777 0%, #606060 50%) 0px 0px / 600% 600% !important}
+.is-disabled path.OfficeIconColors_m22 {opacity: 0.4 !important}
+#WACStatusBarContainer .ms-Button.is-disabled {background-color: transparent !important; border-color: transparent !important}
+[data-unique-id="QueryNetworkConnectionStatus"] {color: #fff !important}
+
+[class^="licenseLabel-"], #copyrightMessageContainer {color: #ccc !important}
+.TableColumnResizeHandle {cursor: url("https://raw.githubusercontent.com/matti606/smart-school_dark/main/ColResize_white.cur"), pointer !important}
+.TableInsertRowGapBlank {cursor: url("https://raw.githubusercontent.com/matti606/smart-school_dark/main/RowResize_white.cur"), pointer !important}
+
+div.TableInsertRowGap, div.TableColumnResizeHandle.TableInsertColumnGap, .TableInsertColumnHandle, .TableInsertRowHandle {background-color: #797673 !important;}
+.TableInsertColumnHandle, .TableInsertRowHandle {color: white !important}
+table.BorderColorBlack > tbody > tr > td {border-color: white !important}
+.tocOptionBox {background-color: #ccc !important}
+
+#CommentPane-panel>div {background: #323130 !important}
+#TaskPaneCloseBtnCommentPane:hover {background: #666 !important}
+#TaskPaneCloseBtnCommentPane:active {background: #777 !important}
+
+#NewCommentButton {border: 1px solid #605e5c !important; background-color: #323130 !important}
+#NewCommentButton:hover {background-color: #484644 !important}
+#NewCommentButton:active {background-color: #605e5c !important}
+#NewCommentButton:focus {border: 1px solid #605e5c !important; background-color: #605e5c !important; box-shadow: #605e5c 0px 0px 0px 1px inset !important}
+
+[id^="draftCardRoot_"], [id^="cardRoot_"] {border: 1px solid #484644 !important; background-color: #484644 !important; color: white !important}
+[id^="sendReplyButton_"][aria-disabled="true"], [id^="sendReplyButton_"][aria-disabled="true"]:hover, [id^="sendReplyButton_"][aria-disabled="true"]:active {border: 1px solid #323130 !important; background-color: #323130 !important;}
+[id^="sendReplyButton_"][aria-disabled="true"] [data-icon-name="Send2_Fluent"] svg {color: #888 !important}
+[id^="postTimeStamp_"] {color: #b5b5b5 !important}
+[data-icon-name^="HintBarEllipses_"] {color: #d4d4d4 !important}
+[id^="cardContextMenu_"]:hover {color: #fff !important; background-color: #666 !important}
+[id^="cardContextMenu_"]:hover .ms-Button-menuIcon {color: white !important}
+[id^="cardContextMenu_"]:active {color: #fff !important; background-color: #777 !important}
+[id^="cardContextMenu_"]:active .ms-Button-menuIcon {color: white !important}
+[id^="cardContextMenu_"]:focus {border: 1px solid #777 !important; background-color: #777 !important}
+[id^="cardContextMenu_"][aria-expanded="true"] {color: #fff !important; background-color: #777 !important}
+[id^="cardContextMenu_"][aria-expanded="true"] [data-icon-name^="HintBarEllipses_"] {color: #fff !important}
+
+[id^="cancelReplyButton_"] {border: 1px solid #797775 !important; background-color: #323130 !important; color: white !important}
+[id^="cancelReplyButton_"]:hover {border: 1px solid #797775 !important; background-color: #605e5c !important; color: white !important}
+[id^="cancelReplyButton_"]:active {border: 1px solid #797775 !important; background-color: #777 !important; color: white !important}
+[id^="editorRoot_postEditor_"] {background-color: #484644 !important}
+[id^="draftWarning_"] {color: #ff9999 !important}
+[data-icon-name="Checkmark_Fluent"], [data-icon-name="Checkmark_Fluent"]+div>div.ms-font-m, [data-icon-name="LinkToComment"], [data-icon-name="ReopenThread"], [data-icon-name="Delete_Fluent"] {color: white !important}
+
+img[src*="word-edit-"][src*=".office.net"][src*="/we.png"] {content: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/we_new.png) !important}
+img[src*="word-view-"][src*=".office.net"][src*="/wv.png"] {content: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/wv.png) !important}
+
+[id^="draftCancelButton_"]:hover, [id^="Threadverwijderen_"]:hover, [id^="Opnieuwopenen_"]:hover, [id^="Koppelingnaaropmerking_"]:hover {background-color: #666 !important}
+[id^="draftCancelButton_"]:active, [id^="Threadverwijderen_"]:active, [id^="Opnieuwopenen_"]:active, [id^="Koppelingnaaropmerking_"]:active {background-color: #777 !important}
+
+[id^="cardRoot_"]:first-child {border-bottom: 1px solid #888 !important; border-top-color: #888 !important; border-left-color: #888 !important; border-right-color: #888 !important}
+
+.ms-Dialog-main.od-Wac-Share-Container, [data-id*="Modal"].ms-Dialog-main.od-Wac-Share-Container {background-color: #444 !important}
+.ms-Dropdown-container:hover,.ms-Dropdown-container:focus:hover {background-color: transparent !important}
+
+.ms-Callout.ms-TeachingBubble .ms-Callout-main {background: rgb(0, 120, 212) !important; border: none !important}
+.ms-Callout .ms-Callout-main {border: none !important; background: #323130 !important}
+.ms-Callout.ms-Tooltip .ms-Callout-main {border-color: transparent !important; background: transparent !important}
+.ms-Checkbox-text, [data-unique-id="ResultsSummary"] {color: white !important}
+
+.ms-Button.is-disabled .ms-Button-label {color: rgb(190, 187, 184) !important}
+
+[data-testid="transcript-items"]>div {padding: 0 !important; background-color: transparent !important;}
+[data-testid="transcript-items"]>div>div>div[aria-labelledby*="cardId-"][aria-labelledby*="-timestamp"] {padding: 10px 16px !important}
+[data-testid="transcript-items"]>div>div>div[tabindex="0"][aria-labelledby*="cardId-"][aria-labelledby*="-timestamp"] {background-color: #605e5c !important}
+
+.ms-Stack>[class^="bar-"] {filter: invert(1) hue-rotate(180deg) contrast(0.7) !important}
+
+.ms-Callout.ms-Dropdown-callout .ms-Callout-main {background-color: #323130 !important; border-color: none !important}
+
+.ms-Callout.ms-ContextualMenu-Callout .ms-Callout-beak {background-color: #323130 !important}
+.ms-Callout.ms-ContextualMenu-Callout .ms-Callout-beakCurtain {background-color: #323130 !important; border: none !important}
+
+.ms-Dialog-content .ms-Overlay, .ms-Dialog-main.od-Wac-Share-Container, body[style="margin: 0; padding: 0; overflow:hidden; -ms-content-zooming: none;"] {background-color: #444 !important}
+body[style="margin: 0; padding: 0; overflow:hidden; -ms-content-zooming: none;"] {color: white !important}
+.isFluent .od-ShareNotification .od-ShareHint {border-top: 1px solid #888 !important}
+.isFluent .od-Share .icon-Globe {background-color: transparent !important;}
+.isFluent .od-Share .icon-Globe {color: #87f387 !important; border-color: #87f387 !important}
+.ms-Button.ms-Button--icon.od-ShareHeader-button.od-ShareHeader-button-fabric:hover {background-color: #666 !important;}
+.ms-Button.ms-Button--icon.od-ShareHeader-button.od-ShareHeader-button-fabric:active {background-color: #777 !important;}
+.od-ShareHeader, .od-AudienceChoiceGroup-row.is-selected .od-ShareLinkDescription-label, .od-ShareLinkDescription-label {color: white !important}
+.isFluent .od-Share .icon-Work {background-color: transparent !important; color: #8fccff !important; border-color: #8fccff !important}
+.isFluent .od-Share .icon-SecurityGroup {background-color: transparent !important; color: #f7d2d3 !important; border-color: #f7d2d3 !important}
+.isFluent .od-Share .icon-PeopleAdd {background-color: transparent !important; color: #dddcdb !important; border-color: #dddcdb !important}
+.od-Share a {color: #b8e0ff !important}
+.od-Share a:hover, .od-Share a:focus {color: #b6e0ff !important}
+.ms-Toggle-background[class*="pill-"] {background-color: #323130 !important}
+.ms-Toggle-background[class*="pill-"]:hover .ms-Toggle-thumb {background-color: #888 !important}
+.ms-Toggle-background[class*="pill-"]:active .ms-Toggle-thumb {background-color: #ddd !important}
+.od-Share button:not(.ms-Button):not(.od-Share-noFocusBorder):focus {outline-color: transparent !important}
+.od-OfficeReviewMode-tooltip .ms-Icon {color: #d4d4d4 !important}
+input[id^="DatePicker"] {background: none transparent !important}
+.isFluent .od-ExpirationDatePicker-content, .isFluent .od-PasswordField .od-ShareLink-passwordFieldContent {border-bottom: 0.0625rem solid transparent !important}
+.od-ExpirationDatePicker-content:hover, .od-ExpirationDatePicker-content-expired:hover, .od-PasswordField .od-ShareLink-passwordFieldContent:hover {border-bottom-color: transparent !important}
+.od-ExpirationDatePicker-delete {color: #d4d4d4 !important}
+.ms-DatePicker-monthAndYear, .ms-DatePicker-weekday {color: white !important}
+.ms-DatePicker-day--disabled {color: #888 !important}
+.ms-DatePicker-day.ms-DatePicker-dayBackground.ms-DatePicker-day--highlighted, .ms-DatePicker-day.ms-DatePicker-dayBackground.ms-DatePicker-day--highlighted:hover {background-color: #323130 !important}
+.ms-DatePicker-day.ms-DatePicker-dayBackground.ms-DatePicker-day--infocus:hover {background: #484644 !important}
+[class*="closeButton_"], [class*="nextDecade_"], [class*="nextMonth_"], [class*="nextYear_"], [class*="prevDecade_"], [class*="prevYear_"] {color: #d4d4d4 !important}
+[class*="nextDecadeIsDisabled_"], [class*="nextMonthIsDisabled_"], [class*="nextYearIsDisabled_"], [class*="prevDecadeIsDisabled_"], [class*="prevYearIsDisabled_"] {color: #777 !important}
+[class*="closeButton_"]:hover, [class*="nextDecade_"]:hover, [class*="nextMonth_"]:hover, [class*="nextYear_"]:hover, [class*="prevDecade_"]:hover, [class*="prevYear_"]:hover {color: #d4d4d4 !important; background-color: #484644 !important;}
+[class*="closeButton_"]:active, [class*="nextDecade_"]:active, [class*="nextMonth_"]:active, [class*="nextYear_"]:active, [class*="prevDecade_"]:active, [class*="prevYear_"]:active {color: #d4d4d4 !important; background-color: #605e5c !important;}
+
+.od-ModifyPermissions-actions .ms-Button.ms-Button--default {background-color: #323130 !important; border: 1px solid #605e5c !important}
+.od-ModifyPermissions-actions .ms-Button.ms-Button--default:hover {background-color: #484644 !important; border: 1px solid #605e5c !important}
+.od-ModifyPermissions-actions .ms-Button.ms-Button--default:focus {background-color: #484644 !important; border: 1px solid #605e5c !important}
+.od-ModifyPermissions-actions .ms-Button.ms-Button--default:focus:hover {background-color: #484644 !important; border: 1px solid #605e5c !important}
+.od-ModifyPermissions-actions .ms-Button.ms-Button--default:active {background-color: #605e5c !important; border: 1px solid #605e5c !important}
+
+.Themed [role="presentation"].CommentBlobHighlightHovered, .Themed span.CommentBlobHighlightHovered {outline: 4px solid #401944 !important; outline-color: #401944 !important}
+.Themed [role="presentation"].CommentBlobHighlightClicked, .Themed span.CommentBlobHighlightClicked {outline: 4px solid #662670 !important; outline-color: #662670 !important}
+.Themed{--clrCommentsHighlightHovered: #401944 !important; --clrCommentsHighlightClicked: #662670 !important; --clrBlack: white !important}
+
+[aria-describedby^="postEditor_"]:focus {box-shadow: #ffffff00 0px 0px 0px 1px inset}
+.PageBreakBorderSpan {border-top-color: #8c8c8c !important;}
+.PageBreakTextSpan {background-color: #262626 !important; color: #ddd !important}
+
+.ParaWrappingDiv div[style^="height: 18px; width: 2px;"][style$="background-color: rgb(0, 0, 0);"] {background-color: #fff !important;}
+
+.Themed {
+    --clrCommentsHighlightGreyout: #777 !important;
+    --clrCommentsHighlightRest: #2e2e2e80;
+    --clrCommentsTextHighlightHovered: #3f194380;
+    --clrCommentsTextHighlightClicked: #6e337580;
+    --clrCommentsBlobHighlightHovered: #2a112d;
+    --clrCommentsBlobHighlightClicked: #53205b;
+    --clrDocSurfaceBgExplicit: #000;
+    --clrSquiggleHighlightTextColor: #fff;
+    --clrSpellingErrorHighlightBg: #1a0000;
+    --clrGrammarErrorHighlightBg: #000414;
+    --clrCritiqueIndicatorHighlightBg: #09051f;
+    --clrSimilarityHighlightBg: #071a27;
+    --clrSimilarityReviewedHighlightBg: #122b12;
+    --clrTrackChangeTableRowInsertedHighlight: #05161f;
+    --clrTrackChangeTableRowDeletedHighlight: #17030f;
+    --clrTrackChangeTextInsertedHighlight: #08301d;
+    --clrTrackChangeTextDeletedHighlight: #2f090c;
+    --clrTrackChangeTextInsertedPreviewColor: #ffffff;
+    --clrTrackChangeTextDeletedPreviewColor: #808080;
+    --clrTrackChangeTextDeletedColor: #484542;
+    --clrTrackChangeConfirmationHighlight: #122b12;
+    --clrTrackChangeListIndirectEffectColor: #1b9eac;
+    --clrPersonaBackgroundForRed: #440e10;
+    --clrPersonaBackgroundForBlue: #0d3654;
+    --clrPersonaBackgroundForPurple: #37214f;
+    --clrPersonaBackgroundForOlive: #476525;
+    --clrPersonaBackgroundForPink: #3f082b;
+    --clrPersonaBackgroundForLavender: #0c0731;
+    --clrPersonaBackgroundForTeal: #246365;
+    --clrPersonaBackgroundForDarkGoldenrod: #594a12;
+    --clrPersonaBackgroundForBurntRed: #541218;
+    --clrPersonaBackgroundForPeriwinkle: #050f38;
+    --clrPersonaBackgroundForFuschia: #3a1240;
+    --clrPersonaBackgroundForDarkGray: #383f43;
+    --clrPersonaBackgroundForGreen: #2c632c;
+    --clrPersonaBackgroundForOrange: #512710;
+    --clrPersonaBackgroundForDarkRed: #652933;
+    --clrPersonaBackgroundForGray: #353231;
+    --clrPersonaBackgroundForDarkPurple: #58133e;
+    --clrPersonaBackgroundForGraphite: #262e31;
+    --clrPersonaBackgroundForBlueStone: #214663;
+    --clrPersonaBackgroundForBrown: #4f3422;
+}
+
+.od-Share {background-color: #444 !important; color: white !important}
+.usehover SPAN.WACImageContainer.NoPadding:hover .WACImage {border: dotted 2px #888 !important}
+.moreSymbolsTable td a {color: white !important}
+.moreSymbolsTable td, .DefineNewBulletTable td{border: 1px solid #888 !important}
+[id^="closePaneButton"]:hover {background-color: #666 !important}
+[id^="closePaneButton"]:active {background-color: #777 !important}
+
+.cui-taskpane {background-color: #323130 !important}
+[aria-label="Deelvenster voor opmerkingen"]>div>div {color: white !important}
+
+#tabbedTaskPaneContainer>div+div+div+div+div>div {background-color: #323130 !important; border-left: 1px solid #575757 !important}
+#tabbedTaskPaneContainer>div+div+div[style*="width: 0px;"]+div+div>div {background-color: #323130 !important; border-left: none !important}
+#tabbedTaskPaneContainer>div+div+div+div+div>div>div>div>div {background-color: #323130 !important}
+[id^="tabStripButton"][id$="Pane"] {background-color: #323130; color: white !important}
+[id^="tabStripButton"][id$="Pane"]:hover {background-color: #484644; color: white !important}
+[id^="tabStripButton"][id$="Pane"]:focus {background-color: #484644; color: white !important}
+[id^="tabStripButton"][id$="Pane"]:focus:hover {background-color: #484644; color: white !important}
+[id^="tabStripButton"][id$="Pane"]:active {background-color: #605e5c; color: white !important}
+
+[id^="tabStripButton"][id$="Pane"][aria-selected="true"] {background-color: #605e5c; color: white !important}
+[id^="tabStripButton"][id$="Pane"][aria-selected="true"]:hover {background-color: #605e5c; color: white !important}
+[id^="tabStripButton"][id$="Pane"][aria-selected="true"]:focus {background-color: #484644; color: white !important}
+[id^="tabStripButton"][id$="Pane"][aria-selected="true"]:focus:hover {background-color: #484644; color: white !important}
+[id^="tabStripButton"][id$="Pane"][aria-selected="true"]:active {background-color: #484644; color: white !important}
+
+[id^="tabStripButton"][id$="Pane"].ms-Tooltip-content {background-color: #ccc !important; color: black !important}
+
+[id^="actionBarButton_"].ms-Button.ms-Button--default {background-color: #323130 !important; border: 1px solid #797775 !important}
+[id^="actionBarButton_"].ms-Button.ms-Button--default:hover {background-color: #666 !important; border: 1px solid #797775 !important}
+[id^="actionBarButton_"].ms-Button.ms-Button--default:active {background-color: #777 !important; border: 1px solid #797775 !important}
+
+[id^="sendReplyButton_"] {border: 1px solid #185abd !important; background-color: #185abd !important;}
+[id^="sendReplyButton_"] [data-icon-name="Send2_Fluent"] svg {color: #fff !important}
+[id^="sendReplyButton_"]:hover, [id^="sendReplyButton_"]:focus {border: 1px solid #1651aa !important; background-color: #1651aa !important;}
+[id^="sendReplyButton_"]:active {border: 1px solid #13458f !important; background-color: #13458f !important;}
+
+#DesignerTaskPane-panel>div{background: #323130 !important}
+[data-icon-name="GenericErrorIllustration"]+div {color: white !important}
+.ms-Shimmer-container {background-color: #484644 !important;}
+.ms-Shimmer-shimmerGradient {background: linear-gradient(to right, #605e5c 0%, #777 50%, #605e5c 100%) 0px 0px / 90% 100% no-repeat #605e5c !important}
+.ms-Shimmer-shimmerWrapper {background-color: #605e5c !important}
+.ms-Stack {border-color: #484644 !important;}
+.ms-ShimmerLine-root, .ms-ShimmerGap-root {border-top-color: #484644 !important; border-bottom-color: #484644 !important; border-right-color: #484644 !important; border-left-color: #484644 !important;}
+.ms-ShimmerLine-topLeftCorner, .ms-ShimmerLine-topRightCorner, .ms-ShimmerLine-bottomRightCorner, .ms-ShimmerLine-bottomLeftCorner {fill: #484644 !important}
+.ms-ShimmerGap-root {background-color: #484644 !important;}
+
+[id^="BaseCallout"] {border-color: #484644 !important;}
+[class^="beak-"], [class^="beakCurtain-"], [class^="calloutMain-"] {background-color: #484644 !important}
+[id^="BaseCallout"][id$="closeButton"]:hover {background-color: #605e5c !important;}
+[id^="BaseCallout"][id$="closeButton"]:active {background-color: #777 !important;}
+[id^="BaseCallout"][id$="content"] {color: white !important;}
+
+.transcription-pane .ms-Link, #micProblemsLink, [data-pw-id="SeeMoreFiles"]:hover {color: #317df1 !important}
+[data-pw-id="SeeMoreFiles"]:active {color: #0665f5 !important}
+[data-icon-name="OfficeAssistant_24"] svg > path.OfficeIconColors_m24 {fill: #d4d4d4 !important;}
+#floatie-close-icon:hover {background-color: #666 !important}
+#floatie-close-icon:active {background-color: #777 !important}
+
+#InsightsTaskPane-panel [class^="container-"] {background: #323130 !important}
+[class^="outerSearchBoxContainer-"] {border: 1px solid #797775 !important; background: #323130 !important}
+[class^="outerSearchBoxContainer-"] #SearchBox {background: #323130 !important; color: white !important;}
+[class^="outerSearchBoxContainer-"]:hover, [class^="outerSearchBoxContainer-"]:active {border: 1px solid #979594 !important;}
+img[title="Bing"][src="https://cdn.uci.officeapps.live.com/mirrored/smartlookup/2021.10.10443636/images/themes/light/bing_logo.png"] {content:url(https://cdn.uci.officeapps.live.com/mirrored/smartlookup/2021.10.10443636/images/themes/dark/bing_logo.png) !important}
+[class^="feedbackQuestion-"]{color: #ccc !important}
+
+
+[class^="tabDropDownButton-"], #noResultsMessageView, [class^="attributionText-"] {color: #fff !important}
+#tabAllButtonId:hover, #tabDropDownButtonId:hover {background-color: #484644 !important}
+#tabAllButtonId:active, #tabDropDownButtonId:active {background-color: #605e5c !important}
+#tabDropDownButtonId div[class*="iconDropDown-"] {color: #d4d4d4 !important}
+
+[class^="contextMenuContainer-"] {background-color: #323130 !important; border: 1px solid #797775 !important}
+[class^="dropDownMenuItemContainer-"], [class^="menuItemSpacer-"] {color: white !important}
+[class^="menuItemContainer-"]:hover, [class^="menuItemContainer-"]:focus {background-color: #484644 !important;}
+[class^="menuItemContainer-"]:active {background-color: #605e5c !important;}
+
+#languageSettingControlwrapper, #microphoneSettingControlwrapper {background-color: #323130 !important; border-color: #797775 !important}
+#languageSettingControlwrapper [aria-owns="languageSettingControl-list"], #microphoneSettingControlwrapper [aria-controls="microphoneSettingControl-list"]{background-color: #323130 !important; border-color: #979593 !important}
+
+#languageSettingControl-input, #microphoneSettingControl-input {color: white !important}
+
+.ms-Toggle-background {border: 1px solid #797775 !important}
+.ms-Toggle-thumb.thumbToggle {background: #797775 !important}
+.ms-Toggle-background:hover {border-color: #979594 !important}
+.ms-Toggle-background:hover .ms-Toggle-thumb.thumbToggle, .ms-Toggle-background:active .ms-Toggle-thumb.thumbToggle {background: #979594 !important}
+.ms-Toggle-background:active {border-color: #979594 !important; background: #605e5c !important}
+
+.ms-Toggle-background[aria-checked="true"] {border: 1px solid #185abd !important; background: #185abd !important}
+.ms-Toggle-background[aria-checked="true"] .ms-Toggle-thumb.thumbToggle {background: #ffffff !important}
+.ms-Toggle-background[aria-checked="true"]:hover {border-color: #1651aa !important; background: #1651aa !important}
+.ms-Toggle-background[aria-checked="true"]:hover .ms-Toggle-thumb.thumbToggle, .ms-Toggle-background[aria-checked="true"]:active .ms-Toggle-thumb.thumbToggle {background: #ffffff !important}
+.ms-Toggle-background[aria-checked="true"]:active {border-color: #13458f !important; background: #13458f !important}
+
+.ms-Toggle-background[disabled] {border-color: #666 !important; background: #323130 !important}
+.ms-Toggle-background[disabled].ms-Toggle-thumb {background: #555 !important}
+.ms-Toggle-background[disabled]:hover {border-color: #666!important}
+.ms-Toggle-background[disabled]:hover .ms-Toggle-thumb.thumbToggle, .ms-Toggle-background[disabled]:active .ms-Toggle-thumb.thumbToggle {background: #323130 !important}
+.ms-Toggle-background[disabled]:active {border-color: #666 !important; background: #323130 !important}
+
+[aria-label="Werkbalk voor Dicteren"] {background-color: #333 !important}
+#DictationFloatieDictationSettings:hover, #DictationFloatieToggleDictation:hover, #DictationSettingsHelp:hover {background-color: #484644 !important}
+#DictationFloatieDictationSettings:active, #DictationFloatieToggleDictation:active, #DictationSettingsHelp:active {background-color: #605e5c !important}
+
+#MicIcon svg > path[class*="OfficeIconColors_mDictation"] {fill: #d4d4d4 !important}
+.OfficeIconColors_mDictationVolumePillGray {fill: #666 !important;}
+
+[data-testid="transcript-items"] div[class^="root-"]:hover {background-color: #484848 !important}
+.ms-TextField-field.ms-TextField--unresizable {color: white !important}
+.transcription-pane div[class^="timeContainer-"] {color: #ccc !important}
+.ms-Checkbox-checkbox .ms-Checkbox-text {color: #eee !important}
+.ms-Checkbox-checkbox {border: 1px solid #797775 !important}
+.ms-Checkbox.is-enabled:hover .ms-Checkbox-checkmark {color: #ccc !important}
+.ms-Checkbox.is-enabled:hover .ms-Checkbox-checkbox {border-color: #979593 !important}
+.ms-Checkbox.is-enabled:hover .ms-Checkbox-text {color: #fff !important}
+.ms-Checkbox.is-checked.is-enabled .ms-Checkbox-checkbox {border: 1px solid #0078d4 !important;background: rgb(0, 120, 212) !important}
+.ms-Checkbox.is-checked.is-enabled:hover .ms-Checkbox-checkbox {border: 1px solid rgb(0, 90, 158) !important;background: rgb(0, 90, 158) !important}
+.ms-Checkbox.is-checked.is-enabled:hover .ms-Checkbox-text {color: #eee !important}
+
+.PageAdornmentHeaderLabel, .PageAdornmentFooterLabel {background-color: #323130 !important; color: #fff !important; border: 1px solid #797775 !important}
+.PageAdornmentNumberLabel{color: #aaa !important;}
+[data-unique-id="GetQueryZoomText"]{color:#fff !important}
+#obf-MiddleFormContainer {background-color: #444 !important}
+
+.transcription-pane .ms-Stack .ms-TooltipHost i .ms-Button-icon[class*="icon-"] {color: #fff !important}
+.transcription-pane .ms-Stack .ms-TooltipHost .ms-Button.ms-Button--default:hover {background-color: #484644 !important}
+.transcription-pane .ms-Stack .ms-TooltipHost .ms-Button.ms-Button--default .ms-Button-flexContainer:hover {background-color: #484644 !important}
+.transcription-pane .ms-Stack .ms-TooltipHost .ms-Button.ms-Button--default:active {background-color: #605e5c !important}
+.transcription-pane .ms-Stack .ms-TooltipHost .ms-Button.ms-Button--default .ms-Button-flexContainer:active {background-color: #605e5c !important}
+
+[data-icon-name="ChromeBack"] {color: #d4d4d4 !important}
+[data-icon-name="ChromeBack"]:hover {background-color: transparent !important}
+[data-icon-name="ChromeBack"]:active {background-color: transparent !important}
+#NavHistoryBackButton:hover, [class*="helpBaseCard-baseCardContent-"] {background-color: #484644 !important}
+#NavHistoryBackButton:active {background-color: #605e5c !important}
+
+.oneLineRibbonUpperWithTabHeaderRefresh, .oneLineRibbonLowerWithAnimation, .WACStatusBarContainer {background-color: #323130 !important;} 
+.ms-Spinner-circle.ms-Spinner--large, .ms-Spinner-circle.ms-Spinner--large[class*="circle-"] {border-color: #0078d4 #183664 #183664; border-width: 3px !important}
+.ms-Spinner-label {color: #0078d4 !important}
+
+#ImmersiveReader-iframe {background: #262626 !important}
+
+input#licenseCheckbox{filter: invert(1) hue-rotate(180deg) contrast(0.87) !important}
+[class*="menuItemContent-"]:focus {background-color: #605e5c !important;}
+[class*="customListButton-"] {border: 1px solid #797775 !important; background-color: #323130 !important;}
+
+[class^="webCardTitle-"] {color: #0078d4 !important}
+[class^="SearchBoxClearButton-"]:hover, [class^="imageTapestryBaseCard-baseCard-"] {background-color: #484644 !important}
+[class^="cardHeader-"], [class^="imageDimensions-"], [class*="tabDropDownFont-"], [class*="dropDownMenuItemContainer-"], [data-icon-name="CheckMark"] {color: white !important}
+[class^="displayUrl-"], [class*="hyperlinkStyle-"], [class*="hyperlinkStyle-"]:hover {color: #0078d4 !important}
+
+[class*="contextMenuContainer-"] {border: 1px solid #797775 !important; background-color: #323130 !important;}
+[class*="menuItemContainer-"]:focus {background-color: #605e5c !important;}
+[class*="imageResultContainer"] {background-color: #605e5c !important;}
+[class*="imageBorder-"] {border: 1px solid #605e5c !important}
+
+[class^="baseSection-cardHeader-"], [data-pw-id="SeeMoreFiles"], [class*="tabDropDownButton-"] {color: #fff !important}
+[class^="documentBaseCard-baseCard-"], [class^="browseFilesBaseCard-baseCard-"], [class^="seeMorebuttonListView-"], [class^="webBaseCard-baseCard-"] {background-color: #484644 !important}
+[class^="seeMorebuttonListView-"] {border-top: 1px solid #605e5c !important}
+[class^="documentSingleLineTruncateText-"], [class^="documentAuthorModifiedString-"] span {color: #ccc !important}
+
+.transcription-pan .ms-Dropdown-title, .transcription-pan .ms-Dropdown.is-open .ms-Dropdown-title {color: #fff !important;}
+#addToDocument.ms-Button.ms-Button--primary.ms-Button--hasMenu {border: 1px solid rgb(0, 120, 212) !important; background-color: rgb(43, 87, 154) !important;}
+.ms-Icon.ms-Button-icon, .ms-Dropdown-title {color: white !important}
+
+.transcription-pane [role="dialog"].ms-Callout-main div{background-color: #444 !important;}
+.ms-Callout-main [data-icon-name="Volume1"],.ms-Callout-main [data-icon-name="Volume3"] {background-color: #444 !important; color: white !important;}
+div button span li[data-icon-name="Volume3"] {background-color: transparent !important; color: white !important;}
+span.ms-Slider-inactive {background: #666 !important}
+.ms-Slider-slideBox.ms-Slider-showTransitions:hover .ms-Slider-inactive {background:#666 !important}
+
+.ms-Dropdown-title {background-color: #3b3a39 !important; border-color: #797775 !important}
+.ms-Dropdown {color: #fff !important; border-color: #797775 !important}
+.ms-Dropdown:hover .ms-Dropdown-title {color: #fff !important; border-color: #979593 !important}
+.ms-Dropdown:active .ms-Dropdown-title, .ms-Dropdown:focus .ms-Dropdown-title {color: #fff !important;}
+
+.transcription-pane .ms-Button.ms-Button--primary {background-color: #323130 !important; color: white !important; border: 1px solid #797775 !important}
+.transcription-pane .ms-Button.ms-Button--primary:hover, #addToDocument.ms-Button.ms-Button--primary.ms-Button--hasMenu:hover {background-color: rgb(16, 110, 190) !important; color: white !important; border: 1px solid rgb(16, 110, 190) !important}
+.transcription-pane .ms-Button.ms-Button--primary:active, #addToDocument.ms-Button.ms-Button--primary.ms-Button--hasMenu:active {background-color: rgb(0, 90, 158) !important; color: white !important; border: 1px solid rgb(0, 90, 158) !important}
+
+.ms-Dropdown-caretDown {color: #d4d4d4 !important}
+.ms-Dropdown:hover .ms-Dropdown-caretDown, .ms-Dropdown:focus .ms-Dropdown-caretDown, .ms-Dropdown:active .ms-Dropdown-caretDown {color: #d4d4d4 !important}
+.ms-Dropdown.is-open {color: #fff !important; border-color: rgb(96, 94, 92) !important}
+.ms-Dropdown.is-open .ms-Dropdown-title {background-color: #605e5c !important; border-color: rgb(96, 94, 92) !important}
+
+.ms-Label, .ms-ProgressIndicator-itemDescription {color: #fff !important;}
+#TaskPaneCloseBtnAppForOfficePanel0:hover {background-color: #484644 !important}
+#TaskPaneCloseBtnAppForOfficePanel0:active {background-color: #605e5c !important}
+.transcription-pane .ms-Overlay{background-color: hsl(0deg 0% 15% / 60%) !important}
+
+.ms-Dialog-main {background-color: #444 !important;}
+
+.ms-ContextualMenu.is-open.ms-BaseButton-menuhost {background-color:#323130 !important}
+
+#AlignmentComboBoxwrapper, [class^="spinButtonWrapper-"], #SpecialComboBoxwrapper, #LineSpacingComboBoxwrapper {border-color: #797775 !important; background-color: #323130 !important}
+#AlignmentComboBox-input, .ms-spinButton-input, #SpecialComboBox-input, #LineSpacingComboBox-input {color: white !important}
+.ms-Button.ms-Button--icon.ms-ComboBox-CaretDown-button:not(.is-checked), [class^="spinButtonWrapper-"]:hover button, [class^="arrowButtonsContainer-"], [class^="arrowButtonsContainer-"]:hover, [class^="spinButtonWrapper-"]:active button {background-color: #323130 !important}
+.ms-Button.ms-Button--icon.ms-ComboBox-CaretDown-button:hover:hover, .ms-Button.ms-Button--icon.ms-UpButton:hover, .ms-Button.ms-Button--icon.ms-DownButton:hover {background-color: #484644 !important}
+.ms-Button.ms-Button--icon.ms-ComboBox-CaretDown-button:active:active, .ms-Button.ms-Button--icon.is-checked.ms-ComboBox-CaretDown-button, .ms-Button.ms-Button--icon.is-checked.ms-ComboBox-CaretDown-button:hover, .ms-Button.ms-Button--icon.is-checked.ms-ComboBox-CaretDown-button:active:active, .ms-Button.ms-Button--icon.ms-UpButton:active, .ms-Button.ms-Button--icon.ms-DownButton:active {background-color: #605e5c !important}
+
+#AlignmentComboBoxwrapper[aria-owns="AlignmentComboBox-list"], [class^="spinButtonWrapper-"]:active, #SpecialComboBoxwrapper[aria-owns="SpecialComboBox-list"], #LineSpacingComboBoxwrapper[aria-owns="LineSpacingComboBox-list"] {border-color: #979593 !important}
+
+.transcription-pane .ms-Panel-main {background-color:#333 !important}
+.transcription-pane .ms-Dropdown-optionText {color: white !important}
+.transcription-pane .ms-Button.ms-Button--action.ms-Button--command.ms-Dropdown-item:hover {color: rgb(0, 120, 212) !important}
+.transcription-pane .ms-Button.ms-Button--action.ms-Button--command.ms-Dropdown-item:hover:focus {color: white !important; background-color: #484644 !important;}
+.transcription-pane .ms-Button.ms-Button--action.ms-Button--command.ms-Dropdown-item:active {color: white !important; background-color: #605e5c !important;}
+.transcription-pane .ms-Button.ms-Button--action.ms-Button--command.ms-Dropdown-item[aria-selected="true"] {color: white !important; background-color: #605e5c !important;}
+
+
+.WACBusinessBarEntry {background-color: #eed067 !important; border-bottom: 1px solid #eed067 !important}
+.WACBusinessBarEntry:first-child{border-top-color: #eed067 !important}
+
+#uploadButton, #recordButton {border: 1px solid #0078d4 !important;background-color: #2b579a !important}
+#uploadButton:hover, #recordButton:hover {border: 1px solid #106ebe !important;background-color: #106ebe !important}
+#uploadButton:active, #recordButton:active {border: 1px solid #005a9e !important;background-color: #005a9e !important}
+
+[role="listbox"].cui-menu {border: 1px solid #484644 !important; background-color: #323130 !important;}
+.cui-menusection-title {border-color: transparent !important; background-color: transparent !important;}
+.ms-Dialog-title {color: #fff !important}
+.ms-Dialog-main.dialogHost-modalContainer, .ms-Dialog-inner {background-color: #444 !important}
+#ReactDialogText{color: rgb(223 223 223) !important}
+#load_back {background-color: #262626 !important}
+.MsLogo path.c74{fill: #fff !important}
+
+.CommentGroupDivider {
+    color: #ccc !important;
+    border-bottom: 1px solid #575757 !important
+}
+
+.CommentPane {
+    color: white !important
+}
+
+.SelectedComment:focus {
+    outline: 2px solid #224270 !important;
+    box-shadow: inset -2px 0px 0px 0px #224270, inset 2px 0px 0px 0px #224270 !important;
+}
+
+/*Page black invert*/
+div.WACFastView .OutlineContainer, div.OutlineContainerDisplayWrapper{border-color: #8c8c8c !important}
+.Themed div.OutlineContainerDisplayWrapper, div.WACFastView .OutlineContainer, div.OutlineContainerDisplayWrapper{background-color: #262626 !important}
+#PageContentContainer p[style*="color: windowtext;"], .TextRun[style*="color:WindowText;"], .TextRun[style*="color: windowtext;"] {color:window !important}
+span.TextRun[style*="color: rgb"]>span {color:inherit !important}
+
+.od-ShareHintDetail-statusText {color: white !important}
+.od-ShareHintDetail-chevron {color: #d4d4d4 !important}
+
+.ms-Modal.is-open.ms-Dialog div[data-id*="Modal"].ms-Dialog-main.od-Wac-Share-Container[class*="-main"] {background-color: #444 !important}
+
+button[data-automation-type="AppFontStylesGalleryButton"]>span.ms-Button-flexContainer[data-automationid="splitbuttonprimary"] {border-radius: 2px}
+
+[id^="actionBarButton_"].ms-Button.ms-Button--default[aria-label="Koppeling naar opmerking"],
+[id^="actionBarButton_"].ms-Button.ms-Button--default[aria-label="Opmerking bewerken"],
+[id^="actionBarButton_"].ms-Button.ms-Button--default[aria-label="Opmerking verwijderen"] {
+    border-color: transparent !important
+}
+
+[id*="postContextMenu_"].ms-Button.ms-Button--icon.ms-Button--hasMenu:hover{background-color: #666 !important;}
+[id*="postContextMenu_"].ms-Button.ms-Button--icon.ms-Button--hasMenu:active{background-color: #777 !important;}
+[id*="postContextMenu_"][aria-expanded="true"].ms-Button.ms-Button--icon.ms-Button--hasMenu{background-color: #777 !important;}
+
+[data-automation-type="RibbonFlyoutAnchor"]:hover {background-color: #484644 !important;}
+[data-automation-type="RibbonFlyoutAnchor"]:active {background-color: #605e5c !important;}
+[data-automation-type="RibbonFlyoutAnchor"][aria-expanded="true"] {background-color: #605e5c !important;}
+[data-automation-type="RibbonFlyoutAnchor"][aria-expanded="true"]:active {background-color: #484644 !important;}
+
+#DesignerInconsistenciesCard>div {background-color: #484644 !important}
+#DesignerInconsistenciesCard>div>i[data-icon-name="DesignerWand_32"]+div[role="alert"] {color : #fff !important}
+#DesignerInconsistenciesCard>div>i[data-icon-name="DesignerWand_32"]+div[role="alert"]+div.ms-Stack {background-color : #112647 !important}
+
+#DesignerTaskPane-panel>div[class^="container"]>div[class^="header-"]+div[class^="contentWrapper-"]>div[class^="contentWrapperGap-"]>div[class^="css-"]>div>div>div[class^="ms-Stack"][class*="css-"]>div.ms-Shimmer-container+div.ms-FocusZone+div[class^="css-"]>div.ms-Shimmer-container[class*="root-"] {background: none !important}
+#DesignerTaskPane-panel>div[class^="container"]>div[class^="header-"]+div[class^="contentWrapper-"]>div[class^="contentWrapperGap-"]>div[class^="css-"]>div>div>div[class^="ms-Stack"][class*="css-"]>div.ms-Shimmer-container+div.ms-FocusZone+div[class^="css-"]+div[class^="ms-Stack"][class*="css-"]>div.ms-Shimmer-container[class*="root-"] {background: none !important}
+
+.ms-Dialog-main.dialogHost-modalContainer .ms-Modal-scrollableContent>div[class^="content-"] {background-color: #444 !important}
+
+.ms-ChoiceField-field {color: white !important}
+.ms-ChoiceField-field:hover .ms-ChoiceFieldLabel {color: white !important}
+.ms-ChoiceField-field:focus .ms-ChoiceFieldLabel, .checkbox-text {color: white !important}
+
+.ms-ChoiceField-field::before, .checkbox-checkbox {background-color: #323130 !important; border-color: #666 !important}
+.ms-ChoiceField-field:hover::before {border-color: #777 !important}
+.ms-ChoiceField-field:hover::after {background-color: #777 !important}
+.ms-ChoiceField-field:focus::before {border-color: #777 !important}
+.ms-ChoiceField-field:focus::after {background-color: #777 !important}
+
+.ms-ChoiceField-field.is-checked::before {background-color: #323130 !important; border-color: #217aff !important}
+.ms-ChoiceField-field.is-checked::after {border-color: #217aff !important}
+.ms-ChoiceField-field.is-checked:hover::before {border-color: #0067ff !important}
+.ms-ChoiceField-field.is-checked:hover::after {border-color: #0067ff !important}
+.ms-ChoiceField-field.is-checked:focus::before {border-color: #0067ff !important}
+.ms-ChoiceField-field.is-checked:focus::after {background-color: #0067ff !important}
+
+.checkbox-checkbox:hover {border-color: #666 !important}
+.checkbox-checkbox:active {border-color: #777 !important}
+[role="checkbox"][aria-checked="true"]+label>.checkbox-checkbox {background-color: #217aff !important; border-color: #217aff !important}
+[role="checkbox"][aria-checked="true"]+label>.checkbox-checkbox:hover {background-color: #0067ff !important; border-color: #0067ff !important}
+[role="checkbox"][aria-checked="true"]+label>.checkbox-checkbox:focus {background-color: #0067ff !important; border-color: #0067ff !important}
+[role="checkbox"][aria-checked="true"]+label>.checkbox-checkbox:focus:hover {background-color: #0067ff !important; border-color: #0067ff !important}
+
+select#LanguageList {border: 1px solid #575757 !important; color: white !important; background-color: #323130 !important}
+select#LanguageList>option {color: white !important}
+select#LanguageList>option:checked {background: #605e5c !important}
+select#LanguageList>option:hover {background: #605e5c !important}
+
+[class^="moveButton-"] {border-top-color: #666 !important; border-right-color: #666 !important; border-bottom-color: #666 !important}
+
+[data-unique-id="MoveButton"] {background-color: #363636 !important; border-top-color: #666 !important; border-right-color: #666 !important; border-bottom-color: #666 !important}
+[data-unique-id="MoveButton"]:hover {background-color: #444 !important}
+[data-unique-id="MoveButton"]:active {background-color: #666 !important}
+
+i[class^="versionHistoryIcon-"] {fill: #317df1 !important}
+[data-unique-id="VersionHistoryLink"], [data-unique-id="VersionHistoryLink"]:hover{color: #317df1 !important}
+
+[id^="flyoutItem"][id$="Text"]>div {color: white !important}
+[data-unique-id="summary-item"]:hover {background-color: #666 !important}
+[data-unique-id="summary-item"]:hover {background-color: #777 !important}
+
+[data-unique-id="activityIndicatorTooltipContent"]>div[class^="css-"]>div[class^="css-"] {color: white !important}
+[data-unique-id="activityIndicatorTooltipContent"]>div[class^="css-"]>div[class^="css-"] span[dir="auto"] {color: #c3bfbb !important}
+
+#InsertTable[role="heading"] {background-color: #323130 !important}
+.cui-txtbx, .cui-spn-txtbx, .cui-sb-input, .cui-dd-text, .cui-cb-input {color: white !important}
+
+.usehover SPAN.WACImageContainer.Selected.NoPadding:hover .WACImage {border:none !important}
+
+[data-automation-type="RibbonIconPreviewGallery"][class^="galleryContainer-"] {background-color: #444 !important; border-color: #484644 !important;}
+
+div.ms-Callout-main[class*="calloutMain-"] {background-color: #ccc !important}
+.ms-Callout.ms-ContextualMenu-Callout div.ms-Callout-main[class*="calloutMain-"] {background-color: #323130 !important}
+.ms-Persona-secondaryText .ms-TooltipHost {color: #555 !important}
+
+.ms-Persona+.ms-FocusZone>div[role="menu"]>button[role="menuitem"].ms-Button.ms-Button--default {background-color: #ccc !important}
+.ms-Persona+.ms-FocusZone>div[role="menu"]>button[role="menuitem"].ms-Button.ms-Button--default:hover {background-color: #aaa !important}
+.ms-Persona+.ms-FocusZone>div[role="menu"]>button[role="menuitem"].ms-Button.ms-Button--default .ms-Button-label {color: #000 !important}
+

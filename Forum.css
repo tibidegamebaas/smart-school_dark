@@ -1,0 +1,76 @@
+/*Forum CSS*/
+
+.forum-poll, .forum-poll .forum-poll-result-row, .forum-row {
+    border-bottom: 1px solid #414141 !important;
+}
+
+.forum-vfadmin-rightstable .forum-row:hover {
+    background-color:#1e1e1e !important;
+}
+
+.forum-row:hover {
+    background-color:#1e1e1e !important;
+}
+
+.forum-nav a.forum-nav-page-dots:hover,.forum-nav a.forum-nav-page:hover {
+    background:#444 !important;
+}
+
+.forum-contentbox .forum-attachments tr:hover {
+    background-color:#1e1e1e !important;
+}
+
+.forum-row td .forum-link, .forum-nav a {
+    color: #d9d9d9 !important;
+}
+
+.forum-contentbox {
+    background-color: #1e1e1e !important;
+}
+
+.forum-contentbox .forum-attachments {
+    background-color: #111 !important;
+    border: 1px solid #414141 !important;
+}
+
+.forum-contentbox .forum-attachments tr, .forum-post, .forum-vfadmin-rightstable .forum-row {
+    border-bottom: 1px solid #414141 !important;
+}
+
+.forum-contentbox .forum-addattachments {
+    color: #278dd7 !important;
+}
+
+.dtree {
+    color: #a7a7a7 !important;
+}
+
+
+.dtree a {
+    color: #ccc !important;
+}
+
+img#jd1, img#jd2, img#jd3 {
+    filter: invert(1) !important;
+}
+
+.deleteconfirmDialog .buttons, .forum-fora-conf-body .frameTable, .forum-post:first-child {
+    border-top: 1px solid #414141 !important;
+}
+
+.forum-post .forum-post-poster .forum-post-poster-img {
+    background-color: #333 !important;
+    box-shadow: 0 7px 4px -3px rgb(0 0 0 / 75%), 0 1px 2px rgb(0 0 0 / 55%), 0 0 20px rgb(0 0 0 / 35%) inset !important;
+}
+
+.listCommentsContainer, .listCommentsContainerTodo, .listMemberContainer, .listUploadContainer, .listUploadContainerTodo {
+    border: 1px solid #414141 !important;
+}
+
+.forum-post blockquote {
+    background-color: #1e1e1e !important;
+}
+
+.printWindow input[type=radio] {
+    filter: invert(1) !important;
+}

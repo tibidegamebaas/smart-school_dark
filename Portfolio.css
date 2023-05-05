@@ -1,0 +1,404 @@
+/*Portfolio/Wiki CSS*/
+
+.border, .title.left, .title.right {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/border.gif) !important;
+}
+
+.border.centery.topy {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/border_top.gif) !important;
+}
+
+.border.centerxy {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/border_left.gif) !important;
+    background-color: #111 !important;
+    border-right: 1px solid #393939 !important;
+}
+
+.border.centery.bottomy {
+    background-image: none !important;
+    background-color: #111 !important;
+    border-bottom: 1px solid #393939 !important;
+}
+
+.skin .contentContainer {
+    border: none !important
+}
+
+.portfolioBlock.selected .blockLeft, .wikicontainerSelected .wikiContainerLeft {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/blockLeft_selected.png) !important;
+}
+
+.portfolioBlock.selected .blockMiddle, .wikicontainerSelected .wikiContainerMiddle {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/blockMiddle_selected.png) !important;
+}
+
+.portfolioBlock.selected .blockRight, .wikicontainerSelected .wikiContainerRight {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/blockRight_selected.png) !important;
+}
+
+.portfolioBlock .blockLeft, .wikiContainerLeft {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/blockLeft.png) !important;
+}
+
+.portfolioBlock .blockMiddle, .wikiContainerMiddle {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/blockMiddle.png) !important;
+}
+
+.portfolioBlock .blockRight, .wikiContainerRight {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/blockRight.png) !important;
+}
+
+.portfolioBlock.selected .blockImage {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/portfolio_ico_selected.png) !important;
+}
+
+.portfolioBlock .blockImage {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/portfolio_ico.png) !important;
+}
+
+.portfolioBlock.selected .blockImageInvisible, .wikicontainerSelected .wikiContainerImage.wikiImageInvisible {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/imageBlockInvisible_selected.png) !important;
+}
+
+.portfolioBlock .blockImageInvisible, .wikiContainerImage.wikiImageInvisible {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/imageBlockInvisible_unselected.png) !important;
+}
+
+.portfolioBlock .blockMenu, .wikiContainerMenu {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/blockMenu1.png) !important;
+}
+
+.skin .skinButtonBg {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/skinButtonBg.png) !important
+}
+
+.skin .seperator, .wikiSeperator {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/seperator.png) !important;
+}
+
+.skin .detailContainer .detailContainerBlock {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/detail_bg.png) !important;
+}
+
+.skin .detailContainer .detailContainerBlock.even {
+    background-image: none !important;
+}
+
+.skin .skinButtonBg .skinButton {
+    color: #d9d9d9 !important;
+}
+
+input[type=radio] {
+    filter: invert(1) !important;
+}
+
+table.ui-datepicker-calendar thead tr th {
+    background-color: #043369 !important;
+}
+
+.ui-widget-header .ui-icon {
+    filter: contrast(0.05) !important;
+}
+
+.ui-button:focus .ui-icon, .ui-button:hover .ui-icon, .ui-state-focus .ui-icon, .ui-state-hover .ui-icon {
+    filter: invert(1) contrast(1) !important;
+}
+
+.ui-button:active .ui-icon, .ui-state-active .ui-icon {
+    filter: contrast(100) !important;
+}
+
+.portfolioBlock .blockMiddle {
+    background-color: #272727 !important;
+}
+
+.portfolioBlock .blockImage, .portfolioBlock .blockImageInvisible {
+    background-color: #3c3c3c !important;
+}
+
+.treecollapse {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/treeCollapseBackground.png) !important;
+}
+
+.treecollapse a, .treecollapse a:hover {
+    color: #fff !important;
+}
+
+.portfolio .files .navigation {
+    border-bottom: 1px solid #888 !important;
+}
+
+.navigation a {
+    color: #fff !important;
+}
+
+.div_userprofiletab {
+    border-left: 1px solid #6e584b !important;
+    border-right: 1px solid #6e584b !important;
+    border-bottom: 1px solid #6e584b !important;
+}
+
+.div_userprofiletab input:disabled {
+    border-color: #2c2c2c !important;
+}
+
+.pageForm, .revisionList {
+    background-color: #111 !important;
+}
+
+.revisionListBlock.odd {
+    background-color: #111 !important;
+}
+
+.revisionListBlock.selected {
+    background-color: #634000 !important;
+}
+
+button.button-ok {
+    background-color: #111 !important;
+}
+
+div#profile_rowsemployment div.smsc-table__row[style*="background-color:#F1F1F1;"] {
+    background-color: #1e1e1e !important;
+}
+
+div#profile_rowsemployment div.smsc-table__row[style*="background-color:#FFFFFF;"] {
+    background-color: #111 !important;
+}
+
+
+div#profile_rowseducation div.smsc-table__row[style*="background-color:#F1F1F1;"] {
+    background-color: #1e1e1e !important;
+}
+
+div#profile_rowseducation div.smsc-table__row[style*="background-color:#FFFFFF;"] {
+    background-color: #111 !important;
+}
+
+
+div#profile_rowscertification div.smsc-table__row[style*="background-color:#F1F1F1;"] {
+    background-color: #1e1e1e !important;
+}
+
+div#profile_rowscertification div.smsc-table__row[style*="background-color:#FFFFFF;"] {
+    background-color: #111 !important;
+}
+
+
+div#profile_rowsbooks div.smsc-table__row[style*="background-color:#F1F1F1;"] {
+    background-color: #1e1e1e !important;
+}
+
+div#profile_rowsbooks div.smsc-table__row[style*="background-color:#FFFFFF;"] {
+    background-color: #111 !important;
+}
+
+div#profile_rowspromember div.smsc-table__row[style*="background-color:#F1F1F1;"] {
+    background-color: #1e1e1e !important;
+}
+
+div#profile_rowspromember div.smsc-table__row[style*="background-color:#FFFFFF;"] {
+    background-color: #111 !important;
+}
+
+.message-form.form {
+    background-color: #212121 !important;
+}
+
+.div_header_1 {
+    background-color: #111 !important;
+}
+
+.inlinefeedback div table tbody tr[bgcolor="#FFF"] {
+    background-color: #111 !important;
+}
+
+
+.portfolioBlock .blockTitle {
+    color: #c3c3c3 !important;
+}
+
+.ssLink {
+    color: #fff !important;
+}
+
+.filelist_text_ellipwidth {
+    color: #37f !important;
+}
+
+.ssCheckbox {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check.gif) !important;
+}
+
+.ssCheckbox.checked {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check_selected.gif) !important;
+}
+
+.portfoliopagesubtitle, .portfoliopagetitle, .portfoliopagecontent {
+    background-color: #212121 !important;
+}
+
+.portfoliopagecontent .innercontent {
+    background-color: #111 !important;
+}
+
+.portfoliopagesubtitle {
+    color: #999 !important;
+}
+
+.portfoliopagetitle {
+    color: #3789d3 !important;
+}
+
+.portfoliopagecontent .innercontent span[style*="color: #000000"] {
+    color: #FFF !important;
+}
+
+.div_logbook11, .div_logbook7 {
+    border-bottom: 1px solid #6e584b !important;
+    border-left: 1px solid #6e584b !important;
+    border-right: 1px solid #6e584b !important;
+}
+
+.div_assessment_border1, .div_assessment_border2, .div_assessment_border3, .div_assessment_border4, .div_logbook2, .div_logbook9 {
+    background-color: #202020 !important;
+}
+
+.div_logbook2, .div_logbook9, .div_assessment_border5 {
+    border: 1px solid #6e584b !important;
+}
+
+.div_assessment_border1 {
+    border-top: 1px solid #6e584b !important;
+    border-left: 1px solid #6e584b !important;
+}
+
+.div_assessment_border2, .div_assessment_border3, .div_assessment_border4 {
+    border-top: 1px solid #6e584b !important;
+    border-left: 1px solid #6e584b !important;
+    border-right: 1px solid #6e584b !important;
+}
+
+.portfolioNavigationBlock {
+    background-color: #414141 !important;
+    border: 1px solid #999 !important;
+    color: #ccc !important;
+}
+
+.portfolioNavigationBlock.selected {
+    background-color: orange !important;
+    color: white !important;
+}
+
+.uscMain .searchDiv__close-btn {
+    filter: invert(1);
+}
+
+.uscMain .searchDiv__close-btn:hover {
+    filter: inherit;
+}
+
+.userListBlockRightsButtonEdit {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/edit_right_dis.gif) !important;
+}
+
+.userListBlockRightsButtonDelete {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/delete_right_dis.gif) !important;
+}
+
+.userListBlockRightsButtonAdd {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/add_right_dis.gif) !important;
+}
+
+.wikiFormImageContainer.selected {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/wikiFormImageContainer.gif) !important;
+}
+
+.userListBlockRightsButtonRead{background-image:url(https://static2.smart-school.net/modules/Wiki/themes/default/images/read_right.gif) !important;}
+.userListBlockRightsButtonEdit.selected{background-image:url(https://static2.smart-school.net/modules/Wiki/themes/default/images/edit_right.gif) !important}
+.userListBlockRightsButtonDelete.selected{background-image:url(https://static2.smart-school.net/modules/Wiki/themes/default/images/delete_right.gif) !important;}
+.userListBlockRightsButtonAdd.selected{background-image:url(https://static2.smart-school.net/modules/Wiki/themes/default/images/add_right.gif) !important;}
+
+.wikiContainerImage.wikiImage1 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/1_unselected.png) !important;}
+.wikiContainerImage.wikiImage2 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/2_unselected.png) !important;}
+.wikiContainerImage.wikiImage3 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/3_unselected.png) !important;}
+.wikiContainerImage.wikiImage4 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/4_unselected.png) !important;}
+.wikiContainerImage.wikiImage5 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/5_unselected.png) !important;}
+.wikiContainerImage.wikiImage6 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/6_unselected.png) !important;}
+.wikiContainerImage.wikiImage7 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/7_unselected.png) !important;}
+.wikiContainerImage.wikiImage8 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/8_unselected.png) !important;}
+.wikiContainerImage.wikiImage9 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/9_unselected.png) !important;}
+.wikiContainerImage.wikiImage10 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/10_unselected.png) !important;}
+
+.wikicontainerSelected .wikiContainerImage.wikiImage1 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/1_selected.png) !important;}
+.wikicontainerSelected .wikiContainerImage.wikiImage2 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/2_selected.png) !important;}
+.wikicontainerSelected .wikiContainerImage.wikiImage3 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/3_selected.png) !important;}
+.wikicontainerSelected .wikiContainerImage.wikiImage4 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/4_selected.png) !important;}
+.wikicontainerSelected .wikiContainerImage.wikiImage5 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/5_selected.png) !important;}
+.wikicontainerSelected .wikiContainerImage.wikiImage6 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/6_selected.png) !important;}
+.wikicontainerSelected .wikiContainerImage.wikiImage7 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/7_selected.png) !important;}
+.wikicontainerSelected .wikiContainerImage.wikiImage8 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/8_selected.png) !important;}
+.wikicontainerSelected .wikiContainerImage.wikiImage9 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/9_selected.png) !important;}
+.wikicontainerSelected .wikiContainerImage.wikiImage10 {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/10_selected.png) !important;}
+
+.wikiDetailLarge.bg,.wikiDetailSmall.bg {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/wikiDetailBg.png) !important;}
+
+.wikiLeftButton {background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/wikiLeftButton.png) !important;}
+
+.border.centerxy, .border.centery.bottomy, .wikiFormContainer, .wikiFormActions,.wikiFormRights,.wikiFormThemes, .rightsBlock, .userListBlock.odd, .wikiContainerImage {
+    background-color: #111 !important;
+}
+
+.wikiFormContainerBlock.grey {
+    background-color: #212121 !important;
+}
+
+.userListBlock {
+    background-color: #1e1e1e !important;
+}
+
+.wikiContainerMiddle {
+    background-color: #272727 !important;
+}
+
+.wikiNavigationBlock {
+    background-color: #414141 !important;
+}
+
+.wikiFormHeader {
+    color: #c9c9c9 !important;
+}
+
+.wikiFormContainer, .wikiFormActions,.wikiFormRights,.wikiFormThemes{
+    border-left:1px solid #6e584b !important;
+    border-right:1px solid #6e584b !important;
+    border-bottom:1px solid #6e584b !important;
+}
+
+.wikiFormThemeBlock {
+    border: 1px solid #414141 !important;
+}
+
+.wikiFormThemeBlock.selected {
+    border: 2px solid #904f0f !important;
+}
+
+.rightsBlock {
+    border: 1px solid #1e1e1e !important;
+}
+
+.wikiContainerTitle {
+    color: #c7c7c7 !important;
+}
+
+.wikiDetailGoTo, .wikiAddButton,.wikiShowInvisibleButton,.wikiSortButton {
+    color: #a0a0a0 !important;
+}
+
+.wikiNavigationBlock {
+    color: #414141 !important;
+    border:1px solid #a0a0a0 !important;
+    color: #a0a0a0 !important;
+}
+
+.wikiNavigationBlock.selected {background-color:orange !important;color:#fff !important}

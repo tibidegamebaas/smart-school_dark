@@ -1,0 +1,8 @@
+/*noBlockcontainer CSS*/
+
+.smscMain div#smscMainBlockContainer {
+    background-color: none !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}

@@ -1,0 +1,26 @@
+/*Studentcard CSS*/
+
+.smscBlockContainer_top, .smscBlockContainer_left, .smscBlockContainer_right {
+    background-color: #111 !important;
+    border: 1px solid #343434 !important;
+    box-shadow: -1px -1px 1px #757575 !important;
+}
+
+.infoBlock .infoBlock_titles .titleLeft {
+    background-color: #111 !important;
+    color: #d9d9d9 !important;
+}
+
+.infoBlock {
+    border-top: 1px solid #414141 !important;
+}
+
+.infoBlock .infoBlock_titles .titleRight {
+    background-color: #111 !important;
+    border: 1px solid #414141 !important;
+}
+
+.addChildMain {
+    background-color: #121212 !important;
+    border: 1px solid #868686 !important
+}

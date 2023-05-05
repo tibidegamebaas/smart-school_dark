@@ -1,0 +1,313 @@
+/*Agenda CSS*/
+
+.border.centery.topy {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/border_top.gif) !important;
+}
+
+.border.centerxy {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/border_left.gif) !important;
+    background-color: #111 !important;
+    border-right: 1px solid #393939 !important;
+}
+
+.border.centery.bottomy {
+    background-image: none !important;
+    background-color: #111 !important;
+    border-bottom: 1px solid #393939 !important;
+}
+
+.border.left.bottoml {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r7_c1.gif) !important;
+}
+
+.border.left.topl {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r1_c1.gif) !important;
+}
+
+.border.right.topr {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r1_c13.gif) !important;
+}
+
+.border.right.bottomr {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r7_c13.gif) !important;
+}
+
+.navNextInput, .navPrevInput {
+    background-color: #212121 !important;
+}
+
+.navigationContainer .navTitle, .agenda_grid_main .agenda_grid_days_header .agenda_grid_header_days .agenda_grid_header_day {
+    color: #c3c3c3 !important;
+}
+
+.color_snow_white {
+    background-color: #111 !important;
+    border: 1px solid #414141 !important;
+    color: #d9d9d9 !important;
+}
+
+.titleWithLine.grey:after {
+    background: linear-gradient(#414141, #414141) repeat-x !important;
+    background-size: 1px 1px !important;
+    background-position: left center !important;
+}
+
+.infoContainer {
+    background-color: #111 !important;
+    border-bottom: 1px solid #6e584b !important;
+    border-left: 1px solid #6e584b !important;
+    border-right: 1px solid #6e584b !important;
+}
+
+.ssCheckbox.disabled {
+    filter: grayscale(1) !important;
+}
+
+.infoContainerBlock.studentEven {
+    background-color: #2f2f2f !important;
+}
+
+.infoContainerBlock {
+    background-color: #1e1e1e !important;
+}
+
+.lessonEditContainerNote, .lessonEditContainerOverview, .lessonEditContainerReplace, .lessonEditContainerSourceManual {
+    background-color: #111 !important;
+    border: 1px solid #6e584b !important;
+}
+
+.assignmentInfo {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/assignmentPopup.png) !important;
+}
+
+.freeDeadlines, .assignmentStudents, .notesContainer, .printContainer, .printContainerSidebox  {
+    background-color: #111 !important;
+    border: 1px solid #666 !important;
+}
+
+.freeDeadlinesContentOuter {
+    border: 1px solid #666 !important;
+}
+
+.freeDeadlinesClose, .assignmentStudentsClose, .momentInfoClose {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/close.png) !important;
+}
+
+.notesShowSubject, .printWhat, .tabContainer .splitCopy, .tabContainer .splitNextLesson, .tabContainerBlock .deadlineCopy, .filterTabMemory, .reservationsTabHide, .reservationsTabCopy, .listView .selectionContainer .lessonContainer .lessonListContainer .lessonListRow, .printItemRow.clear, .listView .selectionContainer .optionsContainer .lessonListRow, .yearplansView, .lessonListRowMultiline, .filterDeleted, .filterClassSelect, .filterRule, .filterTabMemory, .reservationsTabCopy, .reservationsTabHide, .lessonEditFormViolation, .addOption {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check.gif) !important;
+}
+
+.notesShowSubject.notesShowSubjectSelected, .printWhat.selected, .tabContainer .splitCopy.selected, .tabContainer .splitNextLesson.selected, .tabContainerBlock .deadlineCopy.deadlineCopySelected, .filterTabMemory.selected, .reservationsTabCopy.selected, .reservationsTabHide.selected, .listView .selectionContainer .lessonContainer .lessonListContainer .lessonListRow.selected, .printSelectAll, .printItemRow.selected, .listView .selectionContainer .optionsContainer .lessonListRow.selected, .yearplansView.selected, .lessonListRowMultiline.selected, .filterDeleted.selected, .filterClassSelect.selected, .filterRule.selected, .filterTabMemory.selected, .reservationsTabCopy.selected,.reservationsTabHide.selected, .lessonEditFormViolation.selected, .addOption.selected {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check_selected.gif) !important;
+}
+
+.ssCheckbox.disabled {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check_selected.gif) !important;
+    filter: grayscale(1) !important
+}
+
+.invalidHours {
+    border: 2px solid #676767 !important;
+    background-color: #202020 !important;
+}
+
+.lessonFormList {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/listBg.png) !important;
+}
+
+.momentInfo.dl {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/info_down_left.png) !important;
+}
+
+.momentInfo.dr {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/info_down_right.png) !important;
+}
+
+.momentInfo.ul {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/info_up_left.png) !important;
+}
+
+.momentInfo.ur {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/info_up_right.png) !important;
+}
+
+.printContainer .printContent .printType {
+    background-color: #1c1c1c !important;
+}
+
+.printContainer .printContent .printType:hover {
+    background-color: #2d2d2d !important;
+}
+
+.printBox .printBoxContent {
+    border: 1px solid #666 !important
+}
+
+select {
+	border-color: #414141 !important;
+}
+
+.datePicker .dpTable .dpBodyRow .dpBodyColumn.dpWeekend {
+    background-color: #212121 !important;
+}
+
+.datePicker .dpTable .dpBodyRow.dpHover, .datePicker .dpTable .dpBodyRow .dpBodyColumn.dpHover {
+    background-color: #8b5d00 !important;
+}
+
+.datePicker .dpTable .dpBodyRow .dpBodyColumn.dpToday {
+    background-color: #777 !important;
+    color: #FFF !important;
+}
+
+.datePicker .dpTable .dpHeadRow .dpHeadColumn {
+    border-bottom: 1px solid #7d7d7d !important;
+}
+
+.printItemRow.taskItem.selected, .printItemRow.testItem.selected {
+    background-color: #323232 !important;
+}
+
+.printItemRow.taskItem.selected {
+    background-image: url(https://static2.smart-school.net/smsc/img/book_yellow/book_yellow_16x16.png) !important;
+}
+
+.printItemRow.testItem.selected {
+    background-image: url(https://static2.smart-school.net/smsc/img/book_red/book_red_16x16.png) !important;
+}
+
+.tabContainerAlert, .tabContainer {
+    background-color: #111 !important;
+    border-bottom: 1px solid #6e584b !important;
+    border-left: 1px solid #6e584b !important;
+    border-right: 1px solid #6e584b !important;
+}
+
+.tabContainer .split.notes {
+    border-left: 1px solid #666 !important;
+}
+
+.tabContainerBlock.grey {
+    background-color: #1e1e1e !important;
+}
+
+.assignmentStudentsContent {
+    border: 1px solid #2d2d2d !important;
+}
+
+.assignmentTabButton {
+    color: #2394ff !important;
+}
+
+#contentContainer .introText {
+    color: #d9d9d9 !important
+}
+
+div#printFormWindow_contentSideBoxDiv {
+    background-color: #252525 !important;
+}
+
+.wborder.wcentery.wtopy-box {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/2wborder-top.png) !important;
+}
+
+.wborder.wcentery.wbottomy-box {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/2wborder-bottom.png) !important;
+}
+
+.materials .materialItemDay {
+    border: 1px solid #717171 !important;
+    text-shadow: 0 1px #000 !important;
+    background: #191919 !important;
+    background: -moz-linear-gradient(top,#424242 0,#191919 100%) !important;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#424242),color-stop(100%,#191919)) !important;
+    background: -webkit-linear-gradient(top,#424242 0,#191919 100%) !important;
+    background: -o-linear-gradient(top,#424242 0,#191919 100%) !important;
+    background: -ms-linear-gradient(top,#424242 0,#191919 100%) !important;
+    background: linear-gradient(top,#424242 0,#191919 100%) !important;
+}
+
+.materials .materialItemDayList .materialItemDayCourse {
+    border-left: 5px solid #111 !important;
+}
+
+.materials .materialItemDayList .materialItemDayCourse.courseColor_zilver {
+    border-left-color: #3d3d3d !important;
+}
+
+.materials .materialItemDayList .materialItemDayCourse .materialItemDayCourse_header {
+    border-bottom: 1px solid #414141 !important;
+}
+
+.materials .item.divider {
+    border-bottom: thin solid #414141 !important;
+}
+
+.materials .item .star {
+    filter: invert(1) !important;
+}
+
+.materials .item .star.selected {
+    filter: invert(0) !important;
+}
+
+.materials .materialItemDayList .materialItemDayCourse.courseColor_mandarijn{border-left-color:#fcb78d !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_vanille{border-left-color:#fee996 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_mandarijn{border-left-color:#fcb78d !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_munt{border-left-color:#abef89 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_zeilen{border-left-color:#9dd2f8 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_babyroos{border-left-color:#fda3d8 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_lavendel{border-left-color:#d7baf3 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_vermiljoen{border-left-color:red !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_appelsien{border-left-color:#ff520e !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_banaan{border-left-color:#fc0 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_kiwi{border-left-color:#57d31a !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_hemel{border-left-color:#1a96f1 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_magenta{border-left-color:#ff0097 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_lila{border-left-color:#9559cd !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_staal{border-left-color:#828282 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_robijn{border-left-color:#b31616 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_koper{border-left-color:#d33d02 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_oker{border-left-color:#c09a03 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_augurk{border-left-color:#3d990f !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_ultramarijn{border-left-color:#275fd2 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_rode_bosbes{border-left-color:#ce017a !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_violet{border-left-color:#582884 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_lood{border-left-color:#3c3c3c !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_bordeaux{border-left-color:#6a1414 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_aarde{border-left-color:#852a06 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_donker_goud{border-left-color:#806601 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_ruccola{border-left-color:#115805 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_koningsblauw{border-left-color:#123783 !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_fluweel{border-left-color:#7e004a !important}
+.materials .materialItemDayList .materialItemDayCourse.courseColor_purper{border-left-color:#3c1b5c !important}
+
+#smscDialogWindowExportAgenda .exportdialog-container {
+    background: #111 !important;
+    border: 1px solid #414141 !important;
+}
+
+div#alertFormWindow_contentSideBoxDiv {
+    background-color: #151515;
+}
+
+.alertExistingContainer {
+    background-color: #111 !important;
+    border: 1px solid #6e584b !important;
+}
+
+.lessonFormListBlockAssignment.selected,.lessonFormListBlockAssignmentStart.selected,.lessonFormListBlockTest.selected {
+    background-color:#1e1e1e !important
+}
+
+.yearplanRowGroupInner {
+    background-color:#111 !important;
+}
+
+.alertExistingRow.selected {
+    background-color:#202020 !important;
+}
+
+.printContainer .printContent .printType[style*="font-weight: bold;"] {
+    background-color: #2d2d2d !important
+}

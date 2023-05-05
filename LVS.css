@@ -1,0 +1,196 @@
+/*LVS CSS*/
+
+.navigation_container, .content_container {
+    background-color: #111 !important;
+    border: 1px solid #343434 !important;
+    border-radius: 15px 15px 15px 15px !important;
+    box-shadow: -1px -1px 1px #757575 !important;
+}
+
+.treenav_info {
+    border-top: 1px solid #323232 !important;
+}
+
+#lvs_toolbar.toolbar {
+    border: 1px solid #343434 !important;
+    box-shadow: -1px -1px 1px #757575 !important;
+}
+
+.toolbar .resize-handle {
+    filter: invert(1) !important;
+}
+
+#mod_content_center #contentContainer {
+    border: none !important;
+}
+
+.tree li a, .tree li span {
+    color: white !important;
+}
+
+#widget-columns .widget .widget-content {
+    background-color: #111 !important;
+    color: #FFF !important;
+}
+
+.profile_gadget_line_border {
+    border-bottom: 1px solid #3f3f3f !important;
+}
+
+.personalSettings_content {
+    background-color: #111 !important;
+}
+
+.tabContent {
+    border-bottom: 1px solid #6e584b !important;
+    border-left: 1px solid #6e584b !important;
+    border-right: 1px solid #6e584b !important;
+}
+
+.check_div.off, .toolbar-buttons div.hideViewedItems {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/checkbox_14_14x14.png) !important;
+}
+
+.check_div.on {
+    background-image: url(https://static2.smart-school.net/smsc/img/checkbox_14_selected/checkbox_14_selected_14x14.png) !important;
+}
+
+.radioDiv.on {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/radiobutton_selected_16x16.png) !important;
+}
+
+.radioDiv.off {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/radiobutton_16x16.png) !important;
+}
+
+.toolbar-buttons div.classnote_hideall, .toolbar-buttons div.classnote_showall {
+    filter: invert(1) !important;
+}
+
+.toolbarLoader {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/loading.gif) !important;
+}
+
+.nav_loading_layer {
+    background-color: #111 !important;
+}
+
+.nav_loading_layer img[alt="loading"] {
+    content: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/loading.gif) !important;
+}
+
+.contentLoader {
+    filter: invert(1) !important;
+}
+
+.lvs-pupilpresences-wrapper .lvs-pupilpresences-graphs .lvs-pupilpresences-graph-evolution, .lvs-pupilpresences-wrapper .lvs-pupilpresences-graphs .lvs-pupilpresences-graph-totalsbyweekday, .lvs-pupilpresences-wrapper .lvs-pupilpresences-graphs .lvs-pupilpresences-graph-totalsbycode {
+    border: 1px solid #313131 !important;
+}
+
+rect.highcharts-background {
+    fill:#111 !important;
+}
+
+text.highcharts-title {
+    color: #d9d9d9 !important;
+    fill: #d9d9d9 !important;
+}
+
+g.highcharts-axis-labels.highcharts-yaxis-labels text, g.highcharts-axis-labels.highcharts-xaxis-labels text {
+    color: #a0a0a0 !important;
+    fill: #a0a0a0 !important;
+}
+
+g.highcharts-grid.highcharts-yaxis-grid path {
+    stroke: #292929 !important;
+}
+
+g.highcharts-axis.highcharts-xaxis path {
+    stroke: #333333 !important;
+}
+
+g.highcharts-legend-item text {
+    color: #d9d9d9 !important;
+    fill: #d9d9d9 !important
+}
+
+g.highcharts-legend-item:hover text {
+    color: #fff !important;
+    fill: #fff !important
+}
+
+g.highcharts-legend-item.highcharts-column-series.highcharts-legend-item-hidden rect {
+    fill: #414141 !important;
+}
+
+g.highcharts-legend-item.highcharts-legend-item-hidden text {
+    color: #414141 !important;
+    fill: #414141 !important;
+}
+
+g.highcharts-legend-item.highcharts-line-series.highcharts-legend-item-hidden path.highcharts-graph {
+    stroke: #414141 !important;
+}
+
+g.highcharts-legend-item.highcharts-line-series.highcharts-legend-item-hidden path.highcharts-point {
+    fill: #414141 !important;
+    stroke-width: #414141 !important;
+    stroke: #414141 !important;
+}
+
+g.highcharts-series.highcharts-column-series.highcharts-tracker rect {
+    stroke: #111 !important
+}
+
+path[fill="rgba(247,247,247,0.85)"].highcharts-label-box.highcharts-tooltip-box {
+    fill: #2a2a2a !important;
+}
+
+g.highcharts-label.highcharts-tooltip text {
+    color: #ccc !important;
+    fill:#ccc !important;
+}
+
+.lvs-pupilpresences-wrapper .lvs-pupilpresences .lvs-pupilpresences-title {
+    border-bottom: 1px solid #d9d9d9 !important;
+}
+
+.lvs-pupilpresences-wrapper .lvs-pupilpresences .lvs-pupilpresences-row:hover {
+    background-color:#1e1e1e !important;
+}
+
+.allListHeader th {
+    border-bottom: 1px solid #414141 !important;
+}
+
+.tbl_searchNotes_pupil tr.search_notes_schoolyearrow {
+    color: #d9d9d9 !important;
+}
+
+.tbl_searchNotes_pupil tr.search_notes_itemrow td {
+    border-top: 1px solid #414141 !important;
+}
+
+.pupil_viewall .pupil_viewall_content .showMoreDivider {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/page_ending_shade_192x38.png) !important;
+}
+
+.loader {
+    background-image:url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/spinner_ios_white_on_greyback_rounded_50x50.gif) !important;
+}
+
+.profile_header_pupilinfo_status {
+    color: #d9d9d9 !important;
+}
+
+#lvs_toolbar .toolbar-buttons div {
+    border: none !important;
+}
+
+.pupilInfo_popup {
+    background-color: #111 !important;
+}
+
+.pupilInfo_popup .pip_top {
+    border-bottom: 1px solid #414141 !important;
+}

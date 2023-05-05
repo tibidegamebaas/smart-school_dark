@@ -1,0 +1,185 @@
+/*Profile CSS*/
+
+#mailConfirmationPopup, .emailConfirmPopup {
+    background-color: #111 !important;
+    border: 1px solid #3f3f3f !important;
+    box-shadow: 0 0 20px 0 rgb(0 0 0) !important;
+    -webkit-box-shadow: 0 0 20px 0 rgb(0 0 0) !important;
+    -moz-box-shadow: 0 0 20px 0 rgb(0 0 0) !important;
+}
+
+.userinfo__divider:after {
+    background: linear-gradient(#414141,#414141) repeat-x !important;
+    background-size: 1px 1px !important;
+    background-position: left center !important;
+}
+
+.notifyScreenTitle {
+    color: #d9d9d9 !important;
+}
+
+.notifyScreenContainer .notifyScreenGeneralBlock:not(:last-child), .notifyScreenContainer #notifyPossibleEvents .notifyScreenEventBlock, .notifyScreenContainer .notifyScreenDevice {
+    border-bottom: 1px solid #313131 !important;
+}
+
+.smscTimeOptions .smscTimeOption:hover {
+    background-color:#1e1e1e !important;
+}
+
+.smscTimeInput {border: 1px solid #444444 !important}
+.smscTimeInput:disabled {border: 1px solid #262626 !important}
+
+.notifyScreenContainer #notifyPossibleEvents .notifyScreenEventBlock .notifyScreenEventOptions .notifyScreenEventOptionLine:hover {
+    background-color:#202020 !important;
+}
+
+.smscTimeOptions {
+    background-color: #111 !important;
+}
+
+.notifyScreenContainer .notifyScreenEventBlockSubTitle .select_all__email {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check_mail_16x16.png) !important;
+}
+
+.notifyScreenContainer #notifyPossibleEvents .notifyScreenEventBlock .notifyScreenEventOptions .notifyScreenEventOptionLine .notifyActionIcon.email {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check_mail_16x16.png) !important;
+}
+
+.notifyScreenContainer .notifyScreenEventBlockSubTitle .select_all__mobile {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check_app_16x16.png) !important;
+}
+
+.notifyScreenContainer #notifyPossibleEvents .notifyScreenEventBlock .notifyScreenEventOptions .notifyScreenEventOptionLine .notifyActionIcon.mobile {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check_app_16x16.png) !important;
+}
+
+.notifyScreenContainer .notifyScreenEventBlockSubTitle .select_all__browser {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check_notification_20x16.png) !important;
+}
+
+.notifyScreenContainer #notifyPossibleEvents .notifyScreenEventBlock .notifyScreenEventOptions .notifyScreenEventOptionLine .notifyActionIcon.browser {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/check_notification_20x16.png) !important;
+}
+
+.notifyScreenContainer .notifyScreenEventBlockSubTitle .select_all__browser.on:not(.loading) {
+    background-image: url('https://static2.smart-school.net/smsc/img/check_notification_selected_red/check_notification_selected_red_20x16.png') !important;
+}
+
+.notifyScreenContainer #notifyPossibleEvents .notifyScreenEventBlock .notifyScreenEventOptions .notifyScreenEventOptionLine .notifyActionIcon.browser.on:not(.loading) {
+    background-image: url('https://static2.smart-school.net/smsc/img/check_notification_selected_red/check_notification_selected_red_20x16.png') !important;
+}
+
+.notifyScreenContainer .notifyScreenEventBlockSubTitle .select_all__mobile.on:not(.loading) {
+    background-image: url('https://static2.smart-school.net/smsc/img/check_app_selected_orange/check_app_selected_orange_16x16.png') !important;
+}
+
+.notifyScreenContainer #notifyPossibleEvents .notifyScreenEventBlock .notifyScreenEventOptions .notifyScreenEventOptionLine .notifyActionIcon.mobile.on:not(.loading) {
+    background-image: url('https://static2.smart-school.net/smsc/img/check_app_selected_orange/check_app_selected_orange_16x16.png') !important;
+}
+
+.notifyScreenContainer .notifyScreenEventBlockSubTitle .select_all__email.on:not(.loading) {
+    background-image: url('https://static2.smart-school.net/smsc/img/check_mail_selected_blue/check_mail_selected_blue_16x16.png') !important;
+}
+
+.notifyScreenContainer #notifyPossibleEvents .notifyScreenEventBlock .notifyScreenEventOptions .notifyScreenEventOptionLine .notifyActionIcon.email.on:not(.loading) {
+    background-image: url('https://static2.smart-school.net/smsc/img/check_mail_selected_blue/check_mail_selected_blue_16x16.png') !important;
+}
+
+.notifyScreenContainer .notifyScreenEventBlockTitle .notifyScreenEventBlockTitleModule .titleNotActive {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/legenda_notify_checks_not_active_68x20.png) !important;
+}
+
+.yubikey-input.input.bootstrap__input {
+    min-width: 450px !important;
+    padding-left: 30px !important;
+    background-position: 0 !important;
+    background-repeat: no-repeat !important;
+    background-size: 16px !important;
+    background: url(https://static2.smart-school.net/smsc/svg/logo_yubikey/logo_yubikey_16x16.svg) no-repeat left 4px center,linear-gradient(90deg,#1e1e1e 0,#1e1e1e 24px,#868686 25px,#111 26px) !important;
+}
+
+input.input.bootstrap__input, select.select.bootstrap__select, textarea.textarea.bootstrap__textarea {
+    border: 1px solid #868686 !important;
+}
+
+.yubikey-dialog__webauthn-btn {
+    background-color: #323232 !important;
+}
+
+.yubikey-dialog__webauthn-btn:hover {
+    background-color: #2a2a2a !important;
+}
+
+.google-authenticator-input__label {
+    background-color: #1e1e1e !important;
+    border: 1px solid #868686 !important
+}
+
+.google-authenticator-input {
+    background: transparent !important;
+}
+
+.two-fa-dialog__container .two-fa-dialog--grey, .two-fa-dialog__container .two-fa-dialog--grey .icon-label, .two-fa-dialog__container .two-fa-dialog--grey .icon-label:hover {
+    color: #aeaeae !important;
+}
+
+.google-authenticator-dialog__no-camera-config {
+    border: 1px solid #414141 !important;
+    background-color: #1e1e1e !important;
+}
+
+.form__label, .form__value {
+    color: #d9d9d9 !important;
+}
+
+.logoDropboxDimensions {
+    content: url(https://raw.githubusercontent.com/matti606/smart-school_dark/a3b2ded7be494f392e6efa66289564fc5b0e0450/logo_dropbox_220x50.svg) !important;
+}
+
+.applist li {
+    border-top: 1px solid #414141 !important;
+}
+
+.applist li:first-child {
+    border: none !important;
+}
+
+.profileOauthItemContainer .oauth_item_row {
+    border-bottom: 1px solid #414141 !important;
+}
+
+.profileOauthItemContainer .oauth_item_row:hover {
+    background-color:#1e1e1e !important;
+}
+
+.title-with-line {
+    color: #d9d9d9 !important;
+}
+
+.title-with-line:after {
+    background: linear-gradient(#414141,#414141) repeat-x !important;
+    background-size: 1px 1px !important;
+    background-position: left center !important;
+}
+
+.smsc-toolbar::before {
+    border-bottom: 1px solid #414141 !important;
+}
+
+.smsc-toolbar::after, .smsc-toolbar::before {
+    background: linear-gradient(#414141,#414141) repeat-y !important;
+    background-size: 1px 1px !important;
+    background-position: center !important;
+}
+
+.smsc-toolbar::after {
+    border-top: 1px solid #414141 !important;
+}
+
+.smscAdminNav_body .smscAdminNav_body_link .smscAdminNav_body_linkdivText.disabled, .smscAdminNav_body .smscAdminNav_body_link .smscAdminNav_body_linkdivText.disabled .smscAdminNav_body_linkdivTitle {
+    color: #555 !important;
+}
+
+.notifyScreenContainer #notifyPossibleEvents .notifyScreenEventBlock:last-child, .notifyScreenContainer .notifyScreenDevice:last-child {
+    border: none !important;
+}

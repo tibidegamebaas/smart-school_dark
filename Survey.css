@@ -1,0 +1,39 @@
+/* Survey CSS*/
+
+.survey {
+    border-bottom: 1px solid #606060 !important;
+}
+
+.start-row {
+    border: 1px solid #111 !important;
+}
+
+.survey-navigation {
+    border-top: 1px dashed #606060 !important;
+}
+
+.prev-question {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/prev.png) !important;
+}
+
+.next-question {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/next.png) !important;
+}
+
+.percent {
+    border: 1px solid #434343 !important;
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/percent2.png) !important
+}
+
+.loading-bglayer {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/transbg.gif) !important;
+}
+
+.loading-box {
+    background-color: #4d4d4d !important;
+    border: 2px solid #303030 !important;
+}
+
+.survey:last-child {
+    border-bottom: none !important;
+}

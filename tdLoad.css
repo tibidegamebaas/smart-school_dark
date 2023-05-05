@@ -1,0 +1,81 @@
+/*td Load*/
+
+tbody tr td[background="themes/default/images/frame_r1_c1.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r1_c1.gif) !important;
+}
+
+tbody tr td[background="themes/default/images/frame_r1_c13.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r1_c13.gif) !important;
+}
+
+tbody tr td[background="themes/default/images/frame_r1_c5.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r1_c5.gif) !important;
+}
+
+tbody tr td[background="themes/default/images/frame_r3_c1.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r3_c1.gif) !important;
+}
+
+tbody tr td[background="themes/default/images/frame_r5_c13.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r5_c13.gif) !important;
+}
+
+tbody tr td[background="themes/default/images/frame_r7_c1.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r7_c1.gif) !important;
+}
+
+tbody tr td[background="themes/default/images/frame_r7_c13.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r7_c13.gif) !important;
+}
+
+tbody tr td[background="themes/default/images/frame_r7_c3.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r7_c3.gif) !important;
+}
+
+
+
+tbody tr td[background="https://static5.smart-school.net/themes/default/images/frame_r1_c1.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r1_c1.gif) !important;
+}
+
+tbody tr td[background="https://static5.smart-school.net/themes/default/images/frame_r1_c13.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r1_c13.gif) !important;
+}
+
+tbody tr td[background="https://static5.smart-school.net/themes/default/images/frame_r1_c5.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r1_c5.gif) !important;
+}
+
+tbody tr td[background="https://static5.smart-school.net/themes/default/images/frame_r3_c1.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r3_c1.gif) !important;
+}
+
+tbody tr td[background="https://static5.smart-school.net/themes/default/images/frame_r5_c13.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r5_c13.gif) !important;
+}
+
+tbody tr td[background="https://static5.smart-school.net/themes/default/images/frame_r7_c1.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r7_c1.gif) !important;
+}
+
+tbody tr td[background="https://static5.smart-school.net/themes/default/images/frame_r7_c13.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r7_c13.gif) !important;
+}
+
+tbody tr td[background="https://static5.smart-school.net/themes/default/images/frame_r7_c3.gif"] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/frame_r7_c3.gif) !important;
+}
+
+
+
+tr[bgcolor="#FFFFFF"] {
+    background-color: #111 !important;
+}
+
+td[bgcolor="#FFFFFF"] {
+    background-color: #111 !important;
+}
+
+table[bgcolor="#FFFFFF"] {
+    background-color: #111 !important;
+}

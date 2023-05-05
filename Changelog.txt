@@ -1,0 +1,16 @@
+0.0.2.1:
+-fixed little bugs
+
+0.0.2.0:
+-Added a dark theme for Smartschool Grades module
+-changed course borders to dark
+
+0.0.1.1:
+-Recollering for softer contrast
+-Code cleanup
+-Fixed little bugs
+
+0.0.1.0:
+-Fixed invisible text in portfolio
+-Changed text selection from black to blue
+-Added a dark theme for Smartschool Live module

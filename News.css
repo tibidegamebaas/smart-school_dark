@@ -1,0 +1,68 @@
+/*News CSS*/
+
+.msgInfoTitle {
+    color: #c2c2c2 !important;
+}
+
+.msgInfoSpacer {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/dots.gif) !important;
+}
+
+.toolbar-buttons div {
+    border-left: 1px solid #666 !important;
+    border-right: 1px solid #666 !important;
+}
+
+.modern-ui .toolbar-buttons div {
+    border: none !important;
+}
+
+.toolbar-buttons div div {
+    border: none !important;
+}
+
+.newsTitle {
+    background-color: #1e1e1e !important;
+    border-top: 1px solid #111 !important;
+}
+
+.newsTitle1 {
+    color: #c2c2c2 !important;
+}
+
+.groupContainer {
+    background-color: #313131 !important;
+}
+
+.newsTitle.selected {
+    background-color: #313131 !important;
+}
+
+.newsTitle.over {
+    background-color: #111 !important;
+}
+
+.news_tab {
+    color: #ccc !important;
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/new/news.gif) !important;
+}
+
+.news_tab.bgcenter.bgcenter_sel {
+    background: #fa8e19 !important;
+}
+
+.news_tab.bgcenter.bgcenter_sel center {
+    color: #fff !important;
+}
+
+.news_tab.bgcenter {
+    background: #282828 !important;
+}
+
+.tabsContainer {
+    border-bottom: 1px solid #292929 !important;
+}
+
+.news_empty.txt {
+    color: #a8a8a8 !important;
+}

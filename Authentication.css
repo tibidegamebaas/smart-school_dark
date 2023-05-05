@@ -1,0 +1,59 @@
+/*Authentication CSS*/
+
+.login-app__title--separator:after, .login-app__title--separator:before {
+    background: linear-gradient(#333,#333) repeat-x !important;
+    background-size: 1px 1px !important;
+    background-position: 0 !important;
+}
+
+.login-app__link {
+    color: #868686 !important;
+}
+
+.login-app__link:hover, .login-app__bottom a, .login-app__bottom a:hover {
+    color: #868686 !important;
+}
+
+.login-app__infoblock--black {
+    color: #d9d9d9 !important;
+}
+
+.login-app__linkbutton {
+    color: #d9d9d9 !important;
+}
+
+.login-app__linkbutton:hover {
+    color: #d9d9d9 !important;
+}
+
+.login-app__smartschool-app {
+    color: #868686 !important;
+}
+
+.login-app__smartschool-app:hover {
+    color: #868686 !important;
+}
+
+.login-app__button-icon--acm {
+    filter: invert(1);
+}
+
+.login-app__right {
+    /*box-shadow: 0 0 20px 0 #081f31 !important;*/
+    box-shadow: 0 0 20px 0 #050505 !important;
+}
+
+.hero-image {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/smartschool-city-night.png) !important;
+    cursor: default !important;
+    pointer-events: none !important;
+}
+
+/*Summer splashscreen*/
+.hero-image[style='background-image: url("https://www.smartschool.be/smsctip/2021-07_zomer_nl_1440.jpg");'] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/smartschool-city-summer_NL-new.png) !important;
+}
+
+.hero-image[style='background-image: url("https://www.smartschool.be/smsctip/2021-07_zomer_fr_1440.jpg");'] {
+    background-image: url(https://raw.githubusercontent.com/matti606/smart-school_dark/main/smartschool-city-summer_FR-new.png) !important;
+}
