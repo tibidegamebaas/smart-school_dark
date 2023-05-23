@@ -30,7 +30,7 @@
 .tox .tox-button--secondary{background-color:#565656 !important;border-color:#565656 !important;color:#fff !important;}
 .tox .tox-button--secondary[disabled]{background-color:#565656 !important;border-color:#565656 !important;color:rgba(255,255,255,0.5)!important}
 .tox .tox-button--secondary:focus:not(:disabled){background-color:#494949 !important;border-color:#494949 !important;color:#fff!important}
-.tox .tox-button--secondary:hover:not(:disabled){background-color:#494949 !important; !important;border-color:#494949 !important;color:#fff!important}
+.tox .tox-button--secondary:hover:not(:disabled){background-color:#494949 !important; ;border-color:#494949 !important;color:#fff!important}
 .tox .tox-button--secondary:active:not(:disabled){background-color:#3c3c3c !important;border-color:#3c3c3c !important;color:#fff!important}
 .tox .tox-button--naked{background-color:transparent !important;border-color:transparent !important;color:#fff!important}
 .tox .tox-button--naked[disabled]{background-color:#565656 !important;border-color:#565656 !important;color:rgba(255,255,255,0.5)!important}

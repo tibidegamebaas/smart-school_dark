@@ -79,19 +79,19 @@ input[type="radio"] {
 	background-color: #212121 !important;
 }
 
-.feedback__bubble {
-	background-color: #4c4c4c !important;
+.feedback {
+	background-color: #414141 !important;
 }
 
 .feedback__bubble::after {
 	border-right-color: #4c4c4c !important;
 }
 
-.feedback__buble__text {
+.feedback__text {
 	color: #c5c5c5 !important;
 }
 
-.feedback__bubble__name {
+.user-image-label {
 	color: #d9d9d9 !important;
 }
 
