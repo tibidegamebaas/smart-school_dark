@@ -143,6 +143,10 @@
       "matches": [
         "https://*.smartschool.be/index.php?module=Photos*"
       ]
+    },
+    {
+      "css":["WordViewer-mod2.css"],
+      "matches":["https://*.smartschool.be/Wopi/*"]
     }
   ],
   "icons": {

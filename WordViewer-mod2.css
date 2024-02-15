@@ -574,7 +574,7 @@ div#RibbonTopBarContainer, #FileMenuLauncherContianer{background-color: #323130 
 
 [aria-label="Deelvenster voor opmerkingen"]{background-color: #323130 !important}
 
-img.WACPageImg{filter:invert(1) hue-rotate(180deg) contrast(0.7)!important}
+img.WACPageImg{filter:none !important}
 
 [class^="documentLocation-"] {border-color: #666 !important}
 [class^="sectionName-"], #LoadingMessage {color: white !important}

@@ -127,6 +127,10 @@
 .msgContent {
     background-color: #111 !important;
 }
+.MsoNormal > span {
+    color: #ccc !important;
+    background: #111 !important;
+}
 
 .messageframe {
     background-color: #111 !important;
