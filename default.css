@@ -15,7 +15,7 @@ input {
 	border-color: #414141 !important;
 }
 
-input[type="radio"] {
+input[type="radio"]:not(.radiobutton--color-select) {
     background-color: transparent !important;
 }
 

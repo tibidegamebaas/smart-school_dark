@@ -1,0 +1,24 @@
+.month-view .header-row {
+  background-color: #414141 !important;
+}
+.month-view .header-day .day-label {
+  color: #ccc !important;
+}
+.grid-day.state--hovered {
+  color: #ccc !important;
+}
+
+.grid-day.state--hovered {
+  background-color: #414141 !important;
+}
+.month-view .week-day:not(.day--today).state--hovered .day-label {
+  background-color: #414141 !important;
+}
+.month-view .week-day.day--today .day-label {
+  background-color: #888 !important; 
+}
+.month-view {
+  .week-day.state--hovered.day--today .day-label {
+    box-shadow:inset 0 calc(var(--month-view__content-row__grid-gap-bottom)*-1) 0 0 #888,0 7px 0 0 #888;
+  }
+}

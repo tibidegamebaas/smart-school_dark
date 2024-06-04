@@ -147,6 +147,10 @@
     {
       "css":["WordViewer-mod2.css"],
       "matches":["https://*.smartschool.be/Wopi/*"]
+    },
+    {
+      "css":["Planner.css"],
+      "matches":["https://*.smartschool.be/planner/*"]
     }
   ],
   "icons": {
